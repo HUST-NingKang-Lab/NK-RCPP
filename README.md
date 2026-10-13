@@ -1,187 +1,287 @@
-# NK 受体激动剂短肽设计 — 结果与代码包
+# NK-RCPP
 
-> **给接手 agent 的 README**：本包包含 NK1R/NK2R/NK3R 选择性激动剂短肽设计项目的**最终分析结果、图表与全部代码**，以及与 2025 多肽设计竞赛 Top10 作品的基准对比。不包含 RAPiDock 模型权重、原始对接构象等大文件。
+**Neurokinin Receptor–Conditioned Peptide Prioritization**
+*A retrospective, receptor-matched audit of 96 peptide candidates across NK1R, NK2R and NK3R*
 
-## 1. 项目一句话
+[![Python](https://img.shields.io/badge/python-3.12-3776ab)](https://www.python.org/)
+[![pandas](https://img.shields.io/badge/pandas-3.0.1-150458)](https://pandas.pydata.org/)
+[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Data: CC BY 4.0](https://img.shields.io/badge/data%2Ffigures-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 
-用 **PepMLM（条件肽生成）→ RAPiDock（扩散对接，ref2015 打分）→ Foldseek 3diaa（结构相似蛋白搜索）→ 负向对接（脱靶筛选）** 的端到端管线，为速激肽受体 NK1R/NK2R/NK3R 设计 10-mer 短肽激动剂候选；多个候选在**结合强度**与**脱靶选择性**上同时优于天然配体。并将同一流程应用于 2025 多肽设计竞赛排行榜前 10 名（有实测 EC50 的作品）做基准对比。
+![Fig. 1 | The NK-RCPP workflow](figures/main/Fig1_workflow.png)
 
-## 2. 目录结构
+---
+
+## Scope
+
+This repository is the archived dataset, code and figure sources behind NK-RCPP. It was designed as a
+**retrospective, descriptive audit** of a fixed computational screening repository: it reanalyses archived
+outputs and does **not** rerun peptide generation or docking. "NK-RCPP" denotes the reconstructed sequence of
+receptor-conditioned generation, on-target docking, structural-neighbour aggregation and deterministic
+prioritization — the name does not imply a new generation algorithm or experimental validation.
+
+Read it with these three boundaries in mind:
+
+* **No wet-lab data.** Nothing here shows that any prioritized peptide binds, activates or selectively engages
+  a neurokinin receptor. The audit quantifies how a shortlist *changes* when matched evidence, missingness and
+  decision thresholds are made explicit; it does not claim improved hit rates, affinity, agonism, selectivity
+  or safety.
+* **REF15 total model scores are not binding free energies.** They depend on the modelled complex, so
+  comparisons are confined to candidates and their receptor-matched control *within the same receptor system*.
+* **Structural neighbours are not validated pharmacological off-targets,** and the neighbour-score fraction is
+  not a safety probability or a selectivity ratio. It is a computational stress test of score behaviour across
+  matched contexts.
+
+No p values were calculated for the receptor-specific audit — its thresholds are deterministic prioritization
+rules, not hypothesis tests. Exploratory, uncorrected p values appear only for the external NK2R benchmark
+(step 6).
+
+## Headline results
+
+| | NK1R | NK2R | NK3R |
+|:--|--:|--:|--:|
+| Candidates generated (PepMLM) | 32 | 32 | 32 |
+| Receptor-matched control | Substance P | NKA-derived | Neurokinin B |
+| Control REF15 total model score | 574.39 | 771.13 | 2240.54 |
+| Candidates with Delta-on < 0 | **14/32** (43.8%) | **23/32** (71.9%) | **6/32** (18.8%) |
+| Best candidate (score, Delta-on) | NK1R-18 (517.29, −57.10) | NK2R-27 (636.35, −134.78) | NK3R-21 (1965.25, −275.29) |
+| Candidates with neighbour summaries | 32/32 | 18/32 | 32/32 |
+| Structural-neighbour panel (Table S3 rows) | 66 | 27 | 60 |
+| Members of the primary-rule shortlist | 3 | 10 | 3 |
+| Members of the strict rule (≥ 0.75) | 0 | 2 | 0 |
+
+Across the three receptors: **82 evaluable candidates** carried **4,518 matched structural-neighbour
+comparisons**. **16 of the 33** evaluable on-target-favoured candidates survived the joint primary rule — a
+**51.5% reduction** of that pool. At equal shortlist sizes the joint and on-target-only selections shared
+**8/16** candidates, so **half of the selected identities changed** even when the testing budget was held
+constant.
+
+> **Primary rule** — Delta-on < 0 **and** neighbour-score fraction > 0.50 **and** reported comparison-count
+> proxy ≥ 0.90, applied independently within each receptor.
+> **Strict sensitivity rule** — same, with a fraction threshold of ≥ 0.75.
+> **Legacy audit rule** — the first two criteria without the count proxy.
+
+## Pipeline
+
+| Step | Operation | Tool | Directory |
+|:--|:--|:--|:--|
+| 1 | Receptor-conditioned candidate generation — 32 peptides per receptor, mostly 10 residues, plus a receptor-matched control | PepMLM (authors' public Colab) | [`step1_peptide_generation/`](step1_peptide_generation/) |
+| 2 | On-target docking — 10 poses per peptide, minimum REF15 total model score retained; Delta-on = candidate − receptor-matched control | RAPiDock + Rosetta REF15 | [`step2_positive_docking/`](step2_positive_docking/) |
+| 3 | Structural-neighbour retrieval — combined 3Di/amino-acid search of PDB100, redundancy-reduced | Foldseek, CD-HIT 0.50 | [`step3_foldseek_search/`](step3_foldseek_search/) |
+| 4 | Matched structural-neighbour docking — candidate *and* control docked against every panel member, so the comparison is paired | RAPiDock + REF15 | [`step4_negative_docking/`](step4_negative_docking/) |
+| 5 | Aggregation and prioritization — neighbour-score fractions, count proxies, primary/strict rules, threshold grid, missingness bounds, shortlist intersections | Python (pandas/NumPy) | [`step5_analysis/`](step5_analysis/) |
+| 6 | Exploratory external NK2R benchmark — 10 competition peptides, length-matched random controls, sequence-space projection | Python; archived ESM-2 + UMAP coordinates | [`step6_competition_benchmark/`](step6_competition_benchmark/) |
+
+Figures use the manuscript's numbering ([`figures/README.md`](figures/README.md) maps every file to its
+`Fig.`/`Supplementary Fig.` number and generating script).
+
+## Repository layout
 
 ```
-package/
-├── README.md                          # 本文件
-├── MANUSCRIPT_GUIDE.md               # 论文撰写指南（结构、数据引用、图表清单）
-├── COMPETITION_COMPARISON.md         # 竞赛 Top10 对比分析（含长度校正方法学）
-├── PROJECT_STATUS.md                 # 项目状态与路径/环境备忘
-├── analysis/                         # 所有汇总数据 (CSV)
-│   ├── {NK1R,NK2R,NK3R}_summary.csv              # 正/负向汇总
-│   ├── {NK1R,NK2R,NK3R}_final_ranking.csv        # 最终排名 (ΔPos/ΔNeg/frac_safer)
-│   ├── {NK1R,NK2R,NK3R}_pairwise_selectivity.csv # 逐蛋白配对 delta
-│   ├── peptide_codes.csv                         # 代号↔序列映射
-│   ├── competition_top10.csv                     # 竞赛 Top10 元数据 (含 EC50)
-│   ├── COMP_TOP10_summary.csv                    # 竞赛肽对接结果
-│   ├── NK2R_comparison.csv                       # 合并对比表
-│   ├── length_control.csv                        # 长度对照实验原始数据
-│   └── all_receptors_summary.csv
-├── figures/                           # 论文图表 (SVG/PDF 矢量, 文本可编辑)
-│   ├── Fig2_docking_performance.*     # 主图2: 正向对接 (4 panels)
-│   ├── Fig3_selectivity.*             # 主图3: 脱靶选择性 (6 panels)
-│   ├── Fig4_sequence_features.*       # 主图4: 序列特征 (4 panels)
-│   ├── Fig5_competition_comparison.*  # 主图5: 竞赛对比细节 (6 panels)
-│   ├── Fig6_head_to_head.*            # 主图6: 头对头总览 (4 panels: 达标率/计分卡/z分布/长度分组)
-│   ├── Fig8_latent_space.*            # 主图8: ESM-2 潜在空间 UMAP + 4 个结合姿态 (8 panels)
-│   ├── FigS1_positive_ranking.*       # 全候选正向排名
-│   ├── FigS2_delta_neg_distribution.* # ΔNeg 排名
-│   ├── FigS3_offtarget_composition.*  # 脱靶蛋白类型
-│   ├── FigS4_binding_modes.*          # 结合模式 (6 panels)
-│   └── tables/
-│       ├── TableS1_peptide_codes.csv      # 代号→序列 (99条)
-│       ├── TableS2_docking_data.csv       # 完整对接数据
-│       ├── TableS3_offtarget_proteins.csv # 脱靶蛋白身份 (153条)
-│       └── TableS4_competition_comparison.csv # 竞赛对比 (43条)
-└── scripts/                           # 全部代码 (Python; 依赖 pandas numpy matplotlib scipy biopython)
-    ├── summarize_results.py           # 1. 汇总正/负向分数 (按序列关联!)
-    ├── pairwise_selectivity.py        # 2. 逐蛋白配对选择性
-    ├── final_ranking.py               # 3. 最终排名
-    ├── make_peptide_codes.py          # 4. 代号映射
-    ├── make_fig2.py / make_fig3.py / make_fig4.py   # 5-7. 主图
-    ├── make_fig5_comparison.py        # 8. 竞赛对比细节图
-    ├── make_fig6_headtohead.py        # 9. 头对头总览图
-    ├── make_fig8.py                   # 9b. ESM-2 潜在空间图 (UMAP + 结合姿态)
-    ├── make_fig8_umap.py              # 9c. UMAP 降维
-    ├── make_umap_data.py              # 9d. UMAP 输入数据准备
-    ├── embed_esm.py                   # 9e. ESM2-650M 编码 (gpu3, RAPiDock env)
-    ├── pdb_render.py                  # 9f. PDB 结合姿态渲染器 (纯 Bio.PDB+matplotlib)
-    ├── make_supp_figs.py              # 10. 附图
-    ├── make_binding_modes.py          # 11. 结构图
-    ├── make_supp_tables.py            # 12. 附表
-    ├── make_comp_top10_inputs.py      # 13. 竞赛 Top10 → 对接输入
-    ├── make_length_control.py         # 14. 长度对照实验设计
-    ├── summarize_comp_top10.py        # 15. 竞赛结果汇总 (含长度校正)
-    ├── make_comp_table.py             # 16. 竞赛对比表 S4
-    ├── foldseek_search.py             # Foldseek API (需联网)
-    ├── parse_and_download.py          # 解析+CD-HIT(或Python聚类)+下载PDB
-    ├── extract_chains.py              # 子链提取
-    ├── cluster_sequences.py           # Python 聚类器 (cd-hit 替代)
-    ├── create_neg_input.py            # 负向输入 CSV 生成
-    ├── download_pdbs_parallel.sh      # 并行下载
-    ├── run_docking_gpu3.sh            # GPU 对接命令 (gpu3 节点)
-    ├── comp_top10_worker.sh           # 竞赛对接 worker (指定 GPU + 批次)
-    └── fix_shifted_labels.py          # 标签错位修正脚本 (见 §6)
+NK-RCPP/
+├── step1_peptide_generation/   input/  receptor chains          output/ candidate tables + pseudo-perplexity
+├── step2_positive_docking/     input/  receptor PDBs, RAPiDock CSVs   output/ long + wide REF15 scores
+├── step3_foldseek_search/      output/ per-receptor PDB100 hits, alignments, panel FASTA
+├── step4_negative_docking/     input/  per-batch docking CSVs   output/ per-complex neighbour scores
+├── step5_analysis/output/      rankings, pairwise aggregates, per-pair deltas, UMAP coordinates
+├── step6_competition_benchmark/output/ competition and length-control scores
+├── figures/                    main/ supplementary/ tables/ (Fig. 1–5, S1–S9, TableS1–S4)
+├── scripts/                    every script that produced the tables and figures
+└── docs/                       manuscript guide, competition comparison, project status
 ```
 
-## 3. 复现分析流程
+## Results in the archive
+
+### On-target scoring
+
+The proportion of candidates with a better on-target docking score than their matched control was highest for
+NK2R (23/32, 71.9%), followed by NK1R (14/32, 43.8%) and NK3R (6/32, 18.8%). The largest within-receptor
+improvements were NK1R-18 (517.29 vs 574.39, Delta-on = −57.10), NK2R-27 (636.35 vs 771.13, Delta-on =
+−134.78) and NK3R-21 (1965.25 vs 2240.54, Delta-on = −275.29). The NK1R comparison also paired 10-residue
+candidates with 11-residue Substance P.
+
+### Joint primary rule
+
+Matched structural-neighbour summaries covered **82** candidates with **4,518** comparisons; the panels held
+66 NK1R, 27 NK2R and 60 NK3R annotated rows, and every evaluable candidate had a reported count proxy of
+**1.00**, so the ≥ 0.90 proxy criterion did not further distinguish them.
+
+| Receptor | Primary-rule shortlist | Neighbour-score fraction | Delta-on |
+|:--|:--|:--|--:|
+| NK1R | NK1R-21, NK1R-29, NK1R-13 | 36/66, 35/66, 34/66 | −11.57, −29.80, −15.70 |
+| NK2R | NK2R-04, NK2R-19, NK2R-14, NK2R-07, NK2R-26, NK2R-09, NK2R-11, NK2R-10, NK2R-13, NK2R-22 | NK2R-04 and NK2R-19: 21/27 (0.778) | −100.60, −72.21 |
+| NK3R | NK3R-21, NK3R-13, NK3R-19 | 34/60, 34/60, 33/60 | −275.29, −55.26, −28.47 |
+
+Only **NK2R-04** and **NK2R-19** also met the strict ≥ 0.75 threshold.
+
+### Discordance between the two ranking dimensions
+
+The on-target and structural-neighbour rankings captured different aspects of score behaviour and did not
+select the same leading candidates:
+
+| Candidate | On-target rank | Neighbour-score fraction | Outcome |
+|:--|:--|:--|:--|
+| NK1R-18 | best NK1R score (Delta-on −57.10) | 29/66 = 0.439 | fails the fraction criterion |
+| NK2R-27 | best NK2R score (Delta-on −134.78) | 11/27 = 0.407 | fails the fraction criterion |
+| NK1R-14 | Delta-on **+50.23** | 41/66 = 0.621 (highest qualified NK1R) | fails the on-target criterion |
+
+The two endpoints therefore carry different information and are kept separate; their joint use reduces
+dependence on a single score.
+
+### Thresholds and missingness
+
+* Raising the fraction cutoff from > 0.50 to **> 0.55 removed all NK1R candidates**.
+* The strict **≥ 0.75** rule retained only the two NK2R candidates.
+* These changes arise from discrete counts close to the boundary — candidates immediately above and below a
+  cutoff are **neighbouring priorities, not distinct biological classes**.
+* Structural-neighbour summaries were missing for **14 NK2R candidates**, 10 of which had Delta-on < 0. The
+  unconstrained bounds are therefore **10–20 candidates under the primary rule** and **2–12 under the strict
+  rule**. These bounds quantify dependence on unavailable evidence; they do not predict the missing outcomes.
+
+### Sequence patterns
+
+At a per-position frequency threshold of 0.30 the consensus strings were **SVPRQQCFGF** (NK1R),
+**PKPRQCCFQR** (NK2R) and **DTPYQQSNGF** (NK3R). NK2R-02 contains 11 residues, so it was excluded from the
+position-wise heatmaps (31 NK2R candidates) while remaining in the candidate inventory and raw on-target
+analyses. These distributions describe the fixed generated sets and can guide diversity-aware experimental
+sampling; without enrichment or replicate generation they **cannot be called receptor-binding motifs**.
+
+### Exploratory NK2R benchmark (step 6)
+
+| Endpoint | Competition peptides (n = 10) | Study NK2R candidates |
+|:--|:--|:--|
+| Length-adjusted z-score < 0 | 9/10 | 11/31 study 10-mers |
+| Delta-on < 0 | 5/10 | — |
+| Neighbour-score fraction > 0.50 | 8/10 | 14/18 evaluable |
+| Joint rule | 3/10 (3/5 of the competition 9-mers) | 10/18 evaluable |
+
+Score–potency agreement was uncertain (Spearman rho = +0.42, P = 0.23, n = 10). Exploratory two-sided
+Mann-Whitney comparisons gave P = 0.2204 for raw scores (10 vs 32 peptides), P = 0.1699 for the
+neighbour-score fraction (10 vs 18) and P = 5.09 × 10⁻⁴ for length-adjusted z-scores (10 vs 31). These
+comparisons are **uncorrected for multiplicity**, involve different lengths, composition-specific baselines
+and sampling frames, and do not establish superior binding or activity.
+
+### Sequence space
+
+The archived ESM-2 + UMAP projection contains **1,048** peptides: 949 leaderboard-only entries and 99 study
+entries (96 candidates + 3 controls). Of these, 92 sequences of 7–10 residues formed a separated island and
+956 sequences of 3–40 residues occupied the main projection; 4/10 competition peptides fell in the island.
+The median distance to the nearest retained leaderboard entry was **0.04** for the 10 primary-rule NK2R
+candidates and **0.07** for all 99 study entries. Distances are in arbitrary two-dimensional projection
+units — they are not the original ESM-2 representation space and do not establish novelty, function or
+receptor specificity.
+
+## Terminology: manuscript ↔ archive
+
+The manuscript renamed several archive fields for precision. When you read the CSVs, translate:
+
+| Manuscript term | Archive column | Definition |
+|:--|:--|:--|
+| on-target score | `pos_score` | retained minimum REF15 total model score of the candidate against its own receptor |
+| REF15 total model score | `best_score`, `rank1_score` | minimum available `ref2015score` for a modelled pair; not a binding free energy |
+| Delta-on | `ΔPos` | `pos_score`(candidate) − `pos_score`(receptor-matched control); **< 0 is better** |
+| fraction with a higher structural-neighbour score | `frac_safer` | `n_safer_delta_pos / n_common` |
+| count of higher-scoring neighbours | `n_safer_delta_pos` | comparisons where the candidate score exceeded the control score |
+| shared comparisons | `n_common` | structural neighbours scored for both candidate and control |
+| mean matched score difference | `delta_mean` (legacy: `ΔNeg`) | mean candidate − control over the shared neighbours |
+| reported comparison-count proxy | *derived* | `n_common / (number of Table S3 rows for that receptor)` |
+| pass of the primary-rule first criterion | `better_binding` | legacy boolean: `ΔPos < 0` |
+| pass of the primary-rule second criterion | `safer` | legacy boolean: `frac_safer > 0.50` |
+| pass of the legacy audit rule | `both` | `better_binding and safer` (count proxy added only in the primary rule) |
+| structural neighbours | TableS3 rows | Foldseek-retrieved comparison structures, **not** validated off-targets |
+
+## Data conventions and traps
+
+* **The step-4 NK2R batch labels are not the canonical candidate codes.** `nk2r_neg_inputs/peptide01…18`
+  map to the NK2R-01/03/04/07/09/10/11/13/14/19/22/23/24/26/27/28/30/32 subset, and `peptide19` is the
+  **control**. NK1R and NK3R do line up (`peptideNN` = `NK1R-NN` / `NK3R-NN`, control = `known`). Always join
+  on **sequence**, never on the batch label — `scripts/paired_neighbour_deltas.py` does exactly that.
+* **`legacy audit rule` vs `primary rule`.** The count proxy is applied only in the primary rule; the legacy
+  rule is the first two criteria alone. The two agree on this archive because every evaluable candidate has
+  proxy 1.00.
+* **`rank1` vs `best_score`.** All downstream analysis uses `rank1` (the pose RAPiDock ranked first);
+  `best_score` (minimum over the 10 poses) is shipped so the two choices can be compared.
+* **`COMP_TOP10_negative_docking_input.STALE-offby-one.csv`** is kept on purpose. The merged competition input
+  file carries pre-fix labels that are shifted by one relative to the per-batch inputs, so looking a peptide's
+  sequence up by complex name there silently returns its neighbour. The per-batch files under
+  `comp_top10_neg_inputs/` win; `scripts/harvest_docking_scores.py` warns on disagreements.
+* **NK2R pseudo-perplexity is empty.** The NK2R Colab export was not archived, so those sequences were
+  recovered from the docking input. The native generator ranking could not be reconstructed for any receptor.
+* **Nothing compares raw REF15 scores across receptors** — the absolute value depends on the modelled system.
+
+## Note on evidence level
+
+The package the manuscript audited was aggregate-only: pair-level structural-neighbour score rows were absent,
+so the candidate-level aggregates had to be treated as inherited results. **This archive is richer than that
+package** — step 4 ships the underlying per-complex REF15 scores. Running
 
 ```bash
-conda install pandas numpy matplotlib seaborn scipy biopython
-
-# 数据汇总 (输入: peptide_docking/RAPiDock/results/ 下原始对接结果)
-python scripts/summarize_results.py
-python scripts/pairwise_selectivity.py
-python scripts/final_ranking.py
-python scripts/make_peptide_codes.py
-
-# 图表生成 (输出: figures/)
-python scripts/make_fig2.py && python scripts/make_fig3.py && python scripts/make_fig4.py
-python scripts/make_fig5_comparison.py && python scripts/make_fig6_headtohead.py
-python scripts/make_supp_figs.py && python scripts/make_binding_modes.py
-python scripts/make_supp_tables.py
-
-# Fig8 (ESM-2 潜在空间)
-python scripts/make_umap_data.py            # 1. 组装 1048 条序列
-# (在 gpu3 的 RAPiDock env 运行编码, ~2 分钟; 模型走本地缓存, 离线)
-python scripts/embed_esm.py --input analysis/umap_input.csv --output analysis/esm_emb.npy
-python scripts/make_fig8_umap.py            # 2. L2归一化 + UMAP 降维
-python scripts/make_fig8.py                 # 3. 出图
-
-# 竞赛对比
-python scripts/make_comp_top10_inputs.py    # 生成对接输入
-python scripts/make_length_control.py       # 长度对照输入
-# (在 gpu3 运行对接: comp_top10_worker.sh)
-python scripts/summarize_comp_top10.py
-python scripts/make_comp_table.py
+python scripts/paired_neighbour_deltas.py --repo .
 ```
 
-## 4. 关键数据口径（重要！）
+rebuilds the pair-level comparison behind every aggregate from the raw numbers and reproduces the shipped
+counts exactly:
 
-- **ref2015 分数越低越好**（Rosetta 全原子能量，非结合自由能）
-- **不同受体系统间绝对值不可比**，一律用受体内部 Δ（候选 − 已知）
-- **跨肽长不可直接比较**：ref2015 约 +100.6 分/残基（R²=0.57）→ 必须用同长随机对照做 z 值校正
-- **负向数据必须按序列关联**：NK2R 的 peptideNN 输入编号 ≠ 候选编号，按序列匹配才正确（脚本已处理）
-- 指标定义：
-  - `ΔPos` = 候选正分 − 已知正分（<0 = 结合目标更强）
-  - `ΔNeg` = 候选负向均值 − 已知负向均值（>0 = 脱靶结合更弱）
-  - `frac_safer` = 逐蛋白配对 delta>0 的脱靶蛋白比例（>0.5 更安全）
-  - `both` = ΔPos<0 且 frac_safer>0.5（推荐筛选标准）
-  - `z_vs_length` = (分数 − 同长随机对照均值) / 同长对照 SD
-- **已知肽代号**：NK1R-K (RPKPQQFFGLM, Substance P)、NK2R-K (HKTDSFVGLM)、NK3R-K (DMHDFFVGLM, Neurokinin B)
-- 图中肽段全部用代号（NK1R-01 等）；竞赛肽用 COMP-01..COMP-10，序列见 TableS1/S4
-
-## 5. 核心结果摘要
-
-**三个受体（本研究）**
-
-| 受体 | 已知肽正分 | 双优候选 (ΔPos<0 且 frac_safer>0.5) |
-|------|-----------|-------------------------------------|
-| NK1R | 574.39 | NK1R-29, NK1R-13, NK1R-21 (3个) |
-| NK2R | 771.13 | NK2R-04/07/09/10/11/13/14/19/22/26 (10个) |
-| NK3R | 2240.54 | NK3R-21, NK3R-13, NK3R-19 (3个) |
-
-- 共识基序：NK1R SVPRQQCFGF | NK2R PKPRQCCFQR | NK3R DTPYQQSNGF
-- 脱靶蛋白：NK1R 66 个、NK2R 27 个、NK3R 60 个（多为 GPCR：H1、M2/3/5、阿片 μ/δ/κ、CXCR4、5-HT、CB1、PAR1/2 等）
-
-**竞赛 Top10 基准对比（Fig5 + Fig6）**
-
-| 指标 | 竞赛 Top10 | 本研究 (NK2R) |
-|------|-----------|--------------|
-| ΔPos < 0 | 5/10 (50%) | 23/32 (72%) |
-| z_vs_length < 0 | 9/10 (90%) | 11/32 (34%) |
-| frac_safer > 0.5 | 8/10 (80%) | 14/18 (78%) |
-| **双优 (both)** | **3/10 (30%)** | **10/18 (56%)** |
-| 同长度段双优 | 9-mer: 3/5 (60%) | 10-mer: 10/18 (56%) |
-
-- 长度对照（随机组成匹配肽，n=5/长度）：6-mer 625.7±14.4 | 9-mer 780.0±105.9 | 10-mer 687.4±52.0 | 15-mer 1502.0±547.8
-- 对接打分对实验 EC50 的预测力：ρ=+0.42 (P=0.23, n=10)，方向正确但无显著性
-- 竞赛前 10 是高质量设计：9/10 显著优于同长随机对照（非长度假象）
-
-## 6. 已知局限与数据陷阱（必读）
-
-1. **NK2R 有 14/32 候选缺负向数据**（原始 valid_pep 子集选择），含正向最优 NK2R-21/16/08；TableS2 中 N_offtarget=0 即缺失
-2. **负向对接标签曾错位（已修正）**：初次生成负向输入时编号 off-by-one（comp00–comp09 vs comp01–comp10），导致 1 号肽漏跑、其余肽标签前移一位。已通过 `fix_shifted_labels.py` 逆序重命名修正并补跑 comp01，最终 297/297 完整。**如重新生成输入，务必校验 compNN ↔ 序列的对应关系**
-3. **亚型选择性在数据中不显著**：NK2R 候选对 NK1R 结构 (6j20) 的 ΔNeg ≈ +1.5~+17.9（NK2R-27 为 −8.5），与已知肽相当
-4. **长度校对照样本量小**（每长度 n=5），15-mer 组 SD 极大（548），其 z 值被压缩；跨长度组比较 z 值需谨慎
-5. 纯计算研究，无 wet-lab 验证；ref2015 非结合自由能；扩散对接受初始构象影响
-6. Foldseek 3diaa 命中含糖基转移酶/合酶类（局部拓扑相似），非药理学相关脱靶
-7. **6-mer CFYFLM (COMP-03) 是长度陷阱案例**：原始分数最低但 frac_safer 仅 0.19，说明单用原始分数会误判
-
-## 6b. 图表样式（figures4papers house style）
-
-所有图遵循 [figures4papers](https://github.com/ChenLiu-1996/figures4papers) 的发表级绘图规范，
-统一定义在 `scripts/fig_style.py`：
-
-```python
-from fig_style import PALETTE, RECEPTOR_COLORS, apply_style, save_pub
-apply_style()                       # 设定 house style rcParams
-save_pub(fig, "figures/FigX")       # 导出 SVG + PDF + 600 dpi LZW-TIFF
+```
+[ok] 4518 pair-level comparisons over 82 candidates
+[check] NK1R: 32 candidates compared, 0 disagree with the shipped aggregates
+[check] NK2R: 18 candidates compared, 0 disagree with the shipped aggregates
+[check] NK3R: 32 candidates compared, 0 disagree with the shipped aggregates
 ```
 
-采用的规范要点：
-- **语义配色**：`PALETTE` 取自 `references/api.md`（blue_main `#0F4D92`、
-  green_3 `#8BCF8B`、red_strong `#B64342`、teal `#42949E`、violet `#9A4D8E`、neutral `#CFCECE`）
-- **受体配色**：NK1R=blue_main、NK2R=teal、NK3R=violet（`RECEPTOR_COLORS`）
-- **加粗坐标轴与刻度**：`axes.linewidth = 1.1`（house style 比默认更粗）
-- **无网格、无图例边框、仅左/下轴脊**
-- **导出**：SVG（文本可编辑）+ PDF（TrueType 嵌入）+ 600 dpi LZW-TIFF
+So all 4,518 comparisons / 82 candidates quoted in the manuscript are reproducible from this repository, not
+just inherited. What remains unreconstructable here is what was absent from the original archive: the raw
+RAPiDock pose directories, the original generation outputs and the pair-level rows for the COMP/length-control
+campaigns.
 
-> ⚠️ 标定说明：figures4papers 的 demo 用大画布（28 in 宽 / font 24 / lw 3），
-> 本项目按稿件图幅 183 mm 等比换算（≈6.2 pt / 0.77），因此采用其**密度**而非绝对字号。
+## Reproducing
 
-## 7. 硬件/环境备忘
+```bash
+# Audit arithmetic (Python 3.12; pandas 3.0.1 / NumPy 2.3.5 used in the manuscript)
+python scripts/paired_neighbour_deltas.py --repo .     # 4,518 pair-level comparisons over 82 candidates
+python scripts/make_candidate_tables.py --repo .       # step 1 candidate tables
+python scripts/harvest_docking_scores.py --repo .      # step 2 / 4 / 6 score tables from raw run folders
+python scripts/harvest_foldseek_hits.py --repo .       # step 3 condensed neighbour panels
+python scripts/make_peptide_codes.py --repo .          # TableS1
+```
 
-- master（联网）：Foldseek 搜索、PDB 下载、数据分析、绘图
-- gpu3（GPU）：RAPiDock 对接；conda 环境 `RAPiDock`；路径映射 `/dataN/zhanghaohong` → gpu3 `/data(N+3)/zhanghaohong`（home 不变）
-- gpu3 有 8× A100-80GB；本次竞赛对比用 4–5 卡并行，约 20 分钟完成 327 个复合物
-- SSH 用 paramiko（本机无 sshpass）
-- 原始对接结果在 `peptide_docking/RAPiDock/results/`（不在本包内）
-# NK-RCPP
+Docking itself is **not** re-run by any of these; the RAPiDock configuration used for it is documented in
+[`step2_positive_docking/README.md`](step2_positive_docking/README.md) (`N = 10`, `inference_steps` /
+`actual_steps = 16`, `ref2015`, local checkpoint `rapidock_local.pt`, `conformation_partial = 1:1:1`,
+`batch_size = 4`) together with the GPU runner scripts under `scripts/`.
+
+Figure regeneration is listed in [`figures/README.md`](figures/README.md).
+
+## Limitations
+
+One archived dataset; retrospective, uncalibrated score thresholds; no wet-lab validation. Native PepMLM
+rankings and activity data for the 96 candidates were unavailable, so shortlist compression cannot establish
+improved hit rates or binder retention. Missing generation settings, raw poses, pair-level neighbour scores
+and chemical-preparation records limit reproduction and assessment of terminal modifications, disulfides and
+panel composition. The 10-peptide benchmark and its 5 composition-specific random controls per length provide
+context, not independent pharmacological validation. Independent threshold calibration, orthogonal structural
+assessment and equally sized prospective binding and functional comparisons are the next tests.
+
+## Citing
+
+If you use this archive, please cite the NK-RCPP manuscript (citation block to be filled in on publication)
+and the tools it builds on: PepMLM ([Chen et al., *Nat. Biotechnol.* 2026](https://doi.org/10.1038/s41587-025-02761-2)),
+RAPiDock ([Zhao et al., *Nat. Mach. Intell.* 2025](https://doi.org/10.1038/s42256-025-01077-9)),
+Rosetta REF15 ([Alford et al., *JCTC* 2017](https://doi.org/10.1021/acs.jctc.7b00125)),
+Foldseek ([van Kempen et al., *Nat. Biotechnol.* 2024](https://doi.org/10.1038/s41587-023-01773-0)),
+CD-HIT ([Li & Godzik, *Bioinformatics* 2006](https://doi.org/10.1093/bioinformatics/btl158)),
+ESM-2 ([Lin et al., *Science* 2023](https://doi.org/10.1126/science.ade2574)) and
+UMAP ([McInnes et al., *JOSS* 2018](https://doi.org/10.21105/joss.00861)).
+
+## Licence
+
+Code under the MIT licence; data, tables and figures under CC BY 4.0 — see [`LICENSE`](LICENSE).
+The NK2R receptor model derives from an AlphaFold2 prediction; see
+[`docs/ALPHAFOLD_TERMS_OF_USE.md`](docs/ALPHAFOLD_TERMS_OF_USE.md).
+
+Figure styling follows the conventions of
+[ChenLiu-1996/figures4papers](https://github.com/ChenLiu-1996/figures4papers).
+
+---
+
+<sub>中文版说明见 [`README.zh-CN.md`](README.zh-CN.md)。</sub>

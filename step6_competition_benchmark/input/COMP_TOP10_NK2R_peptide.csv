@@ -1,0 +1,11 @@
+complex_name,protein_description,peptide_description
+comp01,pdbs/NK2R.pdb,CPYTKLNRCCFYFLM
+comp02,pdbs/NK2R.pdb,GFPCFYFLM
+comp03,pdbs/NK2R.pdb,CFYFLM
+comp04,pdbs/NK2R.pdb,YCMEGAKMM
+comp05,pdbs/NK2R.pdb,CQRFRPGKCCFYFLM
+comp06,pdbs/NK2R.pdb,CQTPAPGKCCFYFLM
+comp07,pdbs/NK2R.pdb,PFPCFYFLM
+comp08,pdbs/NK2R.pdb,RFPCFYFLM
+comp09,pdbs/NK2R.pdb,CMTPQPGKCCFYFLM
+comp10,pdbs/NK2R.pdb,AFPCFYFLM

@@ -1,0 +1,893 @@
+query,neighbour,pdb,chain,description,seq_identity_pct,aln_len,evalue,bits,taxname,in_negative_panel
+job_A,6e59_A,6e59,A,Crystal structure of the human NK1 tachykinin receptor,100.0,479,2.193e-74,3909,Homo sapiens,False
+job_A,6hlo_A,6hlo,A,Crystal structure of the Neurokinin 1 receptor in complex with the small molecule antagonist Aprepitant,97.7,479,1.085e-59,2910,Homo sapiens,False
+job_A,6hll_A,6hll,A,"Crystal structure of the Neurokinin 1 receptor in complex with the small molecule antagonist CP-99,994",96.2,479,1.401e-58,2887,Homo sapiens,False
+job_A,6hlp_A,6hlp,A,Crystal structure of the Neurokinin 1 receptor in complex with the small molecule antagonist Netupitant,97.9,479,8.176e-59,2863,Homo sapiens,True
+job_A,4s0v_A,4s0v,A,Crystal structure of the human OX2 orexin receptor bound to the insomnia drug Suvorexant,58.8,479,2.159e-44,2100,Homo sapiens,False
+job_A,4zjc_A,4zjc,A,Structures of the human OX1 orexin receptor bound to selective and dual antagonists,57.5,488,1.086e-43,2041,Homo sapiens,True
+job_A,5ws3_A,5ws3,A,Crystal structures of human orexin 2 receptor bound to the selective antagonist EMPA determined by serial femtosecond crystallography at SACLA,57.6,489,2.664e-43,2021,Homo sapiens,False
+job_A,5wqc_A,5wqc,A,Crystal structure of human orexin 2 receptor bound to the selective antagonist EMPA determined by the synchrotron light source at SPring-8.,59.1,482,5.975e-43,2015,Homo sapiens,False
+job_A,6tpg_A,6tpg,A,Crystal structure of the Orexin-2 receptor in complex with EMPA at 2.74 A resolution,58.0,484,2.7480000000000002e-42,1988,Homo sapiens,False
+job_A,6v9s_A,6v9s,A,Structure-based development of subtype-selective orexin 1 receptor antagonists,57.1,488,3.439e-42,1976,Homo sapiens,False
+job_A,6tpn_A,6tpn,A,Crystal structure of the Orexin-2 receptor in complex with HTL6641 at 2.61 A resolution,57.7,488,1.01e-41,1973,Homo sapiens,True
+job_A,6tpj_A,6tpj,A,Crystal structure of the Orexin-2 receptor in complex with suvorexant at 2.76 A resolution,57.5,490,1.7299999999999999e-41,1912,Homo sapiens,False
+job_A,7w41_A,7w41,A,Crystal Structure of Human Gastrin Releasing Peptide Receptor in complex with the antagonist PD176252,54.2,490,4.788e-40,1782,Homo sapiens,True
+job_A,6kuw_A,6kuw,A,Crystal structure of human alpha2C adrenergic G protein-coupled receptor.,53.5,489,6.973e-38,1675,Homo sapiens,False
+job_A,6kuw_B,6kuw,B,Crystal structure of human alpha2C adrenergic G protein-coupled receptor.,53.6,490,3.109e-38,1608,Homo sapiens,False
+job_A,6kp6_A,6kp6,A,The structural study of mutation induced inactivation of Human muscarinic receptor M4,53.3,487,1.158e-38,1546,Homo sapiens,True
+job_A,6w25_A,6w25,A,Crystal structure of the Melanocortin-4 Receptor (MC4R) in complex with SHU9119,53.1,474,2.764e-36,1484,Homo sapiens,False
+job_A,7fee_A,7fee,A,Crystal Structure of protein l,52.5,493,1.329e-35,1457,Homo sapiens,True
+job_A,5u09_A,5u09,A,High-resolution crystal structure of the human CB1 cannabinoid receptor,52.9,491,2.0190000000000002e-36,1433,Homo sapiens,False
+job_A,6lfl_A,6lfl,A,Crystal structure of a class A GPCR,55.7,477,7.628e-38,1421,Homo sapiens,True
+job_A,6tpk_A,6tpk,A,Crystal structure of the human oxytocin receptor,49.6,471,1.394e-32,1393,Homo sapiens,True
+job_A,6me5_A,6me5,A,XFEL crystal structure of human melatonin receptor MT1 in complex with agomelatine,54.3,486,3.508e-37,1303,Homo sapiens,True
+job_A,7br3_A,7br3,A,Crystal structure of the protein 1,51.3,469,6.112e-35,1299,Homo sapiens,True
+job_A,6kqi_A,6kqi,A,Structure of an allosteric modulator bound to the CB1 cannabinoid receptor,53.4,483,5.763e-34,1278,Homo sapiens,False
+job_A,6fj3_A,6fj3,A,High resolution crystal structure of parathyroid hormone 1 receptor in complex with a peptide agonist.,50.2,476,6.706e-32,1260,Homo sapiens,False
+job_A,2bfw_A,2bfw,A,Structure of the C domain of glycogen synthase from Pyrococcus abyssi,100.0,196,1.345e-23,1228,Pyrococcus abyssi,True
+job_A,3l01_B,3l01,B,Crystal structure of monomeric glycogen synthase from Pyrococcus abyssi,97.5,205,6.764e-23,1182,Pyrococcus abyssi,False
+job_A,7p02_R,7p02,R,Human Neurokinin 1 receptor (NK1R) substance P Gs complex,58.5,478,4.7100000000000004e-26,1166,Homo sapiens,False
+job_A,7rmg_R,7rmg,R,Substance P bound to active human neurokinin 1 receptor in complex with miniGs/q70,58.6,479,7.717000000000001e-26,1162,Homo sapiens,False
+job_A,7p00_R,7p00,R,Human Neurokinin 1 receptor (NK1R) substance P Gq chimera (mGsqi) complex,58.5,478,1.01e-25,1148,Homo sapiens,False
+job_A,7rmi_R,7rmi,R,SP6-11 biased agonist bound to active human neurokinin 1 receptor in complex with miniGs/q70,58.4,479,2.8350000000000002e-25,1134,Homo sapiens,False
+job_A,8u26_R,8u26,R,Gaussian Mixture Models based single particle refinement - GPCR (Substance P bound to active human neurokinin 1 receptor in complex with miniGs399 from EMPIAR-10786),58.2,479,3.102e-25,1130,Homo sapiens,False
+job_A,6j20_A,6j20,A,Crystal structure of the human NK1 substance P receptor,58.8,498,5.6990000000000004e-30,1119,Homo sapiens,True
+job_A,6j21_A,6j21,A,Crystal structure of the human NK1 substance P receptor,58.4,498,2.094e-29,1095,Homo sapiens,False
+job_A,8cxo_A,8cxo,A,Cryo-EM structure of the unliganded mSMO-PGS2 in a lipidic environment,43.6,529,3.234e-28,1007,Mus musculus,True
+job_A,2ks9_A,2ks9,A,Solution conformation of substance P in water complexed with NK1R,59.0,479,8.093999999999999e-23,941,Homo sapiens,False
+job_A,7xwo_B,7xwo,B,Neurokinin A bound to active human neurokinin 2 receptor in complex with G324,34.4,470,9.473e-15,647,Homo sapiens,False
+job_A,7xrr_A,7xrr,A,Crystal structure of the human OX2R bound to the insomnia drug lemborexant.,19.5,481,1.488e-11,556,Homo sapiens,True
+job_A,7ddz_A,7ddz,A,The Crystal Structure of Human Neuropeptide Y Y2 Receptor with JNJ-31020028,21.4,521,8.782e-16,537,Enterobacteria phage RB59,True
+job_A,6to7_B,6to7,B,Crystal structure of the Orexin-1 receptor in complex with suvorexant at 2.29 A resolution,19.0,478,9.369e-11,523,Homo sapiens,False
+job_A,6tp3_B,6tp3,B,Crystal structure of the Orexin-1 receptor in complex with daridorexant,17.9,485,5.719e-11,520,Homo sapiens,False
+job_A,6to7_A,6to7,A,Crystal structure of the Orexin-1 receptor in complex with suvorexant at 2.29 A resolution,19.1,491,1.025e-10,515,Homo sapiens,False
+job_A,6tod_B,6tod,B,Crystal structure of the Orexin-1 receptor in complex with EMPA,18.8,478,1.342e-10,509,Homo sapiens,False
+job_A,6tq4_B,6tq4,B,Crystal structure of the Orexin-1 receptor in complex with Compound 16,18.1,490,8.189e-11,506,Homo sapiens,False
+job_A,6tot_A,6tot,A,Crystal structure of the Orexin-1 receptor in complex with lemborexant,18.4,483,3.291e-10,500,Homo sapiens,False
+job_A,6tos_A,6tos,A,Crystal structure of the Orexin-1 receptor in complex with GSK1059865,18.6,483,4.929e-10,496,Homo sapiens,False
+job_A,6tp6_A,6tp6,A,Crystal structure of the Orexin-1 receptor in complex with filorexant,18.1,486,3.766e-10,492,Homo sapiens,False
+job_A,6tq7_B,6tq7,B,Crystal structure of the Orexin-1 receptor in complex with SB-334867,18.5,486,1.756e-10,491,Homo sapiens,False
+job_A,6tp4_A,6tp4,A,Crystal structure of the Orexin-1 receptor in complex with ACT-462206,18.8,484,8.075e-10,486,Homo sapiens,False
+job_A,6tod_A,6tod,A,Crystal structure of the Orexin-1 receptor in complex with EMPA,18.4,493,1.921e-10,485,Homo sapiens,False
+job_A,6tq6_B,6tq6,B,Crystal structure of the Orexin-1 receptor in complex with Compound 14,18.2,494,1.679e-10,481,Homo sapiens,False
+job_A,6tq9_A,6tq9,A,Crystal structure of the Orexin-1 receptor in complex with SB-408124,18.3,484,8.075e-10,479,Homo sapiens,False
+job_A,6tq6_A,6tq6,A,Crystal structure of the Orexin-1 receptor in complex with Compound 14,17.7,485,1.209e-09,478,Homo sapiens,False
+job_A,6tq4_A,6tq4,A,Crystal structure of the Orexin-1 receptor in complex with Compound 16,17.6,486,1.384e-09,468,Homo sapiens,False
+job_A,7ul4_A,7ul4,A,CryoEM Structure of Inactive MOR Bound to Alvimopan and Mb6,15.9,483,7.058e-10,456,Mus musculus,False
+job_A,4n6h_A,4n6h,A,1.8 A Structure of the human delta opioid 7TM receptor (PSI Community Target),16.9,477,1.894e-09,452,Escherichia coli,True
+job_A,7sqo_R,7sqo,R,"Structure of the orexin-2 receptor(OX2R) bound to TAK-925, Gi and scFv16",18.3,474,8.446e-10,451,Homo sapiens,False
+job_A,7x9b_R,7x9b,R,Cryo-EM structure of neuropeptide Y Y2 receptor in complex with NPY and Gi,18.2,481,3.938e-10,447,Homo sapiens,False
+job_A,4dkl_A,4dkl,A,Crystal structure of the mu-opioid receptor bound to a morphinan antagonist,18.5,522,2.397e-13,441,Mus musculus,True
+job_A,4rwd_B,4rwd,B,XFEL structure of the human delta opioid receptor in complex with a bifunctional peptide,16.9,478,2.072e-09,440,Escherichia coli,False
+job_A,7mbx_R,7mbx,R,Human Cholecystokinin 1 receptor (CCK1R) Gs complex,17.1,483,7.058e-10,439,Homo sapiens,False
+job_A,7f8x_A,7f8x,A,Crystal structure of the cholecystokinin receptor CCKAR in complex with NN9056,20.3,530,8.421e-13,435,Homo sapiens,False
+job_A,7l1v_R,7l1v,R,Orexin Receptor 2 (OX2R) in Complex with G Protein and Small-Molecule Agonist Compound 1,18.3,484,1.106e-09,429,Homo sapiens,False
+job_A,8efb_R,8efb,R,Oliceridine-bound mu-opioid receptor-Gi complex,15.3,475,1.323e-09,426,Homo sapiens,False
+job_A,7sr8_R,7sr8,R,Molecular mechanism of the the wake-promoting agent TAK-925,18.4,483,2.967e-09,420,Homo sapiens,False
+job_A,7ul5_A,7ul5,A,CryoEM Structure of Inactive SSTR2 bound to Nb6,15.3,477,6.96e-09,417,Homo sapiens,False
+job_A,7yoo_R,7yoo,R,Complex structure of Neuropeptide Y Y2 receptor in complex with NPY and Gi,18.5,479,1.209e-09,415,Homo sapiens,False
+job_A,5zbh_A,5zbh,A,The Crystal Structure of Human Neuropeptide Y Y1 Receptor with BMS-193885,21.2,531,3.236e-12,415,Homo sapiens,False
+job_A,3vuf_A,3vuf,A,Crystal Structure of Rice Granule bound Starch Synthase I Catalytic Domain in Complex with ADP,22.7,237,1.364e-08,415,Oryza sativa Japonica Group,True
+job_A,4rwa_A,4rwa,A,Synchrotron structure of the human delta opioid receptor in complex with a bifunctional peptide (PSI community target),16.4,479,1.193e-08,414,Escherichia coli,False
+job_A,7ezm_D,7ezm,D,Cryo-EM structure of an activated Cholecystokinin A receptor (CCKAR)-Gq complex,18.4,483,1.447e-09,411,Homo sapiens,False
+job_A,8f7w_R,8f7w,R,Gi bound kappa-opioid receptor in complex with dynorphin,16.4,475,2.479e-09,410,Homo sapiens,False
+job_A,7u2l_D,7u2l,D,C5guano-uOR-Gi-scFv16,15.6,473,3.395e-09,409,Mus musculus,False
+job_A,7l1u_R,7l1u,R,Orexin Receptor 2 (OX2R) in Complex with G Protein and Natural Peptide-Agonist Orexin B (OxB),18.4,483,4.062e-09,408,Homo sapiens,False
+job_A,6a94_A,6a94,A,Crystal structure of 5-HT2AR in complex with zotepine,13.9,486,7.829e-11,407,Homo sapiens,False
+job_A,7ezk_D,7ezk,D,Cryo-EM structure of an activated Cholecystokinin A receptor (CCKAR)-Gs complex,17.5,485,4.248e-09,406,Homo sapiens,False
+job_A,8jjo_F,8jjo,F,Cryo-EM structure of the beta2AR-mBRIL/1b3 Fab/Glue complex with an antagonist,18.3,501,1.488e-11,406,Homo sapiens,True
+job_A,7xbd_A,7xbd,A,Cryo-EM structure of human galanin receptor 2,16.9,471,5.561e-09,405,Homo sapiens,False
+job_A,8qot_A,8qot,A,Structure of the mu opioid receptor bound to the antagonist nanobody NbE,15.9,477,3.884e-09,404,Mus musculus,False
+job_A,7f8y_A,7f8y,A,Crystal structure of the cholecystokinin receptor CCKAR in complex with devazepide,18.4,532,3.703e-12,404,Homo sapiens,False
+job_A,5zbq_A,5zbq,A,The Crystal Structure of human neuropeptide Y Y1 receptor with UR-MK299,17.5,490,1.561e-08,401,Homo sapiens,True
+job_A,4ej4_A,4ej4,A,Structure of the delta opioid receptor bound to naltrindole,19.3,516,3.703e-12,400,Mus musculus,False
+job_A,7wq4_R,7wq4,R,Galanin-bound galanin receptor 2 in complex with Gq,16.7,479,1.954e-08,400,Homo sapiens,False
+job_A,4rwa_B,4rwa,B,Synchrotron structure of the human delta opioid receptor in complex with a bifunctional peptide (PSI community target),17.1,479,1.042e-08,400,Escherichia coli,False
+job_A,8ef5_R,8ef5,R,Fentanyl-bound mu-opioid receptor-Gi complex,15.0,479,6.654e-09,399,Homo sapiens,False
+job_A,7ezh_D,7ezh,D,Cryo-EM structure of an activated Cholecystokinin A receptor (CCKAR)-Gi complex,18.6,483,1.981e-09,399,Homo sapiens,False
+job_A,7wq3_R,7wq3,R,Galanin-bound galanin receptor 1 in complex with Gi,17.2,480,3.103e-09,397,Homo sapiens,False
+job_A,8f7x_R,8f7x,R,Gi bound nociceptin receptor in complex with nociceptin peptide,16.2,475,6.083e-09,395,Homo sapiens,False
+job_A,4djh_B,4djh,B,Structure of the human kappa opioid receptor in complex with JDTic,19.7,522,6.94e-12,394,Homo sapiens,False
+job_A,6vi4_A,6vi4,A,Nanobody-Enabled Monitoring of Kappa Opioid Receptor States,16.3,478,9.11e-09,392,Homo sapiens,False
+job_A,7wic_R,7wic,R,Cryo-EM structure of the SS-14-bound human SSTR2-Gi1 complex,15.4,472,4.443e-09,390,Homo sapiens,False
+job_A,8cu7_A,8cu7,A,"Crystal structure of A2AAR-StaR2-bRIL in complex with a novel A2a antagonist, LJ-4517",16.3,501,2.751e-10,390,Homo sapiens,True
+job_A,6a94_B,6a94,B,Crystal structure of 5-HT2AR in complex with zotepine,14.3,488,3.442e-10,389,Homo sapiens,False
+job_A,4djh_A,4djh,A,Structure of the human kappa opioid receptor in complex with JDTic,18.6,525,8.685e-12,389,Homo sapiens,False
+job_A,4ea3_A,4ea3,A,Structure of the N/OFQ Opioid Receptor in Complex with a Peptide Mimetic,16.1,476,3.662e-08,388,Escherichia coli,False
+job_A,6gng_A,6gng,A,Granule Bound Starch Synthase I from Cyanophora paradoxa bound to acarbose and ADP,22.2,243,2.043e-08,388,Cyanophora paradoxa,False
+job_A,4ami_B,4ami,B,Turkey beta1 adrenergic receptor with stabilising mutations and bound biased agonist bucindolol,15.8,487,1.364e-08,386,Meleagris gallopavo,False
+job_A,3c48_B,3c48,B,Structure of the retaining glycosyltransferase MshA: The first step in mycothiol biosynthesis. Organism: Corynebacterium glutamicum- APO (OPEN) structure.,25.1,219,9.11e-09,386,Corynebacterium glutamicum,False
+job_A,7f83_A,7f83,A,Crystal Structure of a receptor in Complex with inverse agonist,17.5,491,1.244e-11,386,Homo sapiens,False
+job_A,4iaq_A,4iaq,A,Crystal structure of the chimeric protein of 5-HT1B-BRIL in complex with dihydroergotamine (PSI Community Target),15.4,485,3.291e-10,385,Homo sapiens,False
+job_A,7y24_E,7y24,E,Cryo-EM structure of the octreotide-bound SSTR2-miniGo-scFv16 complex,15.0,480,1.042e-08,384,Homo sapiens,False
+job_A,7w40_A,7w40,A,"Cryo-EM Structure of Human Gastrin Releasing Peptide Receptor in complex with the agonist Bombesin (6-14) [D-Phe6, beta-Ala11, Phe13, Nle14] and Gq heterotrimers",15.1,490,7.613e-09,383,Escherichia coli,False
+job_A,3cx4_A,3cx4,A,Crystal Structure of E.coli GS mutant E377A in complex with ADP and oligosaccharides,24.2,235,2.557e-08,383,Escherichia coli,False
+job_A,7wc4_A,7wc4,A,Crystal structure of serotonin 2A receptor in complex with serotonin,13.4,485,8.075e-10,381,Homo sapiens,False
+job_A,5dhh_B,5dhh,B,The crystal structure of nociceptin/orphanin FQ peptide receptor (NOP) in complex with SB-612111 (PSI Community Target),15.7,484,5.013e-08,381,Escherichia coli,False
+job_A,8gne_A,8gne,A,"Crystal structure of human adenosine A2A receptor in complex with an insurmountable inverse agonist, KW-6356.",16.4,498,4.506e-10,381,Homo sapiens,False
+job_A,1rzu_A,1rzu,A,Crystal structure of the glycogen synthase from A. tumefaciens in complex with ADP,23.2,258,4.861e-09,380,Agrobacterium tumefaciens,False
+job_A,5nm4_A,5nm4,A,A2A Adenosine receptor room-temperature structure determined by serial femtosecond crystallography,16.0,498,4.308e-10,380,Homo sapiens,False
+job_A,5k2a_A,5k2a,A,2.5 angstrom A2a adenosine receptor structure with sulfur SAD phasing using XFEL data,16.0,497,1.921e-10,380,unclassified,False
+job_A,5k2b_A,5k2b,A,2.5 angstrom A2a adenosine receptor structure with MR phasing using XFEL data,15.7,503,1.756e-10,379,unclassified,False
+job_A,4gbr_A,4gbr,A,N-Terminal T4 Lysozyme Fusion Facilitates Crystallization of a G Protein Coupled Receptor,16.4,487,9.528e-09,379,Homo sapiens,False
+job_A,8f7s_D,8f7s,D,Gi bound delta-opioid receptor in complex with deltorphin,15.8,481,2.235e-08,379,Homo sapiens,False
+job_A,7xjl_F,7xjl,F,Cryo-EM structure of the spexin-bound GALR2-miniGq complex,16.7,479,4.189e-08,378,Homo sapiens,False
+job_A,6bqh_A,6bqh,A,Crystal structure of 5-HT2C in complex with ritanserin,13.8,490,8.446e-10,378,Homo sapiens,False
+job_A,6aqf_A,6aqf,A,Crystal structure of A2AAR-BRIL in complex with the antagonist ZM241385 produced from Pichia pastoris,16.1,494,4.713e-10,378,Homo sapiens,False
+job_A,8feg_B,8feg,B,CryoEM structure of Kappa Opioid Receptor bound to a semi-peptide and Gi1,16.3,471,1.786e-08,375,Homo sapiens,False
+job_A,7t11_R,7t11,R,CryoEM structure of somatostatin receptor 2 in complex with Octreotide and Gi3.,15.6,478,1.868e-08,375,Homo sapiens,False
+job_A,4iar_A,4iar,A,Crystal structure of the chimeric protein of 5-HT1B-BRIL in complex with ergotamine (PSI Community Target),16.2,491,1.535e-10,375,Homo sapiens,False
+job_A,6vi4_B,6vi4,B,Nanobody-Enabled Monitoring of Kappa Opioid Receptor States,16.1,476,5.735e-08,374,Homo sapiens,False
+job_A,7vl8_R,7vl8,R,Cryo-EM structure of the Apo CCR1-Gi complex,24.2,198,4.189e-08,374,Homo sapiens,False
+job_A,7x9a_R,7x9a,R,Cryo-EM structure of neuropeptide Y Y1 receptor in complex with NPY and Gi,17.6,494,7.963e-09,374,Homo sapiens,False
+job_A,7wc8_A,7wc8,A,Crystal structure of serotonin 2A receptor in complex with lumateperone,12.8,482,9.663e-10,374,Homo sapiens,False
+job_A,5om4_A,5om4,A,Structure of the A2A-StaR2-bRIL562-Compound 4e complex at 1.86A obtained from in meso soaking experiments (24 hour soak).,15.1,490,5.392e-10,372,Homo sapiens,False
+job_A,7mby_R,7mby,R,Human Cholecystokinin 1 receptor (CCK1R) Gq chimera (mGsqi) complex,17.1,483,5.735e-08,372,Homo sapiens,False
+job_A,8cic_A,8cic,A,Crystal structure of stabilized A2A adenosine receptor A2AR-StaR2-bRIL in complex with clinical candidate Etrumadenant,15.7,496,1.106e-09,372,Homo sapiens,False
+job_A,7yit_A,7yit,A,Molecular mechanism of biased signaling at the kappa opioid receptor,15.1,475,2.675e-08,370,Homo sapiens,False
+job_A,6ps6_A,6ps6,A,XFEL beta2 AR structure by ligand exchange from Timolol to Timolol.,19.3,531,6.94e-12,370,Homo sapiens,False
+job_A,5mzp_A,5mzp,A,Crystal structure of stabilized A2A adenosine receptor A2AR-StaR2-bRIL in complex with caffeine at 2.1A resolution,16.2,497,1.156e-09,369,Homo sapiens,False
+job_A,7vgx_R,7vgx,R,Neuropeptide Y Y1 Receptor (NPY1R) in Complex with G Protein and its endogeneous Peptide-Agonist Neuropeptide Y (NPY),18.6,471,5.999e-08,369,Homo sapiens,False
+job_A,5dhg_A,5dhg,A,The crystal structure of nociceptin/orphanin FQ peptide receptor (NOP) in complex with C-35 (PSI Community Target),16.0,474,9.827e-08,369,Escherichia coli,False
+job_A,6wqa_A,6wqa,A,2.0A angstrom A2a adenosine receptor structure using XFEL data collected in helium atmosphere.,15.1,494,3.147e-10,368,Homo sapiens,False
+job_A,5tvn_A,5tvn,A,Crystal structure of the LSD-bound 5-HT2B receptor,15.3,482,2.404e-10,368,Homo sapiens,True
+job_A,6pt3_A,6pt3,A,Crystal structure of the active delta opioid receptor in complex with the small molecule agonist DPI-287,16.7,477,2.338e-08,368,Homo sapiens,False
+job_A,5dhh_A,5dhh,A,The crystal structure of nociceptin/orphanin FQ peptide receptor (NOP) in complex with SB-612111 (PSI Community Target),16.6,480,8.213e-08,367,Escherichia coli,False
+job_A,5d5a_A,5d5a,A,In meso in situ serial X-ray crystallography structure of the Beta2-adrenergic receptor at 100 K,19.2,535,1.423e-11,367,Homo sapiens,False
+job_A,7xjj_E,7xjj,E,Cryo-EM structure of the galanin-bound GALR1-miniGo complex,16.6,475,3.06e-08,366,Homo sapiens,False
+job_A,7xou_R,7xou,R,Structural insights into human brain gut peptide cholecystokinin receptors,17.2,482,1.427e-08,366,Homo sapiens,False
+job_A,6pt3_B,6pt3,B,Crystal structure of the active delta opioid receptor in complex with the small molecule agonist DPI-287,17.2,486,2.557e-08,366,Homo sapiens,False
+job_A,8c9w_A,8c9w,A,Crystal structure of the adenosine A2A receptor (construct A2A-PSB2-bRIL) complexed with Etrumadenant at the orthosteric pocket,15.7,496,7.382e-10,366,Homo sapiens,False
+job_A,3pbl_B,3pbl,B,Structure of the human dopamine D3 receptor in complex with eticlopride,17.9,517,5.468e-11,366,Homo sapiens,False
+job_A,8hn1_A,8hn1,A,Cryo-EM structure of AdTx1-alpha1AAR-Nb6,14.4,476,1.286e-07,365,Homo sapiens,False
+job_A,7f83_B,7f83,B,Crystal Structure of a receptor in Complex with inverse agonist,18.4,488,2.63e-10,365,Homo sapiens,False
+job_A,6ps7_A,6ps7,A,XFEL A2aR structure by ligand exchange from LUF5843 to ZM241385.,16.0,504,6.452e-10,365,Homo sapiens,False
+job_A,7dfp_A,7dfp,A,Human dopamine D2 receptor in complex with spiperone,17.7,478,1.323e-09,364,Homo sapiens,False
+job_A,4bwb_A,4bwb,A,Structure of Evolved Agonist-bound Neurotensin Receptor 1 Mutant without Lysozyme Fusion,15.4,498,7.508e-08,364,Rattus norvegicus,False
+job_A,5uen_B,5uen,B,Crystal structure of the human adenosine A1 receptor A1AR-bRIL in complex with the covalent antagonist DU172 at 3.2A resolution,15.9,501,4.713e-10,364,Homo sapiens,False
+job_A,7t10_R,7t10,R,CryoEM structure of somatostatin receptor 2 in complex with somatostatin-14 and Gi3,15.9,482,3.347e-08,364,Homo sapiens,False
+job_A,8pwn_A,8pwn,A,"Structure of A2A adenosine receptor A2AR-StaR2-bRIL, solved at wavelength 2.75 A",14.9,494,5.639e-10,364,Homo sapiens,False
+job_A,4buo_A,4buo,A,High Resolution Structure of Thermostable Agonist-bound Neurotensin Receptor 1 Mutant without Lysozyme Fusion,15.4,497,4.382e-08,363,Rattus norvegicus,False
+job_A,6zdv_A,6zdv,A,Crystal structure of stabilized A2A adenosine receptor A2AR-StaR2-bRIL in complex with Chromone 5d,16.2,505,1.265e-09,363,Homo sapiens,False
+job_A,4buo_B,4buo,B,High Resolution Structure of Thermostable Agonist-bound Neurotensin Receptor 1 Mutant without Lysozyme Fusion,16.2,492,6.863e-08,363,Rattus norvegicus,False
+job_A,7c61_A,7c61,A,Crystal structure of 5-HT1B-BRIL and SRP2070_Fab complex,16.0,480,9.239e-10,363,Homo sapiens,False
+job_A,6jzh_A,6jzh,A,Structure of human A2A adenosine receptor in complex with ZM241385 obtained from SFX experiments under atmospheric pressure,15.4,505,7.058e-10,363,Homo sapiens,False
+job_A,3pbl_A,3pbl,A,Structure of the human dopamine D3 receptor in complex with eticlopride,16.9,525,1.862e-11,363,Homo sapiens,False
+job_A,8h0q_R,8h0q,R,Structure of the GRP14-27-GRPR-Gq complex,14.7,481,1.14e-08,362,Homo sapiens,False
+job_A,5n2r_A,5n2r,A,Crystal structure of stabilized A2A adenosine receptor A2AR-StaR2-bRIL in complex with PSB36 at 2.8A resolution,15.5,494,1.106e-09,362,Homo sapiens,False
+job_A,5jqh_A,5jqh,A,"Structure of beta2 adrenoceptor bound to carazolol and inactive-state stabilizing nanobody, Nb60",16.4,491,2.557e-08,362,Tequatrovirus T4,False
+job_A,3pds_A,3pds,A,Irreversible Agonist-Beta2 Adrenoceptor Complex,19.4,534,1.423e-11,362,Homo sapiens,False
+job_A,5olo_A,5olo,A,Structure of the A2A-StaR2-bRIL562-Tozadenant complex at 3.1A obtained from in meso soaking experiments.,15.9,490,2.167e-09,362,Homo sapiens,False
+job_A,5k2d_A,5k2d,A,1.9A angstrom A2a adenosine receptor structure with MR phasing using XFEL data,16.2,499,9.663e-10,362,unclassified,False
+job_A,7voe_A,7voe,A,Crystal structure of 5-HT2AR in complex with aripiprazole,13.2,490,1.447e-09,360,Homo sapiens,False
+job_A,5wiu_A,5wiu,A,Structure of the human D4 Dopamine receptor in complex with Nemonapride,16.9,485,1.467e-10,360,Homo sapiens,True
+job_A,6wgt_C,6wgt,C,Crystal structure of HTR2A with hallucinogenic agonist,15.3,483,4.308e-10,359,Homo sapiens,False
+job_A,7pyr_A,7pyr,A,Crystal structure of the adenosine A2A receptor (A2A-PSB1-bRIL) in complex with preladenant conjugate PSB-2115,16.7,496,8.833e-10,358,Homo sapiens,False
+job_A,6ds0_A,6ds0,A,Structural Determinants of Activation and Biased Agonism at the 5-HT2B Receptor,16.9,478,2.267e-09,358,Homo sapiens,False
+job_A,7ul3_A,7ul3,A,"CryoEM Structure of Inactive H2R Bound to Famotidine, Nb6M, and NabFab",14.5,474,1.286e-07,358,Homo sapiens,False
+job_A,5v54_B,5v54,B,Crystal structure of 5-HT1B receptor in complex with methiothepin,16.8,481,8.446e-10,358,Homo sapiens,False
+job_A,6ko5_A,6ko5,A,Complex structure of Ghrelin receptor with Fab,15.5,490,1.61e-07,357,Escherichia coli,False
+job_A,2ycz_A,2ycz,A,TURKEY BETA1 ADRENERGIC RECEPTOR WITH STABILISING MUTATIONS AND BOUND ANTAGONIST IODOCYANOPINDOLOL,15.8,497,2.926e-08,357,Meleagris gallopavo,False
+job_A,4ea3_B,4ea3,B,Structure of the N/OFQ Opioid Receptor in Complex with a Peptide Mimetic,15.6,479,4.727e-07,357,Escherichia coli,False
+job_A,8du3_A,8du3,A,Crystal structure of A2AAR-StaR2-bRIL in complex with compound 21a,16.6,500,1.057e-09,356,Homo sapiens,False
+job_A,5iu7_A,5iu7,A,Crystal structure of stabilized A2A adenosine receptor A2AR-StaR2-bRIL in complex with compound 12c at 1.9A resolution,14.6,499,1.156e-09,356,Homo sapiens,False
+job_A,7sbf_R,7sbf,R,PZM21 bound Mu Opioid Receptor-Gi Protein Complex,15.8,473,4.583e-08,354,Escherichia coli,False
+job_A,5k2c_A,5k2c,A,1.9 angstrom A2a adenosine receptor structure with sulfur SAD phasing and phase extension using XFEL data,16.2,504,7.058e-10,354,unclassified,False
+job_A,6wh4_B,6wh4,B,Crystal structure of HTR2A with inverse agonist,15.4,486,1.323e-09,353,Homo sapiens,False
+job_A,6drx_A,6drx,A,Structural Determinants of Activation and Biased Agonism at the 5-HT2B Receptor,14.8,486,1.057e-09,353,Homo sapiens,False
+job_A,5jtb_A,5jtb,A,Crystal structure of the chimeric protein of A2aAR-BRIL with bound iodide ions,16.9,497,2.837e-09,353,Homo sapiens,False
+job_A,7aro_A,7aro,A,Crystal structure of the non-ribose partial agonist LUF5833 bound to the adenosine A2A receptor,15.7,489,5.816e-09,352,Homo sapiens,False
+job_A,6zdr_A,6zdr,A,Crystal structure of stabilized A2A adenosine receptor A2AR-StaR2-bRIL in complex with Chromone 4d,15.3,495,2.593e-09,352,Homo sapiens,False
+job_A,8a2o_A,8a2o,A,Room-temperature structure of the stabilised A2A-Theophylline complex determined by synchrotron serial crystallography,16.8,500,2.479e-09,352,Homo sapiens,False
+job_A,3c48_A,3c48,A,Structure of the retaining glycosyltransferase MshA: The first step in mycothiol biosynthesis. Organism: Corynebacterium glutamicum- APO (OPEN) structure.,26.0,219,8.984e-08,352,Corynebacterium glutamicum,False
+job_A,2ycy_A,2ycy,A,TURKEY BETA1 ADRENERGIC RECEPTOR WITH STABILISING MUTATIONS AND BOUND ANTAGONIST CYANOPINDOLOL,15.6,487,4.006e-08,351,Meleagris gallopavo,False
+job_A,4u15_B,4u15,B,M3-mT4L receptor bound to tiotropium,17.8,499,4.713e-10,351,Rattus norvegicus,False
+job_A,6b73_B,6b73,B,Crystal Structure of a nanobody-stabilized active state of the kappa-opioid receptor,16.5,471,5.999e-08,351,Escherichia coli,False
+job_A,6b73_A,6b73,A,Crystal Structure of a nanobody-stabilized active state of the kappa-opioid receptor,16.4,475,7.178e-08,351,Escherichia coli,False
+job_A,7w2z_R,7w2z,R,Cryo-EM structure of the ghrelin-bound human ghrelin receptor-Go complex,15.2,484,7.178e-08,350,Homo sapiens,False
+job_A,6za8_AAA,6za8,AAA,Crystal structure of the neurotensin receptor 1 in complex with the small-molecule partial agonist RTI-3a,15.4,485,1.407e-07,349,Rattus norvegicus,False
+job_A,3zpr_A,3zpr,A,Thermostabilised turkey beta1 adrenergic receptor with 4-methyl-2-(piperazin-1-yl) quinoline bound,15.3,490,1.684e-07,348,Meleagris gallopavo,False
+job_A,7vod_A,7vod,A,Crystal structure of 5-HT2AR in complex with cariprazine,13.5,479,6.083e-09,348,Homo sapiens,False
+job_A,7xow_R,7xow,R,Structural insights into human brain gut peptide cholecystokinin receptors,16.8,474,2.015e-07,348,Homo sapiens,False
+job_A,6wgt_A,6wgt,A,Crystal structure of HTR2A with hallucinogenic agonist,13.9,503,6.748e-10,348,Homo sapiens,False
+job_A,7x9c_R,7x9c,R,Cryo-EM structure of neuropeptide Y Y4 receptor in complex with PP and Gi,15.9,489,8.213e-08,348,Homo sapiens,False
+job_A,5dhg_B,5dhg,B,The crystal structure of nociceptin/orphanin FQ peptide receptor (NOP) in complex with C-35 (PSI Community Target),15.7,482,4.943e-07,347,Escherichia coli,False
+job_A,7wig_R,7wig,R,"Cryo-EM structure of the L-054,264-bound human SSTR2-Gi1 complex",14.6,477,9.396e-08,347,Homo sapiens,False
+job_A,8iy5_R,8iy5,R,ETB-Gi complex bound to endothelin-1,14.5,494,8.984e-08,347,Homo sapiens,False
+job_A,8cu6_A,8cu6,A,"Crystal structure of A2AAR-StaR2-S277-bRIL in complex with a novel A2a antagonist, LJ-4517",16.7,495,1.209e-09,347,Homo sapiens,False
+job_A,8dzp_A,8dzp,A,momSalB bound Kappa Opioid Receptor in complex with Gi1,16.5,465,8.213e-08,347,Homo sapiens,False
+job_A,5uen_A,5uen,A,Crystal structure of the human adenosine A1 receptor A1AR-bRIL in complex with the covalent antagonist DU172 at 3.2A resolution,16.3,496,1.011e-09,347,Homo sapiens,False
+job_A,6dry_A,6dry,A,Structural Determinants of Activation and Biased Agonism at the 5-HT2B Receptor,16.0,479,9.239e-10,347,Homo sapiens,False
+job_A,6pt2_B,6pt2,B,Crystal structure of the active delta opioid receptor in complex with the peptide agonist KGCHM07,25.8,201,6.562e-08,347,Homo sapiens,False
+job_A,2y00_B,2y00,B,TURKEY BETA1 ADRENERGIC RECEPTOR WITH STABILISING MUTATIONS AND BOUND PARTIAL AGONIST DOBUTAMINE (CRYSTAL DOB92),15.9,488,4.189e-08,345,Meleagris gallopavo,False
+job_A,7sus_A,7sus,A,Crystal structure of Apelin receptor in complex with small molecule,15.7,490,1.786e-08,345,Homo sapiens,False
+job_A,4ib4_A,4ib4,A,Crystal structure of the chimeric protein of 5-HT2B-BRIL in complex with ergotamine,16.2,486,8.075e-10,345,Homo sapiens,False
+job_A,2r4t_A,2r4t,A,Crystal Structure of Wild-type E.coli GS in Complex with ADP and Glucose(wtGSc),22.6,274,2.137e-08,345,unclassified,True
+job_A,4ami_A,4ami,A,Turkey beta1 adrenergic receptor with stabilising mutations and bound biased agonist bucindolol,15.7,489,1.345e-07,343,Meleagris gallopavo,False
+job_A,6kux_A,6kux,A,Crystal structures of the alpha2A adrenergic receptor in complex with an antagonist RSC.,15.5,490,7.058e-10,342,Homo sapiens,True
+job_A,6yvr_BBB,6yvr,BBB,Crystal structure of the neurotensin receptor 1 in complex with the peptide full agonist NTS8-13,14.8,498,6.863e-08,342,Rattus norvegicus,False
+job_A,6dde_R,6dde,R,Mu Opioid Receptor-Gi Protein Complex,15.5,476,6.274e-08,341,Mus musculus,False
+job_A,2y03_A,2y03,A,TURKEY BETA1 ADRENERGIC RECEPTOR WITH STABILISING MUTATIONS AND BOUND AGONIST ISOPRENALINE,16.0,485,7.178e-08,341,Meleagris gallopavo,False
+job_A,7xms_R,7xms,R,CryoEM structure of somatostatin receptor 4 (SSTR4) in complex with Gi1 and its endogeneous ligand SST-14,16.5,476,7.852e-08,340,Homo sapiens,False
+job_A,4amj_A,4amj,A,Turkey beta1 adrenergic receptor with stabilising mutations and bound biased agonist carvedilol,16.1,488,1.472e-07,340,Meleagris gallopavo,False
+job_A,7f8v_R,7f8v,R,Cryo-EM structure of the cholecystokinin receptor CCKBR in complex with gastrin-17 and Gi,27.1,195,4.321e-07,339,Homo sapiens,False
+job_A,4bvn_A,4bvn,A,Ultra-thermostable beta1-adrenoceptor with cyanopindolol bound,15.3,495,8.984e-08,339,Meleagris gallopavo,False
+job_A,7vla_R,7vla,R,Cryo-EM structure of the CCL15(27-92) bound CCR1-Gi complex,25.7,198,2.107e-07,339,Homo sapiens,False
+job_A,4bv0_A,4bv0,A,High Resolution Structure of Evolved Agonist-bound Neurotensin Receptor 1 Mutant without Lysozyme Fusion,15.6,497,1.926e-07,338,Rattus norvegicus,False
+job_A,6gnf_C,6gnf,C,Granule Bound Starch Synthase from Cyanobacterium sp. CLg1 bound to acarbose and ADP,24.0,262,2.557e-08,337,Cyanobacterium sp. CLg1,False
+job_A,7w55_R,7w55,R,Cryo-EM structure of the neuromedin U-bound neuromedin U receptor 2-Gq protein complex,16.8,486,9.396e-08,337,Homo sapiens,False
+job_A,7c6a_A,7c6a,A,Crystal structure of AT2R-BRIL and SRP2070_Fab complex,15.9,477,9.663e-10,337,Homo sapiens,False
+job_A,6z8n_AAA,6z8n,AAA,Crystal structure of the neurotensin receptor 1 in complex with the small-molecule full agonist SRI-9829,17.5,490,5.999e-08,337,Rattus norvegicus,False
+job_A,4nc3_A,4nc3,A,Crystal structure of the 5-HT2B receptor solved using serial femtosecond crystallography in lipidic cubic phase.,14.6,484,3.713e-09,337,Homo sapiens,False
+job_A,5v54_A,5v54,A,Crystal structure of 5-HT1B receptor in complex with methiothepin,14.6,483,5.317e-09,336,Homo sapiens,False
+job_A,6z66_AAA,6z66,AAA,Crystal structure of apo-state neurotensin receptor 1,15.8,485,1.286e-07,336,Rattus norvegicus,False
+job_A,6gnf_B,6gnf,B,Granule Bound Starch Synthase from Cyanobacterium sp. CLg1 bound to acarbose and ADP,24.0,262,2.675e-08,336,Cyanobacterium sp. CLg1,False
+job_A,6wh4_A,6wh4,A,Crystal structure of HTR2A with inverse agonist,13.4,497,2.837e-09,335,Homo sapiens,False
+job_A,5tud_A,5tud,A,Structural Insights into the Extracellular Recognition of the Human Serotonin 2B Receptor by an Antibody,16.0,485,1.894e-09,334,Homo sapiens,False
+job_A,7y1f_R,7y1f,R,Cryo-EM structure of human k-opioid receptor-Gi complex,15.9,476,2.411e-07,333,Homo sapiens,False
+job_A,6drz_A,6drz,A,Structural Determinants of Activation and Biased Agonism at the 5-HT2B Receptor,15.9,490,2.072e-09,333,Homo sapiens,False
+job_A,8sg1_R,8sg1,R,Cryo-EM structure of CMKLR1 signaling complex,23.7,198,4.943e-07,331,Homo sapiens,False
+job_A,5a8e_A,5a8e,A,thermostabilised beta1-adrenoceptor with rationally designed inverse agonist 7-methylcyanopindolol bound,15.4,491,1.407e-07,331,Meleagris gallopavo,False
+job_A,6wh4_C,6wh4,C,Crystal structure of HTR2A with inverse agonist,15.0,486,2.479e-09,331,Homo sapiens,False
+job_A,5dsg_A,5dsg,A,Structure of the M4 muscarinic acetylcholine receptor (M4-mT4L) bound to tiotropium,16.5,507,1.981e-09,331,Homo sapiens,False
+job_A,5zhp_B,5zhp,B,M3 muscarinic acetylcholine receptor in complex with a selective antagonist,15.6,506,1.811e-09,331,Rattus norvegicus,False
+job_A,7ezc_A,7ezc,A,Adenosine A2a receptor mutant-I92N,16.5,483,2.479e-09,330,Homo sapiens,False
+job_A,7w57_R,7w57,R,Cryo-EM structure of the neuromedin S-bound neuromedin U receptor 2-Gq protein complex,16.7,484,9.827e-08,329,Homo sapiens,False
+job_A,5tud_D,5tud,D,Structural Insights into the Extracellular Recognition of the Human Serotonin 2B Receptor by an Antibody,15.9,482,1.981e-09,329,Homo sapiens,False
+job_A,5jqh_B,5jqh,B,"Structure of beta2 adrenoceptor bound to carazolol and inactive-state stabilizing nanobody, Nb60",16.3,488,2.107e-07,329,Tequatrovirus T4,False
+job_A,8jwy_A,8jwy,A,Crystal structure of A2AR-T4L in complex with 2-118,16.7,520,4.308e-10,329,Homo sapiens,False
+job_A,7ezc_B,7ezc,B,Adenosine A2a receptor mutant-I92N,16.3,494,1.981e-09,328,Homo sapiens,False
+job_A,6luq_A,6luq,A,Haloperidol bound D2 dopamine receptor structure inspired discovery of subtype selective ligands,18.1,522,3.6e-10,328,Homo sapiens,False
+job_A,5gli_A,5gli,A,Human endothelin receptor type-B in the ligand-free form,17.1,506,1.894e-09,328,Homo sapiens,False
+job_A,7dhi_R,7dhi,R,Cryo-EM structure of the partial agonist salbutamol-bound beta2 adrenergic receptor-Gs protein complex.,17.0,492,6.562e-08,327,Homo sapiens,False
+job_A,7l0s_C,7l0s,C,"Structure of NTS-NTSR1-Gi complex in lipid nanodisc, noncanonical state, with AHD",15.6,493,9.827e-08,327,Rattus norvegicus,False
+job_A,3c4q_B,3c4q,B,Structure of the retaining glycosyltransferase MshA : The first step in mycothiol biosynthesis. Organism : Corynebacterium glutamicum- Complex with UDP,26.2,217,2.305e-07,327,Corynebacterium glutamicum,False
+job_A,4grv_A,4grv,A,The crystal structure of the neurotensin receptor NTS1 in complex with neurotensin (8-13),19.8,534,3.009e-10,327,Rattus norvegicus,False
+job_A,7e32_R,7e32,R,Serotonin 1D (5-HT1D) receptor-Gi protein complex,14.6,483,7.852e-08,326,Escherichia coli,False
+job_A,6os9_R,6os9,R,human Neurotensin Receptor 1 (hNTSR1) - Gi1 Protein Complex in canonical conformation (C state),15.2,499,1.407e-07,326,Homo sapiens,False
+job_A,7xov_R,7xov,R,Structural insights into human brain gut peptide cholecystokinin receptors,16.4,492,1.926e-07,325,Homo sapiens,False
+job_A,8gng_A,8gng,A,Crystal structure of human adenosine A2A receptor in complex with istradefylline.,14.3,481,9.691e-07,325,Homo sapiens,False
+job_A,7na7_R,7na7,R,Structures of human ghrelin receptor-Gi complexes with ghrelin and a synthetic agonist,14.8,492,5.408e-07,325,Homo sapiens,False
+job_A,3d1j_A,3d1j,A,Crystal Structure of E.coli GS mutant dmGS(C7S;C408S),22.6,274,5.484e-08,325,Escherichia coli,False
+job_A,6me9_B,6me9,B,XFEL crystal structure of human melatonin receptor MT2 in complex with ramelteon,17.5,480,3.777e-07,325,Escherichia coli,False
+job_A,6li1_A,6li1,A,Crystal structure of GPR52 ligand free form with flavodoxin fusion,14.4,520,2.514e-10,324,Homo sapiens,True
+job_A,4hln_A,4hln,A,Structure of barley starch synthase I in complex with maltooligosaccharide,24.8,237,1.761e-07,324,Hordeum vulgare,False
+job_A,7ymj_A,7ymj,A,Cryo-EM structure of alpha1AAR-Nb6 complex bound to tamsulosin,13.6,475,3.301e-07,323,Homo sapiens,False
+job_A,4bv0_B,4bv0,B,High Resolution Structure of Evolved Agonist-bound Neurotensin Receptor 1 Mutant without Lysozyme Fusion,15.4,497,3.301e-07,323,Rattus norvegicus,False
+job_A,6c1q_B,6c1q,B,Crystal structure of human C5a receptor in complex with an orthosteric antagonist PMX53 and an allosteric antagonist NDT9513727,26.2,198,6.768e-07,323,Escherichia coli,False
+job_A,8dzq_A,8dzq,A,momSalB bound Kappa Opioid Receptor in complex with GoA,16.2,479,1.684e-07,322,Homo sapiens,False
+job_A,6me6_B,6me6,B,XFEL crystal structure of human melatonin receptor MT2 in complex with 2-phenylmelatonin,16.4,480,3.611e-07,322,Escherichia coli,False
+job_A,6ol9_A,6ol9,A,Structure of the M5 muscarinic acetylcholine receptor (M5-T4L) bound to tiotropium,15.7,513,1.656e-09,322,Homo sapiens,True
+job_A,6knm_B,6knm,B,Apelin receptor in complex with single domain antibody,16.4,497,3.06e-08,321,Homo sapiens,False
+job_A,6kuy_A,6kuy,A,Crystal structure of the alpha2A adrenergic receptor in complex with a partial agonist,14.9,488,2.267e-09,321,Homo sapiens,False
+job_A,6igl_A,6igl,A,Crystal Structure of human ETB receptor in complex with IRL1620,16.3,551,8.446e-10,319,Homo sapiens,False
+job_A,4bwb_B,4bwb,B,Structure of Evolved Agonist-bound Neurotensin Receptor 1 Mutant without Lysozyme Fusion,16.2,497,4.943e-07,319,Rattus norvegicus,False
+job_A,5dsg_B,5dsg,B,Structure of the M4 muscarinic acetylcholine receptor (M4-mT4L) bound to tiotropium,16.1,509,4.647e-09,319,Homo sapiens,False
+job_A,5t1a_A,5t1a,A,Structure of CC Chemokine Receptor 2 with Orthosteric and Allosteric Antagonists,17.5,530,8.075e-10,319,Homo sapiens,True
+job_A,3vga_A,3vga,A,Crystal structure of human adenosine A2A receptor with an allosteric inverse-agonist antibody at 3.1 A resolution,14.2,477,3.777e-07,319,Homo sapiens,False
+job_A,8ic0_A,8ic0,A,Cryo-EM structure of CXCL8 bound C-X-C chemokine receptor 1 in complex with Gi heterotrimer,23.7,206,4.727e-07,319,Homo sapiens,False
+job_A,7xbw_R,7xbw,R,Cryo-EM structure of the human chemokine receptor CX3CR1 in complex with Gi1,15.6,480,8.47e-07,318,Homo sapiens,False
+job_A,5zk8_A,5zk8,A,Crystal structure of M2 muscarinic acetylcholine receptor bound with NMS,15.0,499,1.193e-08,318,Homo sapiens,False
+job_A,6c1r_B,6c1r,B,Crystal structure of human C5a receptor in complex with an orthosteric antagonist PMX53 and an allosteric antagonist avacopan,26.0,200,8.47e-07,318,Escherichia coli,False
+job_A,5zkb_A,5zkb,A,Crystal structure of rationally thermostabilized M2 muscarinic acetylcholine receptor bound with AF-DX 384,16.0,492,1.042e-08,318,Homo sapiens,False
+job_A,6me8_B,6me8,B,XFEL crystal structure of human melatonin receptor MT2 (N86D) in complex with 2-phenylmelatonin,16.4,480,5.17e-07,318,Escherichia coli,False
+job_A,6z4s_AAA,6z4s,AAA,Crystal structure of the neurotensin receptor 1 (NTSR1-H4bmx) in complex with the small molecule inverse agonist SR48692,14.7,481,1.16e-06,318,Rattus norvegicus,False
+job_A,8u1u_A,8u1u,A,Structure of a class A GPCR/agonist complex,19.5,189,9.691e-07,317,Homo sapiens,False
+job_A,7f8w_R,7f8w,R,Cryo-EM structure of the cholecystokinin receptor CCKBR in complex with gastrin-17 and Gq,27.1,195,1.327e-06,316,Homo sapiens,False
+job_A,6h7o_B,6h7o,B,ACTIVATED TURKEY BETA1 ADRENOCEPTOR WITH BOUND WEAK PARTIAL AGONIST CYANOPINDOLOL AND NANOBODY Nb6B9,16.6,493,2.522e-07,315,Meleagris gallopavo,False
+job_A,7qsg_B,7qsg,B,Methylmannose polysaccharide mannosyltransferase from M. hassiacum,23.6,211,9.266e-07,315,Mycolicibacterium hassiacum,False
+job_A,7xav_A,7xav,A,Structure of somatostatin receptor 2 bound with lanreotide.,15.7,483,6.471e-07,315,Homo sapiens,False
+job_A,5zkc_A,5zkc,A,Crystal structure of rationally thermostabilized M2 muscarinic acetylcholine receptor bound with NMS,15.0,497,6.362e-09,315,Homo sapiens,False
+job_A,6k1q_A,6k1q,A,Human endothelin receptor type-B in complex with inverse agonist IRL2500,16.9,508,3.55e-09,315,Homo sapiens,False
+job_A,6os0_A,6os0,A,Structure of synthetic nanobody-stabilized angiotensin II type 1 receptor bound to angiotensin II,16.1,507,7.613e-09,315,Homo sapiens,False
+job_A,5i45_A,5i45,A,1.35 Angstrom Crystal Structure of C-terminal Domain of Glycosyl Transferase Group 1 Family Protein (LpcC) from Francisella tularensis.,22.7,207,3.452e-07,314,Francisella tularensis subsp. tularensis SCHU S4,True
+job_A,6h7n_A,6h7n,A,ACTIVATED TURKEY BETA1 ADRENOCEPTOR WITH BOUND PARTIAL AGONIST XAMOTEROL AND NANOBODY Nb6B9,15.6,485,1.926e-07,314,Meleagris gallopavo,False
+job_A,6ibl_A,6ibl,A,ACTIVATED TURKEY BETA1 ADRENOCEPTOR WITH BOUND AGONIST FORMOTEROL AND NANOBODY Nb80,15.0,484,2.204e-07,313,Escherichia coli K-12,False
+job_A,4n9w_A,4n9w,A,Crystal structure of phosphatidyl mannosyltransferase PimA,22.2,216,4.727e-07,312,Mycolicibacterium smegmatis MC2 155,False
+job_A,4xsu_B,4xsu,B,Crystal structure of Anabaena Alr3699/HepE in complex with UDP and glucose,20.3,221,3.301e-07,312,Nostoc sp. PCC 7120 = FACHB-418,False
+job_A,4xee_A,4xee,A,Structure of active-like neurotensin receptor,17.2,493,2.411e-07,312,Rattus norvegicus,False
+job_A,7k15_A,7k15,A,Crystal structure of the Human Leukotriene B4 Receptor 1 in Complex with Selective Antagonist MK-D-046,17.2,504,5.898e-10,311,Homo sapiens,True
+job_A,3c4q_A,3c4q,A,Structure of the retaining glycosyltransferase MshA : The first step in mycothiol biosynthesis. Organism : Corynebacterium glutamicum- Complex with UDP,26.0,223,5.17e-07,311,Corynebacterium glutamicum,False
+job_A,4daj_B,4daj,B,Structure of the M3 Muscarinic Acetylcholine Receptor,16.6,533,2.514e-10,311,Rattus norvegicus,False
+job_A,6h7j_B,6h7j,B,ACTIVATED TURKEY BETA1 ADRENOCEPTOR WITH BOUND AGONIST ISOPRENALINE AND NANOBODY Nb80,15.7,488,4.321e-07,310,Meleagris gallopavo,False
+job_A,6wgt_B,6wgt,B,Crystal structure of HTR2A with hallucinogenic agonist,15.0,491,2.338e-08,310,Homo sapiens,False
+job_A,5cxv_A,5cxv,A,Structure of the human M1 muscarinic acetylcholine receptor bound to antagonist Tiotropium,15.8,518,2.072e-09,310,Homo sapiens,False
+job_A,7y27_E,7y27,E,Cryo-EM structure of the SST-14-bound SSTR2-miniGq-scFv16 complex,24.1,199,6.471e-07,309,Homo sapiens,False
+job_A,7o7f_C,7o7f,C,Structural basis of the activation of the CC chemokine receptor 5 by a chemokine agonist,21.4,196,1.327e-06,309,Homo sapiens,False
+job_A,7xbx_R,7xbx,R,Cryo-EM structure of the human chemokine receptor CX3CR1 in complex with CX3CL1 and Gi1,15.2,491,5.656e-07,309,Homo sapiens,False
+job_A,5d00_B,5d00,B,Crystal structure of BshA from B. subtilis complexed with N-acetylglucosaminyl-malate and UMP,23.5,200,1.124e-07,309,Bacillus subtilis subsp. subtilis str. 168,False
+job_A,8j6d_C,8j6d,C,Structure of EP141-C3aR-Go complex,13.7,480,7.743e-07,308,Homo sapiens,False
+job_A,6tko_A,6tko,A,Phosphorylated turkey beta1 adrenoceptor with bound agonist formoterol coupled to arrestin-2 in lipid nanodisc.,15.3,488,3.95e-07,308,Meleagris gallopavo,False
+job_A,6me9_A,6me9,A,XFEL crystal structure of human melatonin receptor MT2 in complex with ramelteon,18.0,499,1.124e-07,308,Escherichia coli,False
+job_A,6rz8_A,6rz8,A,Crystal structure of the human cysteinyl leukotriene receptor 2 in complex with ONO-2080365,14.1,482,1.708e-08,308,Homo sapiens,True
+job_A,7yae_E,7yae,E,Octreotide-bound SSTR2-Gi complex,15.4,474,5.17e-07,308,Homo sapiens,False
+job_A,8e9y_A,8e9y,A,CryoEM structure of miniGq-coupled hM3Dq in complex with CNO,14.3,481,8.859e-07,307,Homo sapiens,False
+job_A,7sk3_A,7sk3,A,"Cryo-EM structure of ACKR3 in complex with CXCL12, an intracellular Fab, and an extracellular Fab",24.1,211,6.187e-07,307,Homo sapiens,False
+job_A,5t04_A,5t04,A,STRUCTURE OF CONSTITUTIVELY ACTIVE NEUROTENSIN RECEPTOR,18.3,523,1.656e-09,307,Rattus norvegicus,False
+job_A,5f8u_B,5f8u,B,Ligand occupancy in crystal structure of beta1-adrenergic receptor previously submitted by Huang et al,16.7,497,7.743e-07,307,Meleagris gallopavo,False
+job_A,5d00_A,5d00,A,Crystal structure of BshA from B. subtilis complexed with N-acetylglucosaminyl-malate and UMP,23.3,201,1.472e-07,307,Bacillus subtilis subsp. subtilis str. 168,False
+job_A,5tgz_A,5tgz,A,Crystal Structure of the Human Cannabinoid Receptor CB1,17.0,522,5.155e-10,306,Homo sapiens,True
+job_A,7xmt_R,7xmt,R,CryoEM structure of somatostatin receptor 4 (SSTR4) with Gi1 and J-2156,15.9,477,3.777e-07,306,Homo sapiens,False
+job_A,8fn1_A,8fn1,A,CryoEM structure of Go-coupled NTSR1,24.5,212,1.9e-06,306,Rattus norvegicus,False
+job_A,4qkx_A,4qkx,A,Structure of beta2 adrenoceptor bound to a covalent agonist and an engineered nanobody,15.9,489,4.943e-07,306,Tequatrovirus T4,False
+job_A,8dcs_R,8dcs,R,Cryo-EM structure of cyanopindolol-bound beta1-adrenergic receptor in complex with heterotrimeric Gs-protein,15.7,484,5.408e-07,305,Meleagris gallopavo,False
+job_A,6lfo_R,6lfo,R,Cryo-EM structure of a class A GPCR monomer,25.0,196,1.451e-06,305,Homo sapiens,False
+job_A,6n1x_A,6n1x,A,BshA from Staphylococcus aureus complexed with UDP and N-acetylglucosamine,23.6,211,1.842e-07,305,Staphylococcus aureus subsp. aureus CN1,True
+job_A,6gne_A,6gne,A,Catalytic domain of Starch Synthase IV from Arabidopsis thaliana bound to ADP and acarbose,22.7,242,6.187e-07,305,Arabidopsis thaliana,False
+job_A,2z73_A,2z73,A,Crystal structure of squid rhodopsin,13.7,486,4.131e-07,304,unclassified,False
+job_A,6bqg_A,6bqg,A,Crystal structure of 5-HT2C in complex with ergotamine,15.3,488,5.561e-09,304,Homo sapiens,True
+job_A,5o9h_B,5o9h,B,Crystal structure of thermostabilised human C5a anaphylatoxin chemotactic receptor 1 (C5aR) in complex with NDT9513727,23.2,228,6.187e-07,304,Homo sapiens,False
+job_A,3oka_A,3oka,A,Crystal structure of Corynebacterium glutamicum PimB' in complex with GDP-Man (triclinic crystal form),21.0,204,1.388e-06,304,Corynebacterium glutamicum,False
+job_A,7w0n_R,7w0n,R,Cryo-EM structure of a dimeric GPCR-Gi complex with peptide,14.9,481,1.842e-07,303,Escherichia coli,False
+job_A,7y26_E,7y26,E,Cryo-EM structure of the octreotide-bound SSTR2-miniGq-scFv16 complex,15.0,478,8.098e-07,303,Homo sapiens,False
+job_A,7bvq_B,7bvq,B,Structure of human beta1 adrenergic receptor bound to carazolol,14.6,483,6.768e-07,303,Tequatrovirus T4,False
+job_A,5xjm_A,5xjm,A,Complex structure of angiotensin II type 2 receptor with Fab,16.6,474,1.042e-08,303,Homo sapiens,False
+job_A,6tvp_B,6tvp,B,Structure of Mycobacterium smegmatis alpha-maltose-1-phosphate synthase GlgM,22.3,228,8.098e-07,302,Mycolicibacterium smegmatis MC2 155,False
+job_A,7sk5_A,7sk5,A,Cryo-EM structure of ACKR3 in complex with CXCL12 and an intracellular Fab,23.9,221,3.301e-07,302,Homo sapiens,False
+job_A,8hk3_C,8hk3,C,C3aR-Gi-apo protein complex,14.4,479,8.098e-07,302,Homo sapiens,False
+job_A,8fmz_A,8fmz,A,Neurotensin receptor allosterism revealed in complex with a biased allosteric modulator,26.3,205,8.098e-07,302,Rattus norvegicus,False
+job_A,7na8_R,7na8,R,Structures of human ghrelin receptor-Gi complexes with ghrelin and a synthetic agonist,15.0,492,7.743e-07,302,Homo sapiens,False
+job_A,3oe8_B,3oe8,B,Crystal structure of the CXCR4 chemokine receptor in complex with a small molecule antagonist IT1t in P1 spacegroup,17.9,508,2.167e-09,302,Homo sapiens,False
+job_A,6me8_A,6me8,A,XFEL crystal structure of human melatonin receptor MT2 (N86D) in complex with 2-phenylmelatonin,18.1,490,1.407e-07,302,Escherichia coli,False
+job_A,8jwz_A,8jwz,A,Crystal structure of A2AR-T4L in complex with AB928,16.6,530,5.084e-09,302,Homo sapiens,True
+job_A,6e67_A,6e67,A,Structure of beta2 adrenergic receptor fused to a Gs peptide,17.1,553,6.748e-10,301,Homo sapiens,False
+job_A,6lry_A,6lry,A,Crystal structure of human endothelin ETB receptor in complex with sarafotoxin S6b,17.6,550,1.583e-09,301,Homo sapiens,False
+job_A,6me7_B,6me7,B,XFEL crystal structure of human melatonin receptor MT2 (H208A) in complex with 2-phenylmelatonin,16.4,480,1.737e-06,300,Escherichia coli,False
+job_A,6h7n_B,6h7n,B,ACTIVATED TURKEY BETA1 ADRENOCEPTOR WITH BOUND PARTIAL AGONIST XAMOTEROL AND NANOBODY Nb6B9,16.5,489,6.471e-07,300,Meleagris gallopavo,False
+job_A,6mxt_A,6mxt,A,Crystal structure of human beta2 adrenergic receptor bound to salmeterol and Nb71,15.9,489,5.915e-07,300,Tequatrovirus T4,False
+job_A,8i9s_C,8i9s,C,Structure of Apo-C3aR-Go complex (Titan),13.3,480,1.16e-06,300,Homo sapiens,False
+job_A,8dzs_A,8dzs,A,"GR89,696 bound Kappa Opioid Receptor in complex with Gz",25.0,228,4.131e-07,299,Homo sapiens,False
+job_A,7ykd_A,7ykd,A,Cryo-EM structure of the human chemerin receptor 1 complex with the C-terminal nonapeptide of chemerin,23.2,198,3.255e-06,299,Homo sapiens,False
+job_A,6omm_R,6omm,R,Cryo-EM structure of formyl peptide receptor 2/lipoxin A4 receptor in complex with Gi,15.4,492,4.943e-07,299,Homo sapiens,False
+job_A,7wvy_R,7wvy,R,Cryo-EM structure of the human formyl peptide receptor 2 in complex with Abeta42 and Gi2,15.6,492,3.777e-07,299,Homo sapiens,False
+job_A,3mbo_F,3mbo,F,Crystal Structure of the Glycosyltransferase BaBshA bound with UDP and L-malate,23.0,213,8.859e-07,299,Bacillus anthracis,False
+job_A,7xn9_A,7xn9,A,"Crystal structure of SSTR2 and L-054,522 complex",15.3,593,9.528e-09,299,Homo sapiens,True
+job_A,7jvr_R,7jvr,R,Cryo-EM structure of Bromocriptine-bound dopamine receptor 2 in complex with Gi protein,15.0,477,1.327e-06,298,Escherichia coli,False
+job_A,3p0g_A,3p0g,A,Structure of a nanobody-stabilized active state of the beta2 adrenoceptor,15.3,489,1.269e-06,298,Homo sapiens,False
+job_A,7xna_A,7xna,A,Crystal structure of somatostatin receptor 2 (SSTR2) with peptide antagonist CYN 154806,14.8,592,1.193e-08,298,Homo sapiens,False
+job_A,8ia8_A,8ia8,A,Cryo-EM structure of C3aR-Gi-scFv16 bound with E7 peptide,13.9,482,1.588e-06,298,Homo sapiens,False
+job_A,5o9h_A,5o9h,A,Crystal structure of thermostabilised human C5a anaphylatoxin chemotactic receptor 1 (C5aR) in complex with NDT9513727,23.2,228,7.403e-07,298,Homo sapiens,False
+job_A,8ibv_R,8ibv,R,Cryo-EM structure of the motilin-bound motilin receptor-Gq protein complex,16.0,491,4.943e-07,297,Escherichia coli,False
+job_A,6rz7_A,6rz7,A,Crystal structure of the human cysteinyl leukotriene receptor 2 in complex with ONO-2570366 (F222 space group),13.7,488,3.06e-08,297,Homo sapiens,False
+job_A,6wjc_A,6wjc,A,Muscarinic acetylcholine receptor 1 - muscarinic toxin 7 complex,15.1,535,2.967e-09,297,Homo sapiens,False
+job_A,7w0n_Q,7w0n,Q,Cryo-EM structure of a dimeric GPCR-Gi complex with peptide,15.4,487,2.107e-07,296,Escherichia coli,False
+job_A,5d01_A,5d01,A,Crystal structure of BshA from B. subtilis complexed with N-acetylglucosaminyl-malate,22.3,201,4.321e-07,296,Bacillus subtilis subsp. subtilis str. 168,False
+job_A,7f2o_R,7f2o,R,Cryo-EM structure of the type 2 bradykinin receptor in complex with the bradykinin and an Gq protein,14.7,489,1.451e-06,295,Homo sapiens,False
+job_A,8w8b_R,8w8b,R,Cryo-EM structure of SEP-363856 bounded serotonin 1A (5-HT1A) receptor-Gi protein complex,14.6,478,5.408e-07,295,Escherichia coli,False
+job_A,6os2_A,6os2,A,Structure of synthetic nanobody-stabilized angiotensin II type 1 receptor bound to TRV026,16.6,493,5.735e-08,295,Homo sapiens,False
+job_A,4u14_A,4u14,A,Structure of the M3 muscarinic acetylcholine receptor bound to the antagonist tiotropium crystallized with disulfide-stabilized T4 lysozyme (dsT4L),16.9,524,3.103e-09,295,Rattus norvegicus,True
+job_A,7ym8_A,7ym8,A,Cryo-EM structure of Nb29-alpha1AAR-miniGsq complex bound to oxymetazoline,13.5,481,6.187e-07,295,Homo sapiens,False
+job_A,6tvp_A,6tvp,A,Structure of Mycobacterium smegmatis alpha-maltose-1-phosphate synthase GlgM,24.6,227,3.301e-07,295,Mycolicibacterium smegmatis MC2 155,False
+job_A,6me7_A,6me7,A,XFEL crystal structure of human melatonin receptor MT2 (H208A) in complex with 2-phenylmelatonin,17.5,495,1.539e-07,295,Escherichia coli,False
+job_A,8gng_X,8gng,X,Crystal structure of human adenosine A2A receptor in complex with istradefylline.,14.0,477,4.875e-06,294,Homo sapiens,False
+job_A,7xat_A,7xat,A,Structure of somatostatin receptor 2 bound with SST14.,16.1,482,1.16e-06,294,Homo sapiens,False
+job_A,6do1_B,6do1,B,Structure of nanobody-stabilized angiotensin II type 1 receptor bound to S1I8,24.7,202,4.074e-06,294,Homo sapiens,False
+job_A,6rz9_A,6rz9,A,Crystal structure of the human cysteinyl leukotriene receptor 2 in complex with ONO-2770372,14.2,476,6.562e-08,294,Homo sapiens,False
+job_A,3oe9_A,3oe9,A,Crystal structure of the chemokine CXCR4 receptor in complex with a small molecule antagonist IT1t in P1 spacegroup,17.0,503,7.279e-09,293,Homo sapiens,False
+job_A,7f1q_R,7f1q,R,Cryo-EM structure of the chemokine receptor CCR5 in complex with MIP-1a and Gi,20.8,197,2.378e-06,293,Homo sapiens,False
+job_A,7w53_R,7w53,R,Cryo-EM structure of the neuromedin U-bound neuromedin U receptor 1-Gq protein complex,28.2,191,1.737e-06,293,Homo sapiens,False
+job_A,8hk2_A,8hk2,A,C3aR-Gi-C3a protein complex,14.4,479,2.078e-06,293,Homo sapiens,False
+job_A,7xw9_R,7xw9,R,Cryo-EM structure of the TRH-bound human TRHR-Gq complex,23.5,200,2.078e-06,293,Homo sapiens,False
+job_A,6z4v_AAA,6z4v,AAA,Crystal structure of the neurotensin receptor 1 (NTSR1-H4bmx) in complex with NTS8-13,16.3,489,1.213e-06,293,Rattus norvegicus,False
+job_A,6gnf_A,6gnf,A,Granule Bound Starch Synthase from Cyanobacterium sp. CLg1 bound to acarbose and ADP,21.5,343,2.137e-08,293,Cyanobacterium sp. CLg1,False
+job_A,5xr8_A,5xr8,A,Crystal structure of the human CB1 in complex with agonist AM841,16.6,529,8.446e-10,293,Homo sapiens,False
+job_A,8fn0_A,8fn0,A,CryoEM structure of Go-coupled NTSR1 with a biased allosteric modulator,24.5,212,1.327e-06,293,Rattus norvegicus,False
+job_A,7sk7_A,7sk7,A,"Cryo-EM structure of human ACKR3 in complex with CXCL12, a small molecule partial agonist CCX662, and an extracellular Fab",25.5,200,1.66e-06,292,Homo sapiens,False
+job_A,4ug2_B,4ug2,B,Thermostabilised HUMAN A2a Receptor with CGS21680 bound,14.7,476,1.06e-06,292,Homo sapiens,False
+job_A,8h0p_R,8h0p,R,Structure of the NMB30-NMBR and Gq complex,14.6,485,1.987e-06,292,Homo sapiens,False
+job_A,3mbo_H,3mbo,H,Crystal Structure of the Glycosyltransferase BaBshA bound with UDP and L-malate,23.7,215,4.519e-07,292,Bacillus anthracis,False
+job_A,3mbo_A,3mbo,A,Crystal Structure of the Glycosyltransferase BaBshA bound with UDP and L-malate,20.7,212,1.66e-06,292,Bacillus anthracis,False
+job_A,6ni3_R,6ni3,R,B2V2R-Gs protein subcomplex of a GPCR-G protein-beta-arrestin mega-complex,17.4,487,7.743e-07,291,Enterobacteria phage RB59,False
+job_A,6cm4_A,6cm4,A,Structure of the D2 Dopamine Receptor Bound to the Atypical Antipsychotic Drug Risperidone,19.2,519,4.443e-09,290,Homo sapiens,True
+job_A,8hcx_C,8hcx,C,Cryo-EM structure of Endothelin1-bound ETBR-Gq complex,14.3,496,1.737e-06,290,Homo sapiens,False
+job_A,7f6g_A,7f6g,A,Cryo-EM structure of human angiotensin receptor AT1R in complex Gq proteins and Sar1-AngII,24.8,213,1.987e-06,290,Homo sapiens,False
+job_A,3uon_A,3uon,A,Structure of the human M2 muscarinic acetylcholine receptor bound to an antagonist,17.0,527,7.613e-09,289,Homo sapiens,True
+job_A,8e9x_A,8e9x,A,CryoEM structure of miniGo-coupled hM4Di in complex with DCZ,22.1,208,2.078e-06,289,Homo sapiens,False
+job_A,7y66_D,7y66,D,Cryo-EM structure of BM213-bound C5aR1 in complex with Gi protein,26.5,200,1.816e-06,289,Homo sapiens,False
+job_A,5l3k_E,5l3k,E,Structure of Mycobacterium thermoresistibile trehalose-6-phosphate synthase in a ternary complex with ADP and fructose-6-phosphate,13.8,239,1.987e-06,288,Mycolicibacterium thermoresistibile,False
+job_A,8e9z_A,8e9z,A,CryoEM structure of miniGq-coupled hM3R in complex with Iperoxo,14.5,481,1.588e-06,288,Homo sapiens,False
+job_A,6rz6_A,6rz6,A,Crystal structure of the human cysteinyl leukotriene receptor 2 in complex with ONO-2570366 (C2221 space group),14.4,476,9.396e-08,288,Homo sapiens,False
+job_A,8tlm_C,8tlm,C,Structure of a class A GPCR/Fab complex,19.0,189,6.381e-06,288,Homo sapiens,False
+job_A,3rze_A,3rze,A,Structure of the human histamine H1 receptor in complex with doxepin,15.3,522,6.96e-09,288,Homo sapiens,True
+job_A,4xsu_A,4xsu,A,Crystal structure of Anabaena Alr3699/HepE in complex with UDP and glucose,21.0,219,1.388e-06,288,Nostoc sp. PCC 7120 = FACHB-418,False
+job_A,5x33_A,5x33,A,Leukotriene B4 receptor BLT1 in complex with BIIL260,16.7,520,2.593e-09,287,Cavia porcellus,True
+job_A,7vgy_A,7vgy,A,Melatonin receptor1-2-Iodomelatonin-Gicomplex,14.7,488,2.078e-06,287,Homo sapiens,False
+job_A,7xk8_R,7xk8,R,Cryo-EM structure of the Neuromedin U receptor 2 (NMUR2) in complex with G Protein and its endogeneous Peptide-Agonist NMU25,25.9,204,9.691e-07,287,Homo sapiens,False
+job_A,6ibl_B,6ibl,B,ACTIVATED TURKEY BETA1 ADRENOCEPTOR WITH BOUND AGONIST FORMOTEROL AND NANOBODY Nb80,15.9,494,1.213e-06,287,Escherichia coli K-12,False
+job_A,7y67_D,7y67,D,Cryo-EM structure of C089-bound C5aR1(I116A) mutant in complex with Gi protein,24.7,198,2.845e-06,287,Homo sapiens,False
+job_A,7f9z_R,7f9z,R,GHRP-6-bound ghrelin receptor in complex with Gq,22.7,207,3.404e-06,287,Homo sapiens,False
+job_A,7f1r_R,7f1r,R,Cryo-EM structure of the chemokine receptor CCR5 in complex with RANTES and Gi,20.4,196,2.601e-06,287,Homo sapiens,False
+job_A,6i9k_A,6i9k,A,Crystal structure of Jumping Spider Rhodopsin-1 bound to 9-cis retinal,15.0,472,1.109e-06,287,Hasarius adansoni,True
+job_A,7s0f_R,7s0f,R,Isoproterenol bound beta1 adrenergic receptor in complex with heterotrimeric Gi protein,16.1,482,1.16e-06,287,Meleagris gallopavo,False
+job_A,3oe8_A,3oe8,A,Crystal structure of the CXCR4 chemokine receptor in complex with a small molecule antagonist IT1t in P1 spacegroup,18.7,518,9.239e-10,287,Homo sapiens,False
+job_A,6gps_A,6gps,A,CRYSTAL STRUCTURE OF CCR2A IN COMPLEX WITH MK-0812,15.4,491,1.761e-07,286,Homo sapiens,True
+job_A,6gpx_A,6gpx,A,CRYSTAL STRUCTURE OF CCR2A IN COMPLEX WITH MK-0812,14.7,488,6.471e-07,286,Homo sapiens,False
+job_A,8iy6_R,8iy6,R,"ETB-Gi complex bound to Endotheline-1, focused on receptor",13.6,492,2.601e-06,286,Homo sapiens,False
+job_A,3mbo_B,3mbo,B,Crystal Structure of the Glycosyltransferase BaBshA bound with UDP and L-malate,23.8,214,7.078e-07,286,Bacillus anthracis,False
+job_A,6kih_B,6kih,B,Sucrose-phosphate synthase (tll1590) from Thermosynechococcus elongatus,22.0,286,1.176e-07,286,Thermosynechococcus vestitus,False
+job_A,6rz5_A,6rz5,A,XFEL crystal structure of the human cysteinyl leukotriene receptor 1 in complex with zafirlukast,15.6,474,1.028e-07,286,Homo sapiens,False
+job_A,6os1_A,6os1,A,Structure of synthetic nanobody-stabilized angiotensin II type 1 receptor bound to TRV023,16.7,497,5.999e-08,285,Homo sapiens,False
+job_A,8i9a_C,8i9a,C,Structure of EP54-C3aR-Gq complex,20.8,192,3.895e-06,285,Homo sapiens,False
+job_A,2jjm_B,2jjm,B,Crystal Structure of a family GT4 glycosyltransferase from Bacillus anthracis ORF BA1558.,24.2,214,9.691e-07,285,Bacillus anthracis str. Ames,False
+job_A,7bu7_A,7bu7,A,Structure of human beta1 adrenergic receptor bound to BI-167107 and nanobody 6B9,23.5,212,2.173e-06,285,Tequatrovirus T4,False
+job_A,3mbo_C,3mbo,C,Crystal Structure of the Glycosyltransferase BaBshA bound with UDP and L-malate,22.7,215,8.859e-07,284,Bacillus anthracis,False
+job_A,7xji_R,7xji,R,Solabegron-activated dog beta3 adrenergic receptor,15.2,493,7.078e-07,284,Canis lupus familiaris,False
+job_A,6akx_A,6akx,A,The Crystal structure of Human Chemokine Receptor CCR5 in complex with compound 21,14.1,473,9.266e-07,284,Homo sapiens,False
+job_A,4z35_A,4z35,A,Crystal Structure of Human Lysophosphatidic Acid Receptor 1 in complex with ONO-9910539,13.7,495,1.286e-07,284,Homo sapiens,True
+job_A,5wf5_A,5wf5,A,Agonist bound human A2a adenosine receptor with D52N mutation at 2.60 A resolution,18.0,527,6.654e-09,284,Homo sapiens,False
+job_A,4z36_A,4z36,A,Crystal Structure of Human Lysophosphatidic Acid Receptor 1 in complex with ONO-3080573,13.2,492,8.213e-08,284,Homo sapiens,False
+job_A,7dhr_R,7dhr,R,Cryo-EM structure of the full agonist isoprenaline-bound beta2 adrenergic receptor-Gs protein complex.,16.7,489,9.266e-07,284,Homo sapiens,False
+job_A,5glh_A,5glh,A,Human endothelin receptor type-B in complex with ET-1,17.4,532,6.96e-09,283,Homo sapiens,False
+job_A,3sn6_R,3sn6,R,Crystal structure of the beta2 adrenergic receptor-Gs protein complex,16.0,485,1.014e-06,282,Tequatrovirus T4,False
+job_A,7ymh_A,7ymh,A,Cryo-EM structure of Nb29-alpha1AAR-miniGsq complex bound to noradrenaline,14.1,480,1.816e-06,282,Homo sapiens,False
+job_A,7dh5_R,7dh5,R,Dog beta3 adrenergic receptor bound to mirabegron in complex with a miniGs heterotrimer,14.6,491,1.518e-06,282,Canis lupus familiaris,False
+job_A,6qzh_A,6qzh,A,Structure of the human CC Chemokine Receptor 7 in complex with the intracellular allosteric antagonist Cmp2105 and the insertion protein Sialidase NanA,24.6,191,1.9e-06,282,Homo sapiens,True
+job_A,7e33_R,7e33,R,Serotonin 1E (5-HT1E) receptor-Gi protein complex,13.0,476,2.976e-06,281,Escherichia coli,False
+job_A,7e2y_R,7e2y,R,Serotonin-bound Serotonin 1A (5-HT1A) receptor-Gi protein complex,14.4,483,8.859e-07,281,Escherichia coli,False
+job_A,7sk6_A,7sk6,A,Cryo-EM structure of human ACKR3 in complex with chemokine N-terminal mutant CXCL12_LRHQ and an intracellular Fab,25.5,200,1.816e-06,280,Homo sapiens,False
+job_A,3vg9_A,3vg9,A,Crystal structure of human adenosine A2A receptor with an allosteric inverse-agonist antibody at 2.7 A resolution,14.8,486,3.112e-06,279,Homo sapiens,False
+job_A,7s0g_R,7s0g,R,Isoproterenol bound beta1 adrenergic receptor in complex with heterotrimeric Gi/s chimera protein,16.2,485,2.378e-06,278,Meleagris gallopavo,False
+job_A,3mbo_E,3mbo,E,Crystal Structure of the Glycosyltransferase BaBshA bound with UDP and L-malate,23.2,215,1.06e-06,278,Bacillus anthracis,False
+job_A,5xpr_A,5xpr,A,Human endothelin receptor type-B in complex with antagonist bosentan,17.6,504,4.006e-08,278,Homo sapiens,False
+job_A,7bu6_A,7bu6,A,Structure of human beta1 adrenergic receptor bound to norepinephrine and nanobody 6B9,14.7,487,2.173e-06,278,Tequatrovirus T4,False
+job_A,6rz5_B,6rz5,B,XFEL crystal structure of the human cysteinyl leukotriene receptor 1 in complex with zafirlukast,15.6,474,4.189e-08,278,Homo sapiens,False
+job_A,4nc9_D,4nc9,D,Crystal structure of phosphatidyl mannosyltransferase PimA,19.3,274,2.411e-07,277,Mycolicibacterium smegmatis MC2 155,False
+job_A,3oe8_C,3oe8,C,Crystal structure of the CXCR4 chemokine receptor in complex with a small molecule antagonist IT1t in P1 spacegroup,17.7,514,1.09e-08,277,Homo sapiens,False
+job_A,7x9y_R,7x9y,R,Cryo-EM structure of the apo CCR3-Gi complex,26.8,201,2.72e-06,277,Homo sapiens,False
+job_A,7trp_R,7trp,R,Human M4 muscarinic acetylcholine receptor complex with Gi1 and the agonist iperoxo and positive allosteric modulator LY2033298,13.5,480,4.074e-06,277,Homo sapiens,False
+job_A,3qak_A,3qak,A,Agonist bound structure of the human adenosine A2a receptor,18.1,523,1.364e-08,277,Homo sapiens,False
+job_A,3oe0_A,3oe0,A,Crystal structure of the CXCR4 chemokine receptor in complex with a cyclic peptide antagonist CVX15,16.8,515,1.364e-08,277,Homo sapiens,False
+job_A,8irs_R,8irs,R,Dopamine Receptor D2R-Gi-Rotigotine complex,15.4,480,5.098e-06,277,Escherichia coli,False
+job_A,5d01_B,5d01,B,Crystal structure of BshA from B. subtilis complexed with N-acetylglucosaminyl-malate,22.7,207,1.269e-06,276,Bacillus subtilis subsp. subtilis str. 168,False
+job_A,4ldo_A,4ldo,A,Structure of beta2 adrenoceptor bound to adrenaline and an engineered nanobody,16.3,489,3.561e-06,276,Tequatrovirus T4,False
+job_A,7xa3_R,7xa3,R,Cryo-EM structure of the CCL2 bound CCR2-Gi complex,22.6,199,4.261e-06,276,Homo sapiens,False
+job_A,7v6a_R,7v6a,R,Cry-EM structure of M4-c110-G protein complex,13.5,488,2.173e-06,275,Homo sapiens,False
+job_A,3mbo_G,3mbo,G,Crystal Structure of the Glycosyltransferase BaBshA bound with UDP and L-malate,22.5,217,1.987e-06,275,Bacillus anthracis,False
+job_A,5zk3_A,5zk3,A,Crystal structure of rationally thermostabilized M2 muscarinic acetylcholine receptor bound with QNB,14.8,511,2.338e-08,275,Homo sapiens,False
+job_A,7xxh_R,7xxh,R,Cryo-EM structure of the purinergic receptor P2Y1R in complex with 2MeSADP and G11,20.8,201,3.112e-06,274,Homo sapiens,False
+job_A,4daj_D,4daj,D,Structure of the M3 Muscarinic Acetylcholine Receptor,16.5,531,5.816e-09,274,Rattus norvegicus,False
+job_A,5wf6_A,5wf6,A,Agonist bound human A2a adenosine receptor with S91A mutation at 2.90 A resolution,17.5,523,2.137e-08,274,Homo sapiens,False
+job_A,6wwz_R,6wwz,R,Cryo-EM structure of the human chemokine receptor CCR6 in complex with CCL20 and a Go protein,19.7,197,6.101e-06,274,Homo sapiens,False
+job_A,7bz2_R,7bz2,R,Cryo-EM structure of the formoterol-bound beta2 adrenergic receptor-Gs protein complex.,15.4,492,1.816e-06,273,Homo sapiens,False
+job_A,4gpo_B,4gpo,B,Oligomeic Turkey Beta1-Adrenergic G Protein-Coupled Receptor,16.8,494,5.577e-06,273,Meleagris gallopavo,False
+job_A,7jvp_R,7jvp,R,Cryo-EM structure of SKF-83959-bound dopamine receptor 1 in complex with Gs protein,15.0,480,2.078e-06,273,Homo sapiens,False
+job_A,7jni_A,7jni,A,Crystal structure of the angiotensin II type 2 receptoror (AT2R) in complex with EMA401,20.0,225,4.661e-06,271,Escherichia coli,False
+job_A,5ung_B,5ung,B,"XFEL structure of human angiotensin II type 2 receptor (Orthorhombic form) in complex with compound 1 (N-benzyl-N-(2-ethyl-4-oxo-3-{[2'-(2H-tetrazol-5-yl)[1,1'-biphenyl]-4-yl] methyl}-3,4-dihydroquinazolin-6-yl)thiophene-2-carboxamide)",14.8,486,2.976e-06,271,Escherichia coli,True
+job_A,5xra_A,5xra,A,Crystal structure of the human CB1 in complex with agonist AM11542,17.1,526,4.062e-09,271,Homo sapiens,False
+job_A,7sk9_A,7sk9,A,"Cryo-EM structure of human ACKR3 in complex with a small molecule partial agonist CCX662, and an intracellular Fab",24.4,209,3.561e-06,271,Homo sapiens,False
+job_A,7f1t_A,7f1t,A,Crystal structure of the human chemokine receptor CCR5 in complex with MIP-1a,15.5,469,1.66e-06,271,Homo sapiens,True
+job_A,7b6w_AAA,7b6w,AAA,Crystal structure of the human alpha1B adrenergic receptor in complex with inverse agonist (+)-cyclazosin,16.7,477,2.173e-06,271,Homo sapiens,False
+job_A,6kpc_A,6kpc,A,Crystal structure of an agonist bound GPCR,15.7,514,4.583e-08,270,Homo sapiens,False
+job_A,6zg4_A,6zg4,A,Structure of M1-StaR-T4L in complex with HTL0009936 at 2.35A,16.1,540,1.561e-08,270,Homo sapiens,True
+job_A,4xsr_B,4xsr,B,Crystal structure of Anabaena Alr3699/HepE in complex with UDP-glucose,17.0,275,3.95e-07,270,Nostoc sp. PCC 7120 = FACHB-418,False
+job_A,7f6i_A,7f6i,A,Cryo-EM structure of human bradykinin receptor BK2R in complex Gq proteins and kallidin,22.6,230,4.456e-06,270,Homo sapiens,False
+job_A,2iw1_A,2iw1,A,"Crystal Structure of WaaG, a glycosyltransferase involved in lipopolysaccharide biosynthesis",23.8,218,1.269e-06,270,Escherichia coli str. K-12 substr. W3110,True
+job_A,4nc9_A,4nc9,A,Crystal structure of phosphatidyl mannosyltransferase PimA,18.5,286,2.885e-07,270,Mycolicibacterium smegmatis MC2 155,False
+job_A,7wkd_R,7wkd,R,TRH-TRHR G protein complex,13.9,474,1.144e-05,269,Homo sapiens,False
+job_A,4mqs_A,4mqs,A,Structure of active human M2 muscarinic acetylcholine receptor bound to the agonist iperoxo,20.8,201,6.674e-06,268,Homo sapiens,False
+job_A,7t8x_A,7t8x,A,Cryo-EM structure of ACh-bound M2R-Go signaling complex in S1 state,12.9,487,6.674e-06,268,Homo sapiens,False
+job_A,7vkt_A,7vkt,A,cryo-EM structure of LTB4-bound BLT1 in complex with Gi protein,23.1,229,1.16e-06,268,Homo sapiens,False
+job_A,2gek_A,2gek,A,Crystal Structure of phosphatidylinositol mannosyltransferase (PimA) from Mycobacterium smegmatis in complex with GDP,22.8,232,4.661e-06,268,Mycolicibacterium smegmatis MC2 155,False
+job_A,4wac_A,4wac,A,Crystal Structure of TarM,20.5,175,5.833e-06,268,Staphylococcus aureus,True
+job_A,6rz4_A,6rz4,A,Crystal structure of cysteinyl leukotriene receptor 1 in complex with pranlukast,17.5,489,6.274e-08,267,Homo sapiens,True
+job_A,6gpx_B,6gpx,B,CRYSTAL STRUCTURE OF CCR2A IN COMPLEX WITH MK-0812,21.7,193,1.144e-05,266,Homo sapiens,False
+job_A,4xt1_A,4xt1,A,Structure of a nanobody-bound viral GPCR bound to human chemokine CX3CL1,19.8,196,6.381e-06,266,Cytomegalovirus,False
+job_A,4xnw_A,4xnw,A,The human P2Y1 receptor in complex with MRS2500,20.2,198,1.144e-05,266,Homo sapiens,False
+job_A,2xa1_A,2xa1,A,Crystal structure of trehalose synthase TreT from P.horikoshii (Seleno derivative),23.4,209,5.098e-06,266,Pyrococcus horikoshii,False
+job_A,7x2c_F,7x2c,F,Cryo-EM structure of the fenoldopam-bound D1 dopamine receptor and mini-Gs complex,15.0,479,3.404e-06,265,Homo sapiens,False
+job_A,8iru_R,8iru,R,Dopamine Receptor D4R-Gi-Rotigotine complex,13.2,477,8.353e-06,265,Homo sapiens,False
+job_A,5zty_A,5zty,A,Crystal structure of human G protein coupled receptor,14.7,521,5.243e-08,265,Homo sapiens,True
+job_A,7m8w_A,7m8w,A,XFEL crystal structure of the prostaglandin D2 receptor CRTH2 in complex with 15R-methyl-PGD2,17.3,508,1.124e-07,265,Homo sapiens,True
+job_A,6oij_R,6oij,R,Muscarinic acetylcholine receptor 1-G11 protein complex,21.1,199,8.736e-06,264,Homo sapiens,False
+job_A,8e9w_A,8e9w,A,CryoEM structure of miniGq-coupled hM3Dq in complex with DCZ,13.0,483,7.3e-06,263,Homo sapiens,False
+job_A,7x2d_F,7x2d,F,Cryo-EM structure of the tavapadon-bound D1 dopamine receptor and mini-Gs complex,13.8,478,4.875e-06,263,Homo sapiens,False
+job_A,7xt9_R,7xt9,R,Serotonin 4 (5-HT4) receptor-Gs complex,14.4,492,3.404e-06,263,Homo sapiens,False
+job_A,6kr8_A,6kr8,A,Structure of the beta2 adrenergic receptor in the full agonist bound state,16.3,488,9.691e-07,263,Homo sapiens,False
+job_A,3oy7_B,3oy7,B,Crystal structure of a virus encoded glycosyltransferase in complex with GDP-mannose,20.8,211,8.353e-06,263,Paramecium bursaria Chlorella virus NY2A,False
+job_A,5nj6_A,5nj6,A,Crystal structure of a thermostabilised human protease-activated receptor-2 (PAR2) in ternary complex with Fab3949 and AZ7188 at 4.0 angstrom resolution,14.9,502,1.684e-07,263,Homo sapiens,False
+job_A,5l3k_F,5l3k,F,Structure of Mycobacterium thermoresistibile trehalose-6-phosphate synthase in a ternary complex with ADP and fructose-6-phosphate,15.9,238,1.9e-06,263,Mycolicibacterium thermoresistibile,False
+job_A,6met_B,6met,B,Structural basis of coreceptor recognition by HIV-1 envelope spike,20.7,198,1.251e-05,262,Homo sapiens,False
+job_A,4gpo_A,4gpo,A,Oligomeic Turkey Beta1-Adrenergic G Protein-Coupled Receptor,16.5,494,9.995e-06,262,Meleagris gallopavo,False
+job_A,8iw9_R,8iw9,R,Cryo-EM structure of the CAD-bound mTAAR9-Gs complex,14.2,484,5.098e-06,262,Mus musculus,False
+job_A,7f23_F,7f23,F,Cryo-EM structure of the GTP-bound dopamine receptor 1 and mini-Gs complex with Nb35,14.4,484,5.332e-06,261,Homo sapiens,False
+job_A,7x2f_F,7x2f,F,Cryo-EM structure of the dopamine and LY3154207-bound D1 dopamine receptor and mini-Gs complex,14.8,479,4.875e-06,261,Homo sapiens,False
+job_A,7vgz_B,7vgz,B,MT1-remalteon-Gi complex,14.7,480,8.736e-06,261,Homo sapiens,False
+job_A,5unf_A,5unf,A,"XFEL structure of human angiotensin II type 2 receptor (Monoclinic form) in complex with compound 1 (N-benzyl-N-(2-ethyl-4-oxo-3-{[2'-(2H-tetrazol-5-yl)[1,1'-biphenyl]-4-yl])",13.7,479,1.196e-05,261,Escherichia coli,False
+job_A,4mqt_A,4mqt,A,Structure of active human M2 muscarinic acetylcholine receptor bound to the agonist iperoxo and allosteric modulator LY2119620,21.0,200,1.144e-05,259,Homo sapiens,False
+job_A,8hbd_R,8hbd,R,Cryo-EM structure of IRL1620-bound ETBR-Gi complex,13.7,487,6.101e-06,259,Homo sapiens,False
+job_A,4xsp_A,4xsp,A,Crystal structure of Anabaena Alr3699/HepE in complex with UDP,17.1,268,9.266e-07,259,Nostoc sp. PCC 7120 = FACHB-418,False
+job_A,4yay_A,4yay,A,XFEL structure of human Angiotensin Receptor,26.3,197,1.251e-05,259,Escherichia coli,False
+job_A,5l3k_A,5l3k,A,Structure of Mycobacterium thermoresistibile trehalose-6-phosphate synthase in a ternary complex with ADP and fructose-6-phosphate,15.6,236,3.724e-06,258,Mycolicibacterium thermoresistibile,False
+job_A,5ndz_A,5ndz,A,Crystal structure of a thermostabilised human protease-activated receptor-2 (PAR2) in complex with AZ3451 at 3.6 angstrom resolution,14.6,500,3.018e-07,258,Tequatrovirus T4,False
+job_A,2ydo_A,2ydo,A,Thermostabilised HUMAN A2a Receptor with adenosine bound,14.1,489,1.196e-05,258,Homo sapiens,False
+job_A,7crh_R,7crh,R,Cryo-EM structure of SKF83959 bound dopamine receptor DRD1-Gs signaling complex,14.7,482,5.098e-06,258,Homo sapiens,False
+job_A,6jod_A,6jod,A,Angiotensin II type 2 receptor with ligand,13.9,486,1.873e-05,258,Homo sapiens,False
+job_A,7f61_A,7f61,A,Crystal structure of human histamine receptor H3R in complex with antagonist PF03654746,13.7,495,2.845e-06,257,Homo sapiens,False
+job_A,2xa1_B,2xa1,B,Crystal structure of trehalose synthase TreT from P.horikoshii (Seleno derivative),23.9,213,8.353e-06,257,Pyrococcus horikoshii,False
+job_A,7vfx_R,7vfx,R,The structure of Formyl Peptide Receptor 1 in complex with Gi and peptide agonist fMIFL,21.7,244,1.816e-06,256,Homo sapiens,False
+job_A,7mta_R,7mta,R,Rhodopsin kinase (GRK1)-S5E/S488E/T489E in complex with rhodopsin and Fab1,14.9,483,5.098e-06,256,Bos taurus,False
+job_A,8kh4_A,8kh4,A,Cryo-EM structure of the GPR161-Gs complex,20.2,193,1.045e-05,255,Homo sapiens,False
+job_A,7jv5_R,7jv5,R,Cryo-EM structure of SKF-81297-bound dopamine receptor 1 in complex with Gs protein,14.3,482,5.098e-06,255,Homo sapiens,False
+job_A,7vfk_B,7vfk,B,Crystal structure of SdgB (ligand-free form),18.5,189,9.137e-06,255,Staphylococcus aureus subsp. aureus USA300,False
+job_A,5w0p_D,5w0p,D,Crystal structure of rhodopsin bound to visual arrestin determined by X-ray free electron laser,22.3,197,1.308e-05,255,Enterobacteria phage RB55,False
+job_A,8hpt_A,8hpt,A,Structure of C5a-pep bound mouse C5aR1 in complex with Go,24.2,198,1.251e-05,254,Mus musculus,False
+job_A,2f9f_A,2f9f,A,"Crystal Structure of the Putative Mannosyl Transferase (wbaZ-1)from Archaeoglobus fulgidus, Northeast Structural Genomics Target GR29A.",26.7,168,1.791e-05,254,Archaeoglobus fulgidus DSM 4304,True
+job_A,8k2x_R,8k2x,R,CXCR3-DNGi complex activated by CXCL10,23.2,202,1.308e-05,254,Escherichia coli,False
+job_A,7xau_A,7xau,A,Structure of somatostatin receptor 2 bound with octreotide.,16.4,487,7.3e-06,254,Homo sapiens,False
+job_A,3oe9_B,3oe9,B,Crystal structure of the chemokine CXCR4 receptor in complex with a small molecule antagonist IT1t in P1 spacegroup,17.0,515,3.83e-08,254,Homo sapiens,False
+job_A,4rws_A,4rws,A,Crystal structure of CXCR4 and viral chemokine antagonist vMIP-II complex (PSI Community Target),16.2,528,9.966e-09,254,Homo sapiens,False
+job_A,7jvq_R,7jvq,R,Cryo-EM structure of apomorphine-bound dopamine receptor 1 in complex with Gs protein,14.3,482,4.456e-06,253,Homo sapiens,False
+job_A,7eib_A,7eib,A,Cryo-EM structure of the type 1 bradykinin receptor in complex with the des-Arg10-kallidin and an Gq protein,22.0,209,3.112e-06,253,Homo sapiens,False
+job_A,5unf_B,5unf,B,"XFEL structure of human angiotensin II type 2 receptor (Monoclinic form) in complex with compound 1 (N-benzyl-N-(2-ethyl-4-oxo-3-{[2'-(2H-tetrazol-5-yl)[1,1'-biphenyl]-4-yl])",14.0,484,1.144e-05,253,Escherichia coli,False
+job_A,4x7r_A,4x7r,A,"Crystal structure of S. aureus TarM G117R mutant in complex with Fondaparinux, alpha-GlcNAc-glycerol and UDP",20.7,178,1.251e-05,253,Staphylococcus aureus subsp. aureus 21178,False
+job_A,7srr_R,7srr,R,5-HT2B receptor bound to LSD in complex with heterotrimeric mini-Gq protein obtained by cryo-electron microscopy (cryoEM),13.6,485,1.045e-05,252,Homo sapiens,False
+job_A,7db6_D,7db6,D,human melatonin receptor MT1 - Gi1 complex,22.5,208,1.566e-05,252,Homo sapiens,False
+job_A,8b62_B,8b62,B,Crystal Structure of P. aeruginosa WaaG in complex with UDP-galactose,20.3,216,5.833e-06,252,Pseudomonas aeruginosa,False
+job_A,5l3k_C,5l3k,C,Structure of Mycobacterium thermoresistibile trehalose-6-phosphate synthase in a ternary complex with ADP and fructose-6-phosphate,16.8,225,8.736e-06,252,Mycolicibacterium thermoresistibile,False
+job_A,1uqt_B,1uqt,B,Trehalose-6-phosphate from E. coli bound with UDP-2-fluoro glucose.,16.0,231,1.497e-05,252,Escherichia coli,False
+job_A,7ljc_R,7ljc,R,Allosteric modulator LY3154207 binding to SKF-81297-bound dopamine receptor 1 in complex with miniGs protein,15.2,479,8.353e-06,251,Homo sapiens,False
+job_A,3qhp_A,3qhp,A,Crystal structure of the catalytic domain of cholesterol-alpha-glucosyltransferase from Helicobacter pylori,21.3,169,2.242e-05,251,Helicobacter pylori 26695,False
+job_A,8hdp_R,8hdp,R,Structure of A2BR bound to endogenous agonists adenosine,17.3,484,9.137e-06,251,Homo sapiens,False
+job_A,8fhw_A,8fhw,A,Cryo-EM structure of Cryptococcus neoformans trehalose-6-phosphate synthase homotetramer in complex with uridine diphosphate and glucose-6-phosphate,16.5,302,7.743e-07,251,Cryptococcus neoformans var. grubii H99,False
+job_A,5ndd_A,5ndd,A,Crystal structure of a thermostabilised human protease-activated receptor-2 (PAR2) in complex with AZ8838 at 2.8 angstrom resolution,14.2,498,5.656e-07,251,Tequatrovirus T4,True
+job_A,7ljd_R,7ljd,R,Allosteric modulator LY3154207 binding to dopamine-bound dopamine receptor 1 in complex with miniGs protein,15.2,484,5.833e-06,251,Homo sapiens,False
+job_A,6k41_R,6k41,R,cryo-EM structure of alpha2BAR-GoA complex,13.3,478,6.674e-06,250,Bos taurus,False
+job_A,5jio_A,5jio,A,Structure of Mycobacterium thermoresistibile trehalose-6-phosphate synthase ternary complex with ADP and Glucose-6-phosphate.,16.2,240,5.833e-06,250,Mycolicibacterium thermoresistibile,True
+job_A,8jsp_R,8jsp,R,Ulotaront(SEP-363856)-bound Serotonin 1A (5-HT1A) receptor-Gi complex,14.8,477,8.353e-06,250,Homo sapiens,False
+job_A,2r68_A,2r68,A,Complex Structure of Sucrose Phosphate Synthase (SPS)-S6P of Halothermothrix orenii,20.6,247,7.986e-06,250,Halothermothrix orenii H 168,False
+job_A,7xtb_R,7xtb,R,Serotonin 6 (5-HT6) receptor-Gs-Nb35 complex,11.9,487,1.045e-05,249,Homo sapiens,False
+job_A,8hcq_R,8hcq,R,Cryo-EM structure of endothelin1-bound ETAR-Gq complex,20.9,215,7.986e-06,249,Homo sapiens,False
+job_A,5l3k_B,5l3k,B,Structure of Mycobacterium thermoresistibile trehalose-6-phosphate synthase in a ternary complex with ADP and fructose-6-phosphate,15.8,240,6.674e-06,249,Mycolicibacterium thermoresistibile,False
+job_A,7w7e_R,7w7e,R,Cryo-EM structure of the alpha2A adrenergic receptor GoA signaling complex bound to a biased agonist,13.5,486,7.636e-06,248,Homo sapiens,False
+job_A,7f24_F,7f24,F,Cryo-EM structure of the GTP-bound dopamine receptor 1 and mini-Gs complex without Nb35,14.7,482,1.368e-05,248,Homo sapiens,False
+job_A,8itf_R,8itf,R,Cryo-EM structure of the DMCHA-bound mTAAR9-Gs complex,14.1,481,9.137e-06,248,Mus musculus,False
+job_A,7jni_B,7jni,B,Crystal structure of the angiotensin II type 2 receptoror (AT2R) in complex with EMA401,20.8,221,2.049e-05,248,Escherichia coli,False
+job_A,8pm2_R,8pm2,R,"Structure of the murine trace amine-associated receptor TAAR7f bound to N,N-dimethylcyclohexylamine (DMCH) in complex with mini-Gs trimeric G protein",14.3,474,1.497e-05,247,Mus musculus,False
+job_A,7ej8_R,7ej8,R,Structure of the alpha2A-adrenergic receptor GoA signaling complex bound to brimonidine,13.8,485,7.3e-06,246,Homo sapiens,False
+job_A,8hoc_R,8hoc,R,Cryo-EM structure of ligand histamine-bound Histamine H4 receptor Gi complex,13.7,481,1.959e-05,246,Homo sapiens,False
+job_A,4uhr_A,4uhr,A,Thermostabilised HUMAN A2a Receptor with CGS21680 bound,15.7,482,6.101e-06,246,Homo sapiens,False
+job_A,5en0_A,5en0,A,Crystal Structure of T94I rhodopsin mutant,14.9,481,9.556e-06,246,Bos taurus,False
+job_A,6g79_S,6g79,S,Coupling specificity of heterotrimeric Go to the serotonin 5-HT1B receptor,20.9,205,2.565e-05,245,Homo sapiens,False
+job_A,3dqb_A,3dqb,A,Crystal structure of the active G-protein-coupled receptor opsin in complex with a C-terminal peptide derived from the Galpha subunit of transducin,14.6,478,1.093e-05,245,Bos taurus,False
+job_A,3odu_B,3odu,B,The 2.5 A structure of the CXCR4 chemokine receptor in complex with small molecule antagonist IT1t,18.2,516,1.364e-08,245,Homo sapiens,False
+job_A,6lw5_A,6lw5,A,Crystal structure of the human formyl peptide receptor 2 in complex with WKYMVm,15.2,486,1.269e-06,244,Escherichia coli,False
+job_A,3oe6_A,3oe6,A,Crystal structure of the CXCR4 chemokine receptor in complex with a small molecule antagonist IT1t in I222 spacegroup,18.1,497,8.984e-08,244,Homo sapiens,False
+job_A,7joz_R,7joz,R,Crystal structure of dopamine D1 receptor in complex with G protein and a non-catechol agonist,13.7,488,7.986e-06,244,Tequatrovirus T4,False
+job_A,5n7z_A,5n7z,A,glycosyltransferase in LPS biosynthesis,21.6,185,9.556e-06,244,Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,True
+job_A,7ec1_B,7ec1,B,Crystal structure of SdgB (ligand-free form),19.1,188,1.791e-05,244,Staphylococcus aureus subsp. aureus USA300,False
+job_A,1f88_A,1f88,A,CRYSTAL STRUCTURE OF BOVINE RHODOPSIN,23.3,201,1.791e-05,243,Bos taurus,False
+job_A,8p1x_AAA,8p1x,AAA,TarM(Se)_G117R-UDP-glucose,23.4,183,1.873e-05,243,Staphylococcus epidermidis,False
+job_A,5w0p_A,5w0p,A,Crystal structure of rhodopsin bound to visual arrestin determined by X-ray free electron laser,22.7,198,2.806e-05,243,Enterobacteria phage RB55,False
+job_A,7qvm_R,7qvm,R,Human Oxytocin receptor (OTR) oxytocin Gq chimera (mGoqi) complex,19.0,199,1.713e-05,242,Homo sapiens,False
+job_A,7vfk_A,7vfk,A,Crystal structure of SdgB (ligand-free form),18.8,186,2.565e-05,242,Staphylococcus aureus subsp. aureus USA300,False
+job_A,8iw1_R,8iw1,R,Cryo-EM structure of the PEA-bound mTAAR9-Golf complex,14.1,472,2.682e-05,241,Mus musculus,False
+job_A,8irv_R,8irv,R,Dopamine Receptor D5R-Gs-Rotigotine complex,14.0,483,1.959e-05,241,Escherichia coli,False
+job_A,7x5h_R,7x5h,R,Serotonin 5A (5-HT5A) receptor-Gi protein complex,12.8,484,2.565e-05,241,Escherichia coli,False
+job_A,8thl_R,8thl,R,Cryo-EM structure of epinephrine-bound alpha-1A-adrenergic receptor in complex with heterotrimeric Gq-protein,22.0,186,2.682e-05,241,Tequatrovirus T4,False
+job_A,8hdo_R,8hdo,R,Structure of A2BR bound to synthetic agonists BAY 60-6583,16.9,478,1.713e-05,240,Homo sapiens,False
+job_A,7zbc_B,7zbc,B,Dark state crystal structure of bovine rhodopsin in Lipidic Cubic Phase (SACLA),23.7,194,2.242e-05,240,Bos taurus,False
+job_A,7ec7_A,7ec7,A,Crystal structure of SdgB (complexed with phosphate ions),18.9,185,3.21e-05,240,Staphylococcus aureus subsp. aureus USA300,False
+job_A,7x1u_A,7x1u,A,Structure of Thyrotropin-Releasing Hormone Receptor bound with an Endogenous Peptide Agonist TRH.,24.1,203,4.017e-05,239,Homo sapiens,False
+job_A,6fk7_A,6fk7,A,Crystal structure of N2C/D282C stabilized opsin bound to RS06,14.6,483,1.045e-05,239,Bos taurus,False
+job_A,7qsg_A,7qsg,A,Methylmannose polysaccharide mannosyltransferase from M. hassiacum,22.0,218,4.017e-05,239,Mycolicibacterium hassiacum,False
+job_A,7ckx_R,7ckx,R,Cryo-EM structure of A77636 bound dopamine receptor DRD1-Gs signaling complex,14.4,477,1.873e-05,239,Homo sapiens,False
+job_A,5l3k_G,5l3k,G,Structure of Mycobacterium thermoresistibile trehalose-6-phosphate synthase in a ternary complex with ADP and fructose-6-phosphate,16.4,237,7.986e-06,239,Mycolicibacterium thermoresistibile,False
+job_A,7w6p_R,7w6p,R,Cryo-EM structure of the alpha2A adrenergic receptor GoA signaling complex bound to a G protein biased agonist,13.7,481,2.452e-05,238,Homo sapiens,False
+job_A,7um5_A,7um5,A,CryoEM structure of Go-coupled 5-HT5AR in complex with 5-CT,13.3,479,1.713e-05,238,Homo sapiens,False
+job_A,4bez_A,4bez,A,Night blindness causing G90D rhodopsin in the active conformation,14.4,479,2.049e-05,238,Bos taurus,False
+job_A,8b5s_A,8b5s,A,Crystal Structure of P. aeruginosa WaaG in complex with UDP-glucose,20.1,218,1.791e-05,238,Pseudomonas aeruginosa,False
+job_A,8jlr_R,8jlr,R,A77636-bound hTAAR1-Gs protein complex,13.3,481,1.791e-05,237,Escherichia coli,False
+job_A,7v3z_A,7v3z,A,Structure of cannabinoid receptor type 1(CB1),15.1,528,5.999e-08,237,Homo sapiens,False
+job_A,2x72_A,2x72,A,"CRYSTAL STRUCTURE OF THE CONSTITUTIVELY ACTIVE E113Q,D2C,D282C RHODOPSIN MUTANT WITH BOUND GALPHACT PEPTIDE.",14.7,481,2.242e-05,236,Bos taurus,False
+job_A,7x1t_A,7x1t,A,Structure of Thyrotropin-Releasing Hormone Receptor bound with Taltirelin.,23.1,203,2.934e-05,235,Homo sapiens,False
+job_A,7xtc_R,7xtc,R,Serotonin 7 (5-HT7) receptor-Gs-Nb35 complex,22.5,204,2.452e-05,235,Homo sapiens,False
+job_A,7zly_A,7zly,A,Crystal structure of human GPCR Niacin receptor (HCA2) expressed from Spodoptera frugiperda,14.5,502,1.014e-06,235,Homo sapiens,False
+job_A,5dgy_A,5dgy,A,Crystal structure of rhodopsin bound to visual arrestin,22.7,198,5.258e-05,234,Tequatrovirus T4,False
+job_A,7yfd_R,7yfd,R,Cryo-EM structure of the imetit-bound histamine H4 receptor and Gq complex,17.9,206,4.394e-05,234,Homo sapiens,False
+job_A,7ejk_R,7ejk,R,Structure of the alpha2A-adrenergic receptor GoA signaling complex bound to oxymetazoline,13.5,481,2.452e-05,234,Homo sapiens,False
+job_A,5g53_A,5g53,A,Structure of the adenosine A2A receptor bound to an engineered G protein,14.8,479,1.791e-05,234,Homo sapiens,False
+job_A,6jak_D,6jak,D,OtsA apo structure,15.8,227,8.236e-05,234,Escherichia coli,False
+job_A,7vfn_C,7vfn,C,Crystal structure of SdgB (SD peptide-binding form),18.3,196,2.242e-05,234,Staphylococcus aureus subsp. aureus USA300,False
+job_A,8jlz_R,8jlz,R,ST1936-5HT6R complex,21.2,198,2.143e-05,234,Homo sapiens,False
+job_A,7f1s_R,7f1s,R,Cryo-EM structure of the apo chemokine receptor CCR5 in complex with Gi,20.6,194,7.529e-05,233,Homo sapiens,False
+job_A,8iwe_R,8iwe,R,Cryo-EM structure of the SPE-mTAAR9 complex,14.7,482,2.934e-05,233,Mus musculus,False
+job_A,7t96_A,7t96,A,Cryo-EM structure of S2 state ACh-bound M2R-Go signaling complex with a PAM,20.8,201,2.242e-05,232,Homo sapiens,False
+job_A,7cky_R,7cky,R,Cryo-EM structure of PW0464 bound dopamine receptor DRD1-Gs signaling complex,13.1,488,1.791e-05,232,Homo sapiens,False
+job_A,7ryc_O,7ryc,O,Oxytocin receptor (OTR) bound to oxytocin in complex with a heterotrimeric Gq protein,20.0,205,3.21e-05,232,Homo sapiens,False
+job_A,7rkf_R,7rkf,R,Structure of CX3CL1-US28-G11iN18-scFv16 in TL-state,19.2,203,2.345e-05,232,Human betaherpesvirus 5,False
+job_A,7v69_R,7v69,R,Cryo-EM structure of a class A GPCR-G protein complex,22.5,200,2.049e-05,231,Homo sapiens,False
+job_A,7xta_R,7xta,R,Serotonin 4 (5-HT4) receptor-Gi-scFv16 complex,21.8,211,2.682e-05,231,Homo sapiens,False
+job_A,7zbc_A,7zbc,A,Dark state crystal structure of bovine rhodopsin in Lipidic Cubic Phase (SACLA),24.0,191,4.017e-05,231,Bos taurus,False
+job_A,7ec6_A,7ec6,A,Crystal structure of SdgB (complexed with peptides),17.6,187,4.017e-05,231,Staphylococcus aureus subsp. aureus USA300,False
+job_A,1hzx_A,1hzx,A,CRYSTAL STRUCTURE OF BOVINE RHODOPSIN,23.0,204,4.596e-05,230,Bos taurus,False
+job_A,2xmp_B,2xmp,B,Crystal structure of trehalose synthase TreT mutant E326A from P. horishiki in complex with UDP,22.7,220,4.017e-05,230,Pyrococcus horikoshii,False
+job_A,4zwj_C,4zwj,C,Crystal structure of rhodopsin bound to arrestin by femtosecond X-ray laser,22.3,197,7.529e-05,230,Tequatrovirus T4,False
+job_A,5tvg_C,5tvg,C,"Crystal structure of an alpha,alpha-trehalose-phosphate synthase (UDP-forming) from Burkholderia vietnamiensis",13.6,241,2.806e-05,230,Burkholderia vietnamiensis G4,False
+job_A,6gdg_A,6gdg,A,Cryo-EM structure of the adenosine A2A receptor bound to a miniGs heterotrimer,13.9,472,2.242e-05,230,Escherichia coli,False
+job_A,6oik_R,6oik,R,Muscarinic acetylcholine receptor 2-Go complex,20.7,207,6.292e-05,230,Homo sapiens,False
+job_A,8fd0_A,8fd0,A,Crystal structure of bovine rod opsin in complex with a nanobody,22.5,200,2.565e-05,230,Bos taurus,False
+job_A,7srs_R,7srs,R,5-HT2B receptor bound to LSD in complex with beta-arrestin1 obtained by cryo-electron microscopy (cryoEM),13.0,475,1.713e-05,230,Homo sapiens,False
+job_A,8ibu_R,8ibu,R,Cryo-EM structure of the erythromycin-bound motilin receptor-Gq protein complex,26.5,207,3.21e-05,229,Escherichia coli,False
+job_A,8fd1_B,8fd1,B,Crystal structure of photoactivated rhodopsin in complex with a nanobody,23.4,192,3.841e-05,229,Bos taurus,False
+job_A,6zjh_AAA,6zjh,AAA,Trehalose transferase from Thermoproteus uzoniensis soaked with trehalose,20.3,226,1.959e-05,229,Thermoproteus uzoniensis 768-20,False
+job_A,7vfm_A,7vfm,A,Crystal structure of SdgB (UDP and SD peptide-binding form),18.4,190,2.452e-05,229,Staphylococcus aureus subsp. aureus USA300,False
+job_A,7vfm_C,7vfm,C,Crystal structure of SdgB (UDP and SD peptide-binding form),17.9,189,2.242e-05,228,Staphylococcus aureus subsp. aureus USA300,False
+job_A,5dgy_B,5dgy,B,Crystal structure of rhodopsin bound to visual arrestin,19.6,229,2.143e-05,228,Tequatrovirus T4,False
+job_A,6ejj_A,6ejj,A,Structure of a glycosyltransferase / state 2,27.0,192,1.713e-05,227,Campylobacter jejuni,False
+job_A,6zj4_AAA,6zj4,AAA,apo-Trehalose transferase (apo-TreT) from Thermoproteus uzoniensis,21.0,223,1.637e-05,227,Thermoproteus uzoniensis,False
+job_A,3vw7_A,3vw7,A,Crystal structure of human protease-activated receptor 1 (PAR1) bound with antagonist vorapaxar at 2.2 angstrom,15.2,511,7.078e-07,227,Homo sapiens,True
+job_A,7vfn_A,7vfn,A,Crystal structure of SdgB (SD peptide-binding form),17.7,186,5.5e-05,227,Staphylococcus aureus subsp. aureus USA300,False
+job_A,8hj1_R,8hj1,R,GPR21(wt) and Gs complex,11.5,494,3.069e-05,226,Homo sapiens,False
+job_A,4zud_A,4zud,A,Crystal Structure of Human Angiotensin Receptor in Complex with Inverse Agonist Olmesartan at 2.8A resolution.,23.8,189,9.423e-05,226,Escherichia coli,False
+job_A,7ys6_A,7ys6,A,Cryo-EM structure of the Serotonin 6 (5-HT6) receptor-DNGs-scFv16 complex,20.1,194,7.199e-05,226,Homo sapiens,False
+job_A,8b63_A,8b63,A,Crystal Structure of P. aeruginosa WaaG in complex with UDP-GalNAc,19.8,217,4.017e-05,225,Pseudomonas aeruginosa,False
+job_A,5w0p_C,5w0p,C,Crystal structure of rhodopsin bound to visual arrestin determined by X-ray free electron laser,19.6,229,2.682e-05,225,Enterobacteria phage RB55,False
+job_A,5unh_B,5unh,B,"Synchrotron structure of human angiotensin II type 2 receptor in complex with compound 2 (N-[(furan-2-yl)methyl]-N-(4-oxo-2-propyl-3-{[2'-(2H-tetrazol-5-yl)[1,1'- biphenyl]-4-yl]methyl}-3,4-dihydroquinazolin-6-yl)benzamide)",19.5,225,6.016e-05,224,Escherichia coli,False
+job_A,7eja_R,7eja,R,Structure of the alpha2A-adrenergic receptor GoA signaling complex bound to dexmedetomidine,13.4,477,6.016e-05,224,Homo sapiens,False
+job_A,8id8_R,8id8,R,Cryo-EM structure of the TUG891 bound GPR120-Gi complex,13.8,469,2.242e-05,224,Homo sapiens,False
+job_A,7piu_R,7piu,R,Cryo-EM structure of the agonist setmelanotide bound to the active melanocortin-4 receptor (MC4R) in complex with the heterotrimeric Gs protein at 2.6 A resolution.,18.0,194,0.0001411,223,Homo sapiens,False
+job_A,5tvg_D,5tvg,D,"Crystal structure of an alpha,alpha-trehalose-phosphate synthase (UDP-forming) from Burkholderia vietnamiensis",13.0,230,5.028e-05,223,Burkholderia vietnamiensis G4,False
+job_A,6zmz_AAA,6zmz,AAA,UDPG-bound Trehalose transferase from Thermoproteus uzoniensis,17.5,216,4.202e-05,222,Thermoproteus uzoniensis,False
+job_A,5l3k_H,5l3k,H,Structure of Mycobacterium thermoresistibile trehalose-6-phosphate synthase in a ternary complex with ADP and fructose-6-phosphate,13.4,326,4.456e-06,222,Mycolicibacterium thermoresistibile,False
+job_A,1f88_B,1f88,B,CRYSTAL STRUCTURE OF BOVINE RHODOPSIN,23.9,192,6.581e-05,221,Bos taurus,False
+job_A,8j46_A,8j46,A,"Human Consensus Olfactory Receptor OR52c in apo state, OR52c-bRIL",15.1,490,9.691e-07,221,Homo sapiens,True
+job_A,8jlk_R,8jlk,R,Ulotaront(SEP-363856)-bound mTAAR1-Gs protein complex,21.4,205,7.199e-05,221,Escherichia coli,False
+job_A,7ec7_B,7ec7,B,Crystal structure of SdgB (complexed with phosphate ions),16.9,189,5.028e-05,220,Staphylococcus aureus subsp. aureus USA300,False
+job_A,8hti_R,8hti,R,Human Consensus Olfactory Receptor OR52c in Complex with Octanoic Acid (OCA) and G Protein,19.1,219,4.202e-05,220,Homo sapiens,False
+job_A,7ckz_R,7ckz,R,Cryo-EM structure of Dopamine and LY3154207 bound dopamine receptor DRD1-Gs signaling complex,14.1,481,4.394e-05,220,Homo sapiens,False
+job_A,8jlj_R,8jlj,R,T1AM-bound mTAAR1-Gs protein complex,20.3,206,8.614e-05,220,Escherichia coli,False
+job_A,7piv_R,7piv,R,Active Melanocortin-4 receptor (MC4R)- Gs protein complex bound to agonist NDP-alpha-MSH at 2.86 A resolution.,18.0,194,0.0001932,219,Homo sapiens,False
+job_A,4f9f_E,4f9f,E,"Crystal Structure of VldE, the pseudo-glycosyltransferase, in complex with GDP and Trehalose",14.0,207,0.0001476,219,Streptomyces hygroscopicus subsp. limoneus,False
+job_A,7w0p_R,7w0p,R,Cryo-EM structure of a GPCR-Gi complex with peptide,15.6,487,3.511e-05,219,Escherichia coli,False
+job_A,6zj7_AAA,6zj7,AAA,Trehalose transferase (TreT) from Thermoproteus uzoniensis soaked with Mg,17.5,222,4.017e-05,219,Thermoproteus uzoniensis 768-20,False
+job_A,4xnv_A,4xnv,A,The human P2Y1 receptor in complex with BPTU,13.8,484,1.431e-05,218,Homo sapiens,False
+job_A,8i2h_A,8i2h,A,Follicle stimulating hormone receptor,19.5,241,3.672e-05,218,Homo sapiens,False
+job_A,8i2g_R,8i2g,R,FSHR-Follicle stimulating hormone-compound 716340-Gs complex,21.7,198,8.614e-05,218,Homo sapiens,False
+job_A,7wv9_R,7wv9,R,Cryo-EM structure of human receptor with G proteins,12.7,488,8.236e-05,217,Homo sapiens,False
+job_A,5e9t_A,5e9t,A,Crystal structure of GtfA/B complex,18.5,194,2.806e-05,217,Streptococcus gordonii,False
+job_A,8g59_R,8g59,R,Cryo-EM structure of the TUG891 bound GPR120-Giq complex,20.7,198,0.0001476,216,Homo sapiens,False
+job_A,3c9m_A,3c9m,A,Structure of a mutant bovine rhodopsin in hexagonal crystal form,22.5,217,3.511e-05,216,unclassified,False
+job_A,4f96_A,4f96,A,"Crystal Structure of VldE, the pseudo-glycosyltransferase, in complex with GDP",15.0,206,7.199e-05,216,Streptomyces hygroscopicus subsp. limoneus,False
+job_A,7dw9_R,7dw9,R,Cryo-EM structure of human V2 vasopressin receptor in complex with an Gs protein,12.1,477,0.0001476,215,Homo sapiens,False
+job_A,8ghv_D,8ghv,D,Cannabinoid Receptor 1-G Protein Complex,13.8,490,7.199e-05,215,Homo sapiens,False
+job_A,7t90_A,7t90,A,Cryo-EM structure of ACh-bound M2R-Go signaling complex in S2 state,13.5,480,8.614e-05,214,Homo sapiens,False
+job_A,5unh_A,5unh,A,"Synchrotron structure of human angiotensin II type 2 receptor in complex with compound 2 (N-[(furan-2-yl)methyl]-N-(4-oxo-2-propyl-3-{[2'-(2H-tetrazol-5-yl)[1,1'- biphenyl]-4-yl]methyl}-3,4-dihydroquinazolin-6-yl)benzamide)",14.5,482,0.0001544,214,Escherichia coli,False
+job_A,7um6_A,7um6,A,CryoEM structure of Go-coupled 5-HT5AR in complex with Lisuride,21.6,194,9.856e-05,213,Homo sapiens,False
+job_A,8hqc_A,8hqc,A,Structure of a GPCR-G protein in complex with a natural peptide agonist,21.5,223,6.581e-05,213,Mus musculus,False
+job_A,5n2s_A,5n2s,A,Crystal structure of stabilized A1 receptor in complex with PSB36 at 3.3A resolution,12.0,490,0.0002767,213,Escherichia coli,False
+job_A,8h4i_R,8h4i,R,DHA-bound FFAR4 in complex with Gs,20.4,205,9.01e-05,212,Homo sapiens,False
+job_A,7vh0_A,7vh0,A,MT2-remalteon-Gi complex,16.0,474,0.0002114,212,Homo sapiens,False
+job_A,7fg9_B,7fg9,B,"Alpha-1,2-glucosyltransferase_UDP_tll1591",20.1,189,4.596e-05,212,Thermosynechococcus vestitus BP-1,False
+job_A,6li2_A,6li2,A,Crystal structure of GPR52 ligand free form with rubredoxin fusion,12.2,497,1.637e-05,212,Homo sapiens,False
+job_A,7f54_R,7f54,R,Cryo-EM structure of afamelanotide-MC4R-Gs_Nb35 complex,17.7,192,0.0003165,212,Homo sapiens,False
+job_A,8dpg_A,8dpg,A,Cryo-EM structure of the 5HT2C receptor (INI isoform) bound to psilocin,12.1,479,0.0001847,212,Homo sapiens,False
+job_A,8hj0_R,8hj0,R,GPR21(m5) and G15 complex,11.8,491,0.0001234,211,Homo sapiens,False
+job_A,8w88_R,8w88,R,Cryo-EM structure of the SEP363856-bound TAAR1-Gs complex,21.4,214,7.529e-05,210,Homo sapiens,False
+job_A,8iys_R,8iys,R,TUG891-bound FFAR4 in complex with Gq,20.7,217,7.199e-05,210,Homo sapiens,False
+job_A,4f9f_B,4f9f,B,"Crystal Structure of VldE, the pseudo-glycosyltransferase, in complex with GDP and Trehalose",14.4,207,0.000129,210,Streptomyces hygroscopicus subsp. limoneus,False
+job_A,5g53_B,5g53,B,Structure of the adenosine A2A receptor bound to an engineered G protein,16.4,474,7.636e-06,208,Homo sapiens,False
+job_A,8j19_R,8j19,R,Cryo-EM structure of the LY237-bound GPR84 receptor-Gi complex,20.2,202,2.682e-05,208,Homo sapiens,False
+job_A,4f97_B,4f97,B,"Crystal Structure of VldE, the pseudo-glycosyltransferase, in complex with GDP and validoxylamine A 7'-phosphate",15.0,206,0.0001476,208,Streptomyces hygroscopicus subsp. limoneus,False
+job_A,7xy6_R,7xy6,R,Adenosine receptor bound to an agonist in complex with G protein obtained by cryo-EM,17.3,491,9.01e-05,208,Escherichia coli,False
+job_A,6vms_R,6vms,R,Structure of a D2 dopamine receptor-G-protein complex in a lipid membrane,20.7,227,0.0001031,207,Tequatrovirus T4,False
+job_A,4a4m_A,4a4m,A,"Crystal structure of the light-activated constitutively active N2C, M257Y,D282C rhodopsin mutant in complex with a peptide resembling the C-terminus of the Galpha-protein subunit (GaCT)",24.2,198,0.0002312,207,Bos taurus,False
+job_A,6m9t_A,6m9t,A,Crystal structure of EP3 receptor bound to misoprostol-FA,15.2,517,8.47e-07,207,Homo sapiens,True
+job_A,8h4k_R,8h4k,R,GW9508-bound FFAR4 in complex with Gq,19.0,231,6.883e-05,206,Homo sapiens,False
+job_A,2i37_A,2i37,A,Crystal structure of a photoactivated rhodopsin,23.0,208,5.5e-05,206,Bos taurus,False
+job_A,5ze7_B,5ze7,B,UDP Glucose alpha tetrahydrobiopterin glycosyltransferase from Synechococcus species PCC 7942 - apo form,18.1,259,1.431e-05,206,Synechococcus elongatus PCC 7942 = FACHB-805,False
+job_A,8gus_R,8gus,R,Cryo-EM structure of HU-CB2-G protein complex,13.3,481,0.0001411,205,Homo sapiens,False
+job_A,8wc3_R,8wc3,R,Cryo-EM structure of the SEP363856-bound mTAAR1-Gs complex,20.3,206,0.0002211,204,Mus musculus,False
+job_A,8hnn_R,8hnn,R,Structure of CXCR3 complexed with antagonist SCH546738,18.1,309,1.251e-05,204,Escherichia coli,False
+job_A,7exd_R,7exd,R,Lasmiditan-bound serotonin 1F (5-HT1F) receptor-Gi protein complex,12.4,489,0.0002312,203,Escherichia coli,False
+job_A,6pt0_R,6pt0,R,"Cryo-EM structure of human cannabinoid receptor 2-Gi protein in complex with agonist WIN 55,212-2",12.5,478,0.0002645,203,Homo sapiens,False
+job_A,7evz_D,7evz,D,Cryo-EM structure of cenerimod -bound Sphingosine-1-phosphate receptor 1 in complex with Gi protein,12.3,479,0.0001411,203,Homo sapiens,False
+job_A,7t94_A,7t94,A,Cryo-EM structure of S1 state ACh-bound M2R-Go signaling complex with a PAM,21.4,205,0.000129,203,Homo sapiens,False
+job_A,4pqg_A,4pqg,A,Crystal structure of the pneumococcal O-GlcNAc transferase GtfA in complex with UDP and GlcNAc,17.4,229,5.258e-05,203,Streptococcus pneumoniae TIGR4,False
+job_A,8wc4_R,8wc4,R,Cryo-EM structure of the ZH8651-bound mTAAR1-Gs complex,22.3,206,7.875e-05,202,Mus musculus,False
+job_A,7vie_F,7vie,F,Cryo-EM structure of Gi coupled Sphingosine 1-phosphate receptor bound with S1P,12.9,477,0.0001689,202,Homo sapiens,False
+job_A,7vih_F,7vih,F,Cryo-EM structure of Gi coupled Sphingosine 1-phosphate receptor bound with CBP-307,12.8,473,0.0002312,201,Homo sapiens,False
+job_A,8g94_A,8g94,A,Structure of CD69-bound S1PR1 coupled to heterotrimeric Gi,12.5,478,0.0001932,201,Homo sapiens,False
+job_A,7td4_R,7td4,R,Sphingosine-1-phosphate receptor 1-Gi complex bound to Siponimod,12.6,481,0.0002021,201,Homo sapiens,False
+job_A,8id9_R,8id9,R,Cryo-EM structure of the eicosapentaenoic acid bound GPR120-Gi complex,19.7,197,0.0002021,200,Homo sapiens,False
+job_A,8ihk_R,8ihk,R,Cryo-EM structure of HCA3-Gi complex with acifran (local),21.6,199,0.0002645,200,Escherichia coli,False
+job_A,6d9h_R,6d9h,R,Cryo-EM structure of the human adenosine A1 receptor-Gi2-protein complex bound to its endogenous agonist,13.8,491,0.0001476,200,Homo sapiens,False
+job_A,8f76_A,8f76,A,Human olfactory receptor OR51E2 bound to propionate in complex with miniGs399,20.0,214,0.0002529,200,Homo sapiens,False
+job_A,8w77_A,8w77,A,"Human Consensus Olfactory Receptor OR52c in apo state, OR52c only",20.0,215,9.01e-05,199,Homo sapiens,False
+job_A,8jii_A,8jii,A,Cryo-EM structure of compound 9n and niacin bound ketone body receptor HCAR2-Gi signaling complex,18.5,210,0.0002645,199,Homo sapiens,False
+job_A,4ug2_A,4ug2,A,Thermostabilised HUMAN A2a Receptor with CGS21680 bound,15.1,483,2.682e-05,199,Homo sapiens,False
+job_A,7ej0_R,7ej0,R,Structure of the alpha2A-adrenergic receptor GoA signaling complex,22.2,193,0.0001847,198,Homo sapiens,False
+job_A,8wc6_R,8wc6,R,Cryo-EM structure of the PEA-bound mTAAR1-Gs complex,20.8,197,0.0004958,198,Mus musculus,False
+job_A,8iwm_R,8iwm,R,Cryo-EM structure of the PEA-bound mTAAR9 complex,23.3,197,0.0003462,198,Mus musculus,False
+job_A,6k42_R,6k42,R,cryo-EM structure of alpha2BAR-Gi1 complex,14.3,482,0.000129,197,Homo sapiens,False
+job_A,6kpg_R,6kpg,R,Cryo-EM structure of CB1-G protein complex,22.5,208,0.0002211,197,Homo sapiens,False
+job_A,1hzx_B,1hzx,B,CRYSTAL STRUCTURE OF BOVINE RHODOPSIN,21.2,216,0.0001932,197,Bos taurus,False
+job_A,8jlo_R,8jlo,R,Ulotaront(SEP-363856)-bound hTAAR1-Gs protein complex,15.4,480,3.724e-06,196,Escherichia coli,False
+job_A,8id6_R,8id6,R,Cryo-EM structure of the oleic acid bound GPR120-Gi complex,18.4,195,0.0001766,196,Homo sapiens,False
+job_A,7yu5_R,7yu5,R,"Human Lysophosphatidic Acid Receptor 1-Gi complex bound to ONO-0740556, state1",11.2,481,0.0001689,195,Homo sapiens,False
+job_A,7td3_R,7td3,R,Sphingosine-1-phosphate receptor 1-Gi complex bound to S1P,13.0,476,0.0001847,195,Homo sapiens,False
+job_A,5lwe_A,5lwe,A,Crystal structure of the human CC chemokine receptor type 9 (CCR9) in complex with vercirnon,12.3,487,0.0004333,194,Homo sapiens,False
+job_A,2i36_B,2i36,B,Crystal structure of trigonal crystal form of ground-state rhodopsin,21.9,219,7.199e-05,194,Bos taurus,False
+job_A,2i37_B,2i37,B,Crystal structure of a photoactivated rhodopsin,20.4,235,3.672e-05,194,Bos taurus,False
+job_A,7aue_R,7aue,R,Melanocortin receptor 4 (MC4R) Gs protein complex,16.9,189,0.0006205,193,Homo sapiens,False
+job_A,8jlq_R,8jlq,R,Fenoldopam-bound hTAAR1-Gs protein complex,14.4,477,4.456e-06,193,Escherichia coli,False
+job_A,8xbh_R,8xbh,R,Human GPR34 -Gi complex bound to M1,12.0,483,0.0003462,193,Homo sapiens,False
+job_A,6n4b_R,6n4b,R,Cannabinoid Receptor 1-G Protein Complex,22.2,207,7.875e-05,192,Homo sapiens,False
+job_A,7y89_A,7y89,A,Structure of the GPR17-Gi complex,19.0,221,0.0001476,192,Mus musculus,False
+job_A,8fbx_A,8fbx,A,Selenosugar synthase SenB from Variovorax paradoxus,18.9,179,0.0008885,192,Variovorax paradoxus,False
+job_A,2i37_C,2i37,C,Crystal structure of a photoactivated rhodopsin,23.4,205,0.0001544,192,Bos taurus,False
+job_A,7xy7_R,7xy7,R,Adenosine receptor bound to a non-selective agonist in complex with a G protein obtained by cryo-EM,25.7,225,3.357e-05,191,Escherichia coli,False
+job_A,8jso_R,8jso,R,AMPH-bound hTAAR1-Gs protein complex,14.5,481,4.394e-05,191,Escherichia coli,False
+job_A,7t9n_R,7t9n,R,M22 Agonist Autoantibody bound to Human Thyrotropin receptor in complex with miniGs399 (composite structure),20.1,208,0.0002767,191,Homo sapiens,False
+job_A,7xz6_R,7xz6,R,GPR119-Gs-APD668 complex,12.9,486,7.529e-05,191,Escherichia coli,False
+job_A,7srq_R,7srq,R,5-HT2B receptor bound to LSD obtained by cryo-electron microscopy (cryoEM),21.9,210,0.0001766,191,Homo sapiens,False
+job_A,6u1n_R,6u1n,R,GPCR-Beta arrestin structure in lipid bilayer,21.7,207,0.0005423,191,Homo sapiens,False
+job_A,8w8a_R,8w8a,R,Cryo-EM structure of the RO5256390-TAAR1 complex,15.2,479,8.353e-06,190,Homo sapiens,False
+job_A,8j1a_R,8j1a,R,Cryo-EM structure of the GPR84 receptor-Gi complex with no ligand modeled,13.4,482,4.202e-05,189,Homo sapiens,False
+job_A,8wcc_R,8wcc,R,Cryo-EM structure of the CHA-bound mTAAR1 complex,21.0,204,0.0005423,188,Mus musculus,False
+job_A,7td2_R,7td2,R,"Lysophosphatidic acid receptor 1-Gi complex bound to LPA, state a",17.3,190,0.001112,187,Homo sapiens,False
+job_A,4pxz_A,4pxz,A,Crystal structure of P2Y12 receptor in complex with 2MeSADP,14.3,503,5.577e-06,187,Homo sapiens,True
+job_A,7fih_R,7fih,R,luteinizing hormone/choriogonadotropin receptor(S277I)-chorionic gonadotropin-Gs-Org43553 complex,17.9,229,0.0001411,187,Homo sapiens,False
+job_A,8wc8_R,8wc8,R,Cryo-EM structure of the ZH8651-bound hTAAR1-Gs complex,15.4,473,1.566e-05,186,Homo sapiens,False
+job_A,5zkq_B,5zkq,B,Crystal structure of the human platelet-activating factor receptor in complex with ABT-491,17.1,497,6.674e-06,185,Homo sapiens,False
+job_A,7qnt_AAA,7qnt,AAA,TarM(Se) native,20.0,234,0.0002767,185,Staphylococcus epidermidis,False
+job_A,8wc5_R,8wc5,R,Cryo-EM structure of the TMA-bound mTAAR1-Gs complex,20.0,220,0.000331,184,Mus musculus,False
+job_A,8j6p_R,8j6p,R,Cryo-EM structure of the MK-6892-bound human HCAR2-Gi1 complex,20.1,194,0.0008122,184,Homo sapiens,False
+job_A,7utz_R,7utz,R,Human thyrotropin analog TR1402 bound to human Thyrotropin receptor in complex with miniGs399 (composite structure),20.7,202,0.0007099,184,Homo sapiens,False
+job_A,7ew0_D,7ew0,D,Cryo-EM structure of ozanimod -bound Sphingosine-1-phosphate receptor 1 in complex with Gi protein,12.3,476,0.000649,182,Homo sapiens,False
+job_A,5tzy_A,5tzy,A,GPR40 in complex with AgoPAM AP8 and partial agonist MK-8666,14.2,507,3.672e-05,182,Homo sapiens,False
+job_A,8k4n_D,8k4n,D,Structure of GPR34-Gi complex,20.6,213,0.0003961,180,Homo sapiens,False
+job_A,8hmv_A,8hmv,A,Structure of GPR21-Gs complex,11.3,484,0.0005672,179,Homo sapiens,False
+job_A,6qno_R,6qno,R,Rhodopsin-Gi protein complex,22.8,201,0.0009719,179,Bos taurus,False
+job_A,7fii_R,7fii,R,luteinizing hormone/choriogonadotropin receptor-chorionic gonadotropin-Gs complex,17.2,214,0.0004958,178,Homo sapiens,False
+job_A,8wc9_R,8wc9,R,Cryo-EM structure of the ZH8651-bound mTAAR1-Gq complex,20.1,223,0.0005672,177,Mus musculus,False
+job_A,8wc7_R,8wc7,R,Cryo-EM structure of the ZH8667-bound mTAAR1-Gs complex,14.3,473,5.752e-05,177,Mus musculus,False
+job_A,6ak3_B,6ak3,B,Crystal structure of the human prostaglandin E receptor EP3 bound to prostaglandin E2,16.3,190,0.0004143,177,Homo sapiens,False
+job_A,5lwe_B,5lwe,B,Crystal structure of the human CC chemokine receptor type 9 (CCR9) in complex with vercirnon,13.3,479,0.001216,177,Homo sapiens,False
+job_A,8ejk_R,8ejk,R,Structure of FFAR1-Gq complex bound to TAK-875 in a lipid nanodisc,18.9,206,0.001163,176,Homo sapiens,False
+job_A,7kh0_R,7kh0,R,Cryo-EM structure of the human arginine vasopressin AVP-vasopressin receptor V2R-Gs signaling complex,17.1,198,0.001272,176,Homo sapiens,False
+job_A,8wca_R,8wca,R,Cryo-EM structure of the PEA-bound hTAAR1-Gs complex,14.3,473,8.614e-05,172,Homo sapiens,False
+job_A,4py0_A,4py0,A,Crystal structure of P2Y12 receptor in complex with 2MeSATP,13.8,506,4.661e-06,172,Homo sapiens,False
+job_A,7td1_R,7td1,R,"Lysophosphatidic acid receptor 1-Gi complex bound to LPA, state a",17.4,224,0.0003026,171,Homo sapiens,False
+job_A,5te5_A,5te5,A,Crystal structure of Bos taurus opsin regenerated with 6-carbon ring retinal chromophore,20.9,239,0.0002312,171,Bos taurus,True
+job_A,7vv5_R,7vv5,R,"Cryo-EM structure of pseudoallergen receptor MRGPRX2 complex with C48/80, state1",16.0,206,0.001522,170,Homo sapiens,False
+job_A,8fbx_C,8fbx,C,Selenosugar synthase SenB from Variovorax paradoxus,18.9,179,0.002494,170,Variovorax paradoxus,False
+job_A,7xw7_R,7xw7,R,TSHR-K1-70 complex,20.9,239,0.0002767,169,Homo sapiens,False
+job_A,3s29_B,3s29,B,The crystal structure of sucrose synthase-1 from Arabidopsis thaliana and its functional implications.,14.0,291,7.875e-05,168,Arabidopsis thaliana,False
+job_A,7xv3_R,7xv3,R,Cryo-EM structure of LPS-bound GPR174 in complex with Gs protein,18.5,216,0.0009719,166,Homo sapiens,False
+job_A,7yu4_A,7yu4,A,"Human Lysophosphatidic Acid Receptor 1-Gi complex bound to ONO-0740556, focused on receptor",16.2,215,0.0004958,165,Homo sapiens,False
+job_A,7wcn_R,7wcn,R,Cryo-EM structure of GPR119-Gs Complex with small molecule agonist AR231453,16.7,197,0.0005933,165,Homo sapiens,False
+job_A,7xw6_R,7xw6,R,TSHR-Gs-M22 antibody-ML109 complex,18.6,209,0.0007099,164,Homo sapiens,False
+job_A,7xw5_R,7xw5,R,TSHR-thyroid stimulating hormone-Gs-ML109 complex,18.0,210,0.000649,164,Homo sapiens,False
+job_A,6cmo_R,6cmo,R,Rhodopsin-Gi complex,14.1,488,0.001272,164,Escherichia coli,False
+job_A,7vv4_R,7vv4,R,"Cryo-EM structure of pseudoallergen receptor MRGPRX2 complex with linear cortistatin-14, local",15.3,208,0.001392,163,Homo sapiens,False
+job_A,7s8n_R,7s8n,R,CryoEM structure of Gq-coupled MRGPRX2 with small molecule agonist (R)-Zinc-3573,14.9,201,0.002853,162,Homo sapiens,False
+job_A,4rbn_D,4rbn,D,The crystal structure of Nitrosomonas europaea sucrose synthase: Insights into the evolutionary origin of sucrose metabolism in prokaryotes,19.1,329,6.581e-05,162,Nitrosomonas europaea,False
+job_A,7wu9_R,7wu9,R,Cryo-EM structure of the human EP3-Gi signaling complex,15.5,199,0.0007425,162,Homo sapiens,False
+job_A,6li3_R,6li3,R,cryo-EM structure of GPR52-miniGs-NB35,11.9,484,0.001456,162,Homo sapiens,False
+job_A,7y15_R,7y15,R,Cryo-EM structure of apo-state MrgD-Gi complex,13.9,201,0.003414,161,Escherichia coli,False
+job_A,8eit_R,8eit,R,Structure of FFAR1-Gq complex bound to DHA,18.0,199,0.003906,160,Tequatrovirus T4,False
+job_A,8g05_R,8g05,R,Cryo-EM structure of an orphan GPCR-Gi protein signaling complex,13.0,484,0.0003165,160,Homo sapiens,False
+job_A,8hvi_R,8hvi,R,Activation mechanism of GPR132 by compound NOX-6-7,16.5,206,0.002984,160,Escherichia coli,False
+job_A,5kw2_A,5kw2,A,The extra-helical binding site of GPR40 and the structural basis for allosteric agonism and incretin stimulation,12.5,509,8.236e-05,160,Homo sapiens,False
+job_A,7fij_R,7fij,R,luteinizing hormone/choriogonadotropin receptor,18.9,195,0.00228,160,Homo sapiens,False
+job_A,7r0c_A,7r0c,A,Structure of the AVP-V2R-arrestin2-ScFv30 complex,18.3,202,0.001331,159,Homo sapiens,False
+job_A,8jlp_R,8jlp,R,Ralmitaront(RO-6889450)-bound hTAAR1-Gs protein complex,15.0,478,0.0001128,159,Escherichia coli,False
+job_A,8ejc_R,8ejc,R,Structure of FFAR1-Gq complex bound to TAK-875,17.9,217,0.002084,158,Homo sapiens,False
+job_A,8kh5_A,8kh5,A,Cryo-EM structure of the GPR174-Gs complex bound to endogenous lysoPS,18.3,213,0.001665,158,Homo sapiens,False
+job_A,7dfl_R,7dfl,R,Cryo-EM structure of histamine H1 receptor Gq complex,14.3,480,0.000474,157,Homo sapiens,False
+job_A,8hs2_R,8hs2,R,Orphan GPR20 in complex with Fab046,19.4,201,0.002084,157,Escherichia coli,False
+job_A,7cx3_R,7cx3,R,Cryo-EM structure of the Taprenepag-bound EP2-Gs complex,19.8,191,0.001905,156,Homo sapiens,False
+job_A,8wrb_R,8wrb,R,Lysophosphatidylserine receptor GPR34-Gi complex,11.4,487,0.001063,155,Homo sapiens,False
+job_A,8hqm_R,8hqm,R,Activation mechanism of GPR132 by NPGLY,11.7,493,0.005348,154,Escherichia coli,False
+job_A,4phu_A,4phu,A,Crystal structure of Human GPR40 bound to allosteric agonist TAK-875,11.9,535,8.614e-05,154,Homo sapiens,True
+job_A,8dwg_R,8dwg,R,CryoEM structure of Gq-coupled MRGPRX1 with peptide ligand BAM8-22 and positive allosteric modulator ML382,14.4,208,0.001216,153,Homo sapiens,False
+job_A,8hmp_R,8hmp,R,GPR52 with Gs and c17,10.8,479,0.003121,152,Homo sapiens,False
+job_A,7xxi_A,7xxi,A,Cryo-EM structure of the purinergic receptor P2Y12R in complex with 2MeSADP and Gi,12.2,498,0.003264,152,Homo sapiens,False
+job_A,7wf7_A,7wf7,A,Cryo-EM of Sphingosine 1-phosphate receptor 1 / Gi complex bound to S1P,18.5,194,0.003571,152,Homo sapiens,False
+job_A,5zkq_A,5zkq,A,Crystal structure of the human platelet-activating factor receptor in complex with ABT-491,19.7,213,0.00228,150,Homo sapiens,False
+job_A,7t6b_R,7t6b,R,Structure of S1PR2-heterotrimeric G13 signaling complex,18.6,209,0.00585,148,Homo sapiens,False
+job_A,8h8j_C,8h8j,C,Lodoxamide-bound GPR35 in complex with G13,20.7,212,0.004086,147,Homo sapiens,False
+job_A,7ew4_R,7ew4,R,Cryo-EM structure of CYM-5541-bound Sphingosine 1-phosphate receptor 3 in complex with Gi protein,16.8,225,0.0007766,146,Homo sapiens,False
+job_A,7t9m_R,7t9m,R,Human Thyrotropin receptor bound by CS-17 Inverse Agonist Fab/Org 274179-0 Antagonist,20.0,240,0.002084,145,Homo sapiens,False
+job_A,7d7m_A,7d7m,A,Cryo-EM Structure of the Prostaglandin E Receptor EP4 Coupled to G Protein,12.3,203,0.001331,144,Homo sapiens,False
+job_A,7s8m_R,7s8m,R,CryoEM structure of Gi-coupled MRGPRX2 with peptide agonist Cortistatin-14,17.6,204,0.002984,141,Escherichia coli,False
+job_A,3s29_A,3s29,A,The crystal structure of sucrose synthase-1 from Arabidopsis thaliana and its functional implications.,16.3,324,0.0002211,140,Arabidopsis thaliana,False
+job_A,7eo2_A,7eo2,A,Cryo-EM of Sphingosine 1-phosphate receptor 1 / Gi complex bound to FTY720p,16.9,218,0.0008495,139,Homo sapiens,False
+job_A,3ot5_C,3ot5,C,2.2 Angstrom Resolution Crystal Structure of putative UDP-N-acetylglucosamine 2-epimerase from Listeria monocytogenes,17.4,172,0.008761,138,Listeria monocytogenes EGD-e,False
+job_A,6iiu_A,6iiu,A,Crystal structure of the human thromboxane A2 receptor bound to ramatroban,11.4,491,0.003264,137,Escherichia coli,True
+job_A,3ot5_D,3ot5,D,2.2 Angstrom Resolution Crystal Structure of putative UDP-N-acetylglucosamine 2-epimerase from Listeria monocytogenes,16.4,170,0.01435,135,Listeria monocytogenes EGD-e,False
+job_A,5vnc_B,5vnc,B,Glycogen synthase in complex with UDP and glucosamine,15.4,330,0.0007766,133,Saccharomyces cerevisiae S288C,False
+job_A,7vz6_C,7vz6,C,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP-glucose,18.1,182,0.01002,131,Streptomyces kasugaensis,False
+job_A,7ew3_R,7ew3,R,Cryo-EM structure of S1P-bound Sphingosine 1-phosphate receptor 3 in complex with Gi protein,14.6,273,0.007,129,Homo sapiens,False
+job_A,7zi0_A,7zi0,A,Structure of human Smoothened in complex with cholesterol and SAG,9.8,527,0.0002767,129,Homo sapiens,False
+job_A,7c4s_A,7c4s,A,Sphingosine-1-phosphate receptor 3 with a natural ligand.,20.5,195,0.01372,127,Homo sapiens,False
+job_A,7vza_H,7vza,H,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP,17.6,181,0.007,127,Streptomyces kasugaensis,False
+job_A,1vgv_B,1vgv,B,Crystal structure of UDP-N-acetylglucosamine_2 epimerase,15.6,211,0.003735,126,Escherichia coli,False
+job_A,7rkx_R,7rkx,R,Structure of US27-Gi-scFv16 in CL-state,17.5,200,0.01199,125,Human betaherpesvirus 5,False
+job_A,5enz_B,5enz,B,S. aureus MnaA-UDP co-structure,15.5,167,0.03521,125,Staphylococcus aureus,False
+job_A,7vz6_F,7vz6,F,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP-glucose,18.0,188,0.008377,124,Streptomyces kasugaensis,False
+job_A,7xtq_R,7xtq,R,Cryo-EM structure of the R399-bound GPBAR-Gs complex,10.9,473,0.007,122,Homo sapiens,False
+job_A,7vza_E,7vza,E,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP,18.1,187,0.009584,122,Streptomyces kasugaensis,False
+job_A,6ww2_R,6ww2,R,Structure of human Frizzled5 by fiducial-assisted cryo-EM,9.2,506,0.0004333,122,Homo sapiens,False
+job_A,7vz6_G,7vz6,G,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP-glucose,19.7,187,0.008377,121,Streptomyces kasugaensis,False
+job_A,3dzc_B,3dzc,B,"2.35 Angstrom resolution structure of WecB (VC0917), a UDP-N-acetylglucosamine 2-epimerase from Vibrio cholerae.",15.6,198,0.004889,121,Vibrio cholerae,False
+job_A,7xkf_R,7xkf,R,Cryo-EM structure of DHEA-ADGRG2-BT-Gs complex at lower state,15.7,203,0.01879,120,Mus musculus,False
+job_A,7vza_A,7vza,A,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP,18.8,180,0.01642,118,Streptomyces kasugaensis,False
+job_A,3ot5_B,3ot5,B,2.2 Angstrom Resolution Crystal Structure of putative UDP-N-acetylglucosamine 2-epimerase from Listeria monocytogenes,16.1,173,0.04609,118,Listeria monocytogenes EGD-e,False
+job_A,7wuq_R,7wuq,R,Tethered peptide activation mechanism of adhesion GPCRs ADGRG2 and ADGRG4,15.8,234,0.01372,117,Mus musculus,False
+job_A,8e3x_R,8e3x,R,Cryo-EM structure of the PAC1R-PACAP27-Gs complex,13.8,217,0.02814,115,Homo sapiens,False
+job_A,7vza_B,7vza,B,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP,17.3,184,0.01879,115,Streptomyces kasugaensis,False
+job_A,7c4s_B,7c4s,B,Sphingosine-1-phosphate receptor 3 with a natural ligand.,19.2,213,0.03367,112,Homo sapiens,False
+job_A,7lly_R,7lly,R,Oxyntomodulin-bound Glucagon-Like Peptide-1 (GLP-1) Receptor in complex with Gs protein,16.5,211,0.02459,111,Homo sapiens,False
+job_A,6p9y_R,6p9y,R,PAC1 GPCR Receptor complex,14.5,199,0.03852,110,Homo sapiens,False
+job_A,7wui_R,7wui,R,Tethered peptide activation mechanism of adhesion GPCRs ADGRG2 and ADGRG4,12.4,233,0.01796,107,Mus musculus,False
+job_A,5v56_B,5v56,B,2.9A XFEL structure of the multi-domain human smoothened receptor (with E194M mutation) in complex with TC114,8.7,546,0.0004333,107,Homo sapiens,False
+job_A,7d3s_R,7d3s,R,Human SECR in complex with an engineered Gs heterotrimer,14.4,207,0.04214,105,Homo sapiens,False
+job_A,7vza_D,7vza,D,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP,17.5,188,0.02248,105,Streptomyces kasugaensis,False
+job_A,7zl9_A,7zl9,A,Crystal structure of human GPCR Niacin receptor (HCA2),12.8,505,0.001017,105,Homo sapiens,True
+job_A,7d77_R,7d77,R,Cryo-EM structure of the cortisol-bound adhesion receptor GPR97-Go complex,13.7,211,0.009163,104,Homo sapiens,False
+job_A,7wbj_R,7wbj,R,Cryo-EM structure of N-terminal modified human vasoactive intestinal polypeptide receptor 2 (VIP2R) in complex with PACAP27 and Gs,14.0,207,0.05769,104,Homo sapiens,False
+job_A,7vza_F,7vza,F,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP,21.2,188,0.01002,104,Streptomyces kasugaensis,False
+job_A,7tmw_R,7tmw,R,Cryo-EM structure of the relaxin receptor RXFP1 in complex with heterotrimeric Gs,10.2,526,0.0002529,104,Homo sapiens,False
+job_A,8g2y_R,8g2y,R,Cryo-EM structure of ADGRF1 coupled to miniGs/q,13.4,194,0.09885,101,Homo sapiens,False
+job_A,6m1i_A,6m1i,A,CryoEM structure of human PAC1 receptor in complex with PACAP38,13.5,207,0.05769,101,Homo sapiens,False
+job_A,7sf8_A,7sf8,A,GPR56 (ADGRG1) 7TM domain bound to tethered agonist in complex with G protein heterotrimer,14.7,204,0.03852,98,Homo sapiens,False
+job_A,7eq1_R,7eq1,R,GPR114-Gs-scFv16 complex,11.9,210,0.0722,98,Homo sapiens,False
+job_A,7vza_C,7vza,C,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP,19.2,187,0.01718,98,Streptomyces kasugaensis,False
+job_A,7vza_G,7vza,G,The crystal structure of Non-hydrolyzing UDPGlcNAc 2-epimerase in complex with UDP,20.3,187,0.01965,98,Streptomyces kasugaensis,False
+job_A,5enz_A,5enz,A,S. aureus MnaA-UDP co-structure,10.3,330,0.007,98,Staphylococcus aureus,False
+job_A,6whc_R,6whc,R,CryoEM Structure of the glucagon receptor with a dual-agonist peptide,14.0,214,0.06903,98,Homo sapiens,False
+job_A,5l7d_A,5l7d,A,Structure of human Smoothened in complex with cholesterol,9.9,531,0.005593,98,Homo sapiens,False
+job_A,8jr9_R,8jr9,R,Small molecule agonist (PCO371) bound to human parathyroid hormone receptor type 1 (PTH1R),14.5,192,0.2217,96,Homo sapiens,False
+job_A,7xke_R,7xke,R,Cryo-EM structure of DHEA-ADGRG2-FL-Gs complex,13.7,233,0.03521,93,Mus musculus,False
+job_A,7wuj_E,7wuj,E,Tethered peptide activation mechanism of adhesion GPCRs ADGRG2 and ADGRG4,16.6,210,0.1548,93,Homo sapiens,False
+job_A,7v9m_R,7v9m,R,Cryo-EM structure of the GHRH-bound human GHRHR splice variant 1 complex,15.7,216,0.0722,91,Homo sapiens,False
+job_A,7wxu_R,7wxu,R,GPR110/Gq complex,14.0,199,0.1853,91,Homo sapiens,False
+job_A,8haf_R,8haf,R,PTHrP-PTH1R-Gs complex,13.7,197,0.0864,91,Homo sapiens,False
+job_A,8jmt_A,8jmt,A,Structure of the adhesion GPCR ADGRL3 in the apo state,11.2,186,0.1415,89,Homo sapiens,False
+job_A,7wu4_R,7wu4,R,Cryo-EM structure of the adhesion GPCR ADGRF1 in complex with miniGi,13.3,248,0.06903,89,Homo sapiens,False
+job_A,7cz5_R,7cz5,R,Cryo-EM structure of the human growth hormone-releasing hormone receptor-Gs protein complex,15.2,217,0.1548,88,Homo sapiens,False
+job_A,6wzg_R,6wzg,R,Human secretin receptor Gs complex,14.1,205,0.1771,88,Homo sapiens,False
+job_A,4n4w_A,4n4w,A,Structure of the human smoothened receptor in complex with SANT-1.,11.9,226,0.07898,87,Shigella flexneri 5 str. 8401,False
+job_A,8a0c_B,8a0c,B,Capsular polysaccharide synthesis multienzyme in complex with CMP,14.2,196,0.03078,87,Haemophilus influenzae,False
+job_A,7sf7_A,7sf7,A,LPHN3 (ADGRL3) 7TM domain bound to tethered agonist in complex with G protein heterotrimer,14.4,207,0.1771,85,Homo sapiens,False
+job_A,7jhj_R,7jhj,R,Structure of the Epstein-Barr virus GPCR BILF1 in complex with human Gi,13.4,201,0.09036,85,human gammaherpesvirus 4,False
+job_A,7ept_R,7ept,R,Structural basis for the tethered peptide activation of adhesion GPCRs,12.4,209,0.066,84,Homo sapiens,False
+job_A,7wu3_R,7wu3,R,Cryo-EM structure of the adhesion GPCR ADGRF1 in complex with miniGs,13.6,213,0.332,83,Homo sapiens,False
+job_A,7x2v_R,7x2v,R,GPR110/Gi complex,11.8,211,0.09451,83,Homo sapiens,False
+job_A,8a0m_A,8a0m,A,Capsular polysaccharide synthesis multienzyme in complex with capsular polymer fragment,14.7,197,0.02572,83,Haemophilus influenzae,False
+job_A,6m1h_A,6m1h,A,CryoEM structure of human PAC1 receptor in complex with maxadilan,14.6,205,0.2775,83,Homo sapiens,False
+job_A,7f16_R,7f16,R,Cryo-EM structure of parathyroid hormone receptor type 2 in complex with a tuberoinfundibular peptide of 39 residues and G protein,13.6,205,0.2319,81,Homo sapiens,False
+job_A,6vn7_R,6vn7,R,Cryo-EM structure of an activated VIP1 receptor-G protein complex,10.5,190,0.3472,78,Homo sapiens,False
+job_A,6pb0_R,6pb0,R,Cryo-EM structure of Urocortin 1-bound Corticotropin-releasing factor 1 receptor in complex with Gs protein and Nb35,13.8,245,0.1237,77,Homo sapiens,False
+job_A,2x0e_A,2x0e,A,Complex structure of WsaF with dTDP,13.4,171,0.52,77,Geobacillus stearothermophilus,False
+job_A,8e3z_R,8e3z,R,Cryo-EM structure of the VPAC1R-VIP-Gs complex,12.6,222,0.4754,76,Homo sapiens,False
+job_A,5gvw_B,5gvw,B,Crystal structure of the apo-form glycosyltransferase GlyE in Streptococcus pneumoniae TIGR4,12.5,152,0.4972,76,Streptococcus pneumoniae,False
+job_A,6nbh_R,6nbh,R,Cryo-EM structure of parathyroid hormone receptor type 1 in complex with a long-acting parathyroid hormone analog and G protein,11.7,222,0.52,74,Homo sapiens,False
+job_A,6kk7_B,6kk7,B,Structure of thermal-stabilised(M6) human GLP-1 receptor transmembrane domain,11.7,534,0.01879,73,Homo sapiens,False
+job_A,2x0f_A,2x0f,A,Structure of WsaF in complex with dTDP-beta-L-Rha,15.1,172,0.7446,73,Geobacillus stearothermophilus,False
+job_A,6bd4_A,6bd4,A,Crystal structure of human apo-Frizzled4 receptor,7.5,211,0.3973,73,Homo sapiens,True
+job_A,5gvv_A,5gvv,A,Crystal structure of the glycosyltransferase GlyE in Streptococcus pneumoniae TIGR4,12.1,164,0.5689,72,Streptococcus pneumoniae,False
+job_A,7wu2_R,7wu2,R,Cryo-EM structure of the adhesion GPCR ADGRD1 in complex with miniGs,12.9,208,0.1771,72,Homo sapiens,False
+job_A,7vvm_R,7vvm,R,PTH-bound human PTH1R in complex with Gs (class3),12.5,199,0.3174,72,Homo sapiens,False
+job_A,7wu5_R,7wu5,R,Cryo-EM structure of the adhesion GPCR ADGRF1(H565A/T567A) in complex with miniGi,13.7,247,0.3973,70,Homo sapiens,False
+job_A,7vvj_R,7vvj,R,PTHrP-bound human PTH1R in complex with Gs,10.8,202,0.5439,69,Homo sapiens,False
+job_A,7wz7_R,7wz7,R,GPR110/G12 complex,13.3,224,0.3174,68,Homo sapiens,False
+job_A,7fiy_R,7fiy,R,Cryo-EM structure of the tirzepatide-bound human GIPR-Gs complex,15.5,206,0.4972,67,Homo sapiens,False
+job_A,2x0d_B,2x0d,B,APO structure of WsaF,11.0,190,1.527,67,Geobacillus stearothermophilus,False
+job_A,2x0f_B,2x0f,B,Structure of WsaF in complex with dTDP-beta-L-Rha,14.1,198,0.7446,66,Geobacillus stearothermophilus,False
+job_A,5vew_B,5vew,B,Structure of the human GLP-1 receptor complex with PF-06372222,11.9,537,0.03219,66,Homo sapiens,False
+job_A,6mdy_C,6mdy,C,Crystal structure of a 2-dehydro-3-deoxyphosphooctonate aldolase from Legionella pneumophila Philadelphia 1,11.7,145,0.06034,64,Legionella pneumophila subsp. pneumophila str. Philadelphia 1,False
+job_A,7vvl_R,7vvl,R,PTH-bound human PTH1R in complex with Gs (class2),13.5,222,0.3973,64,Homo sapiens,False
+job_A,7vvk_R,7vvk,R,PTH-bound human PTH1R in complex with Gs (class1),12.5,199,0.712,63,Homo sapiens,False
+job_A,6kk1_B,6kk1,B,Structure of thermal-stabilised(M8) human GLP-1 receptor transmembrane domain,12.1,534,0.06034,62,Homo sapiens,False
+job_A,5wc8_A,5wc8,A,Structure of a bacterial polysialyltransferase at 2.75 Angstrom resolution,8.6,184,0.332,60,Mannheimia haemolytica,False
+job_A,7knu_R,7knu,R,CryoEM structure of the CGRP receptor with bound CGRP peptide in a detergent micelle,13.1,198,2.993,57,Homo sapiens,False
+job_A,7tyo_R,7tyo,R,Calcitonin receptor in complex with Gs and human calcitonin peptide,11.3,229,0.852,57,Homo sapiens,False
+job_A,6kjv_B,6kjv,B,Structure of thermal-stabilised(M9) human GLP-1 receptor transmembrane domain,11.7,555,0.1237,56,Homo sapiens,False
+job_A,8jd3_2,8jd3,2,Cryo-EM structure of Gi1-bound mGlu2-mGlu3 heterodimer,14.2,238,0.8911,56,Homo sapiens,False
+job_A,3tml_A,3tml,A,Crystal structure of 2-dehydro-3-deoxyphosphooctonate aldolase from Burkholderia cenocepacia,12.3,154,0.3174,51,Burkholderia cenocepacia J2315,False
+job_A,8wpu_A,8wpu,A,Human calcium-sensing receptor(CaSR) bound to cinacalcet in complex with Gq protein,9.0,221,3.13,47,Homo sapiens,False
+job_A,3pg8_B,3pg8,B,Truncated form of 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase from Thermotoga maritima,13.2,151,0.6223,44,Thermotoga maritima,False
+job_A,7evw_R,7evw,R,Fzd7 -Gs complex,9.7,236,4.482,36,Homo sapiens,False
+job_A,7qa8_A,7qa8,A,Structure of the GPCR dimer Ste2 bound to an antagonist,12.6,230,5.364,30,Saccharomyces cerevisiae,False

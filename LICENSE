@@ -1,0 +1,55 @@
+NK-RCPP — licence
+
+This repository is dual-licensed by content type.
+
+1. Code — scripts/, and any executable configuration in this repository
+   ---------------------------------------------------------------------
+   MIT License
+
+   Copyright (c) 2026 NK-RCPP contributors
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+2. Data and figures — step*/input/, step*/output/, figures/
+   ---------------------------------------------------------
+   Creative Commons Attribution 4.0 International (CC BY 4.0)
+   https://creativecommons.org/licenses/by/4.0/legalcode
+
+   You are free to share and adapt this material for any purpose, provided you
+   give appropriate credit, link to the licence, and indicate if changes were
+   made.
+
+   Note that the CC BY 4.0 grant covers only the material deposited here. Third-
+   party inputs retain their own terms:
+
+   * step2_positive_docking/input/pdbs/NK2R.pdb derives from an AlphaFold2
+     prediction (UniProt P21452). See docs/ALPHAFOLD_TERMS_OF_USE.md.
+   * step2_positive_docking/input/pdbs/NK1R.pdb derives from PDB entry 6E59;
+     NK3R.pdb from a predicted receptor model. Structures retrieved by Foldseek
+     and listed in step3_foldseek_search/ and figures/tables/TableS3 are
+     redistributed as identifiers and metadata only; consult the source
+     databases (PDB, AlphaFold DB, BFVD and others) for their terms of use.
+
+3. Scope of the claims
+   --------------------
+   Nothing in this repository is a validated pharmacological result. See the
+   "Scope" section of README.md: structural neighbours are not confirmed
+   off-targets, REF15 total model scores are not binding free energies, and no
+   peptide here has been shown to bind, activate or selectively engage a
+   neurokinin receptor.

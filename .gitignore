@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Large regenerable figure rasters (SVG/PDF sources are versioned)
+figures/**/*.tif
+figures/**/*.tiff
+figures/**/*.png
+!figures/main/Fig1_workflow.png
+
+# Docking runs (hundreds of MB; the harvested score tables are versioned instead)
+results/
+raw_results/
+RAPiDock/
+*.pt
+*.pdb.gz
+
+# Local scratch
+*.log
+*.tmp
+.DS_Store
+*~
